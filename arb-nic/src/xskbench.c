@@ -2,6 +2,8 @@
 #include "util.h"
 #include "xsk_ring.h"
 
+/* AF_XDP bench only. Arb work is hot_rx() in include/rx.h — do not grow this file into the bot. */
+
 #include <errno.h>
 #include <inttypes.h>
 #include <linux/if_ether.h>

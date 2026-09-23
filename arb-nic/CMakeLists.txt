@@ -24,6 +24,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 add_executable(txgen src/txgen.c)
 add_executable(rxbench src/rxbench.c)
+add_executable(replay_rx src/replay_rx.c)
 
 find_program(CLANG_EXECUTABLE NAMES clang clang-18 clang-17 clang-16)
 find_library(LIBBPF_LIBRARY NAMES bpf libbpf.so.1

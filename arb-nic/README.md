@@ -1,17 +1,20 @@
 # arb-nic
 
-v0 baseline plus **NIC-002**, **XDP_PASS / parse**, **NIC-004 AF_XDP copy-mode redirect**, and **NIC-005** (physical X710, COPY then forced ZEROCOPY).
+**Frozen.** Contract: network → `rx_packet_t` → payload pointer + length. Physical X710 zero-copy waits for a non-LACP / DoubleZero interface. Meaning of those bytes lives in `arb-core`.
+
+v0 baseline plus **NIC-002**, **XDP_PASS / parse**, **NIC-004 AF_XDP copy-mode redirect**, **NIC-005** (physical X710, LACP stopped), **NIC-007 replay**, **NIC-008 shred_view**, **NIC-009** scalar relevance.
 
 Ultra-low-latency NIC/RX path that will later sit in front of a Solana arbitrage searcher.
 
-Two receive paths:
+Receive sources all stop at the same function:
 
 ```text
-txgen → veth → [optional XDP_PASS] → UDP recvmmsg → rxbench
-txgen → veth → XDP parse → XDP_REDIRECT → XSKMAP → AF_XDP UMEM → xskbench
+replay  ─┐
+UDP     ─┼──> rx_packet_t → hot_rx() → shred_view
+AF_XDP  ─┘
 ```
 
-No Solana. `XDP_ZEROCOPY` is NIC-005 on the physical X710, forced — no COPY fallback.
+`xskbench` is not the arb bot. The bot starts at `hot_rx()`.
 
 ## What these numbers mean
 
@@ -29,17 +32,11 @@ It does **not** measure a physical NIC, DoubleZero, or XDP. The point of v0 is a
 ## Later target (not implemented)
 
 ```text
-DoubleZero
-    ↓
-physical NIC
-    ↓
-XDP
-    ↓
-AF_XDP zero-copy
-    ↓
-owned CPU core
-    ↓
-arb hot path
+DoubleZero AF_XDP ZC
+        ↓
+     hot_rx()
+        ↓
+    shred_view
 ```
 
 Keep this tree small enough to inspect the generated assembly.
@@ -241,6 +238,40 @@ COUNT=1000000 PORT=39001 RATE=20000 ./scripts/send_nic005.sh
 COPY first: remote sender → X710 → XDP → AF_XDP COPY → 1M sequence-correct. Then `--zerocopy` forces `XDP_ZEROCOPY` + native XDP. Bind failure is fatal — no COPY fallback.
 
 Cross-machine `send_ns` is **not** a latency metric. Compare COPY vs ZEROCOPY on Frankfurt-local pps, drops, batch, handle/recycle cycles. Hardware RX timestamps are later.
+
+**Stopped.** Native XDP on a bonded X710 slave moves the hashed 5-tuple to the other slave (proved both directions). Dual-slave attach blackholes `bond0`. Both links are production bond members. Do not unbond a PF remotely for a ZC bench. DoubleZero may change the topology anyway. Software path `XDP_REDIRECT → XSKMAP → UMEM` is already proven on veth and once on physical COPY. Physical X710 zero-copy waits for a non-LACP interface.
+
+## NIC-007 / NIC-008 (replay + shred classifier)
+
+```text
+recorded shreds → replay_rx → hot_rx() → shred_view
+```
+
+`include/rx.h` is the only post-AF_XDP boundary: `rx_packet_t` + inline `hot_rx()`. `include/shred.h` names the shred (`payload` pointer into the RX buffer, slot, index, fec_set, version, type). No allocation, maps, logging, FEC, or `Vec<Entry>`.
+
+Frankfurt `shred-partial` dump (`/tmp/shred_partial.bin`, SDMP1) stored payload + slot/index/fec, not full UDP datagrams. `scripts/sdmp1_to_arbrx.py` rebuilds data-shred packet boundaries (signature zeros, variant `0x90`, version 500) so the classifier sees real captured fields.
+
+```bash
+python3 scripts/sdmp1_to_arbrx.py /tmp/shred_partial.bin data/shreds.arbrx
+./build/replay_rx --file data/shreds.arbrx --loops 8 --warmup 35512 --cpu 47 --mlock
+```
+
+Timed interval: packet pointer → parsed `shred_view`, in TSC cycles. Not NIC latency. Frozen — do not optimize 42 cycles.
+
+## NIC-009 (relevance)
+
+```text
+shred_view → classify_relevance() → DROP | {DLMM, Pump, both}
+```
+
+Exact 32-byte scan of the payload for two program IDs only (Meteora DLMM, PumpSwap). No SIMD, no decode, no other DEX IDs. `hot_rx()` is unchanged.
+
+```bash
+cd ~/arb-nic
+./build/replay_rx --file data/shreds.arbrx --loops 8 --warmup 35512 --cpu 47 --mlock
+```
+
+Reports parse / classify / total, and the irrelevant path separately (`T_irrelevant`).
 
 ## Timing
 
