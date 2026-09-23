@@ -6,6 +6,7 @@
 
 /*
  * Exact 32-byte program-id scan. Two needles.
+ * LOCKED: AVX2 is the production reject path. Do not retune.
  *
  *   Meteora DLMM  LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo
  *   PumpSwap      pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA

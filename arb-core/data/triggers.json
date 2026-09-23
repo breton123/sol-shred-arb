@@ -1,0 +1,129 @@
+{
+  "source": "ArbResearch 431-slot Mriya N+1 (nplus1_summary examples, n=8 of 79 consumes_n pairs)",
+  "n_pairs_full": 79,
+  "n_examples": 8,
+  "feed_slots": {
+    "min": 449647239,
+    "max": 449647331
+  },
+  "trigger_slots": {
+    "min": 448299971,
+    "max": 448931457
+  },
+  "triggers": [
+    {
+      "slot": 448523794,
+      "net": 3283.853029355627,
+      "dist": 1,
+      "dex_route": "Meteora DLMM -> Pump Swap",
+      "label": "consumes_n",
+      "trigger_sig": "2afRyicYmRsvzgvyBpcofg1jij1YuvgCqGs1ENzMrTLZkUgcp8tekh92ca6mgPNtPCEtHzEX4QwbzQ7cR2sprRZ",
+      "overlap_accs": [
+        "6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA",
+        "78nPA3tUEH4b2jZjH1JKdqXjykYWzA7Az37CeKj1tTcg",
+        "AktftA98kSWAxn6kVSoqBXBELUArjKu2H9WmKB48ULFY",
+        "EFikfamGR5RwvVXWAgekcpcNEZnccmgAQjWASYnNSzG",
+        "F1Gw5qjivGuLcTsUBeq7ztzE4mi9uaDm7vQdz9sB9mp8"
+      ]
+    },
+    {
+      "slot": 448833261,
+      "net": 1169.5985230245167,
+      "dist": 1,
+      "dex_route": "Raydium CPMM -> Meteora DLMM",
+      "label": "consumes_n",
+      "trigger_sig": "5myhib9fzQQLa8Pqr4qSCugBpTmsd2FhDvHavNQKua2Rx9X7sDT7npGR1VxaW4opvYbZrM2zLpjNQiRYt5AyHzgG",
+      "overlap_accs": [
+        "3zWAgdSKF5MgZTbq3XwHjWJg6QvFTWBxT7awxqYqcY4N",
+        "4111RNWCcDyA4hi8DaCVnJVdLzWAdabrcKg2k3xgPYdg",
+        "5VnJGLqzRoKvqPQrz6zeAD55aDD4SSUZaCEnN2KeCZub",
+        "GwBRTr6E7v86VTC4c46ARURFJ11ZrnmvEMpAEzjfDcF7"
+      ]
+    },
+    {
+      "slot": 448931457,
+      "net": 1067.0545956774126,
+      "dist": 1,
+      "dex_route": "Raydium CPMM -> Meteora DLMM",
+      "label": "consumes_n",
+      "trigger_sig": "2u3sArBRxTMVqoekVdhQNwSTpML8Khc8x5TMh5KR79jqxanvNgP3dPpChKtFiFBuopt6Gj78eL2f1psd5z41XhMK",
+      "overlap_accs": [
+        "466eA6Xnj6Ntzk5WhHHZHbFWZJZo3MxB5FhaDKTGZqVH",
+        "7ymq7DKVRuVwdY13uv4EaTn1z9UbfxShTFrwSPCp4wbD",
+        "CD2Kmeqr7oQwzixmF1AjUEVb8sEW2X2CtT2s2Gkf63ZV",
+        "J93q9Do7EaqTfssSRKjvhrobbgn1BtKg3YksCUzi66Q6"
+      ]
+    },
+    {
+      "slot": 448539685,
+      "net": 954.5554036504221,
+      "dist": 1,
+      "dex_route": "Meteora DLMM -> Pump Swap",
+      "label": "consumes_n",
+      "trigger_sig": "5CaW4stGo6p2TEcFvcrtnfNPzQBa4QgkCnQLA6mzTdyajzGgScy7EpNzvw7V3wjt6aL7agpqyMsMHCcSWgNkcFGT",
+      "overlap_accs": [
+        "9RYqdYXkfwdixTzewGa7YeUMxPYtUTwm2PvgUM346naP",
+        "ASgoadVEDL8zJn6KLUiMSh9m8x2yYAEZPsUSpvxHj3LY",
+        "FEM4jvzQ4nbRbvCiShR9nf7N9Fgi9RcgSxFdxPvJMS8T",
+        "FcwN12qPjB3sE5UVXFvukdg38ajRaiYdjnK8KeuwBHVC"
+      ]
+    },
+    {
+      "slot": 448820484,
+      "net": 683.1958971516947,
+      "dist": 1,
+      "dex_route": "Meteora DLMM -> Pump Swap",
+      "label": "consumes_n",
+      "trigger_sig": "4XzqZPys4SCNg53g2FzfJKajLf9eUmSYByGS6dQSzx6eC5rDTkvBC6XXFPRz7ZAy3cQhc81bzk6AwkpX26HaPNfv",
+      "overlap_accs": [
+        "2RUMSkxsbkzTbFHuhDDmqqtNNue56cT6Lj73ewaqu4zG",
+        "4R8CiMnJWDNoes3fQi1ccPFJygPXazaHaWpHrN3rZeNj",
+        "6rVkF4HSgy1jrnC3HogfRgPHrq4CtLg5f11URpsC4i9D",
+        "8GVfrpcXB9Sb2zVr5t13dgeR3ETRWUv648W3qZGXF4G1",
+        "Cqn7pmcWCTbSENrengkNTy28QsqUyXfqJuLkVKZtwYSS"
+      ]
+    },
+    {
+      "slot": 448930195,
+      "net": 654.5388708043035,
+      "dist": 1,
+      "dex_route": "Raydium CPMM -> Meteora DLMM",
+      "label": "consumes_n",
+      "trigger_sig": "446gqPbVLM8bJDYv5NDsxva2g5XHtuzCj4bKLj6W2dJpVvAZiYGtpNpWyLnytrQKzhL3eDt2qbagbzzWJqq11Xdk",
+      "overlap_accs": [
+        "466eA6Xnj6Ntzk5WhHHZHbFWZJZo3MxB5FhaDKTGZqVH",
+        "7ymq7DKVRuVwdY13uv4EaTn1z9UbfxShTFrwSPCp4wbD",
+        "CD2Kmeqr7oQwzixmF1AjUEVb8sEW2X2CtT2s2Gkf63ZV",
+        "J93q9Do7EaqTfssSRKjvhrobbgn1BtKg3YksCUzi66Q6"
+      ]
+    },
+    {
+      "slot": 448457003,
+      "net": 545.2497314179644,
+      "dist": 1,
+      "dex_route": "Meteora DLMM -> Pump Swap",
+      "label": "consumes_n",
+      "trigger_sig": "2es8EDueMv6aBZDXi9dPt4QDzV2hnzQakryi2RNVKGhoS3AogzoczDpwWUttE3cHCJkLUQqqgte1bpvj34TV2VAc",
+      "overlap_accs": [
+        "6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA",
+        "78nPA3tUEH4b2jZjH1JKdqXjykYWzA7Az37CeKj1tTcg",
+        "EFikfamGR5RwvVXWAgekcpcNEZnccmgAQjWASYnNSzG",
+        "F1Gw5qjivGuLcTsUBeq7ztzE4mi9uaDm7vQdz9sB9mp8"
+      ]
+    },
+    {
+      "slot": 448299971,
+      "net": 434.55582000698433,
+      "dist": 1,
+      "dex_route": "Meteora DLMM -> Pump Swap",
+      "label": "consumes_n",
+      "trigger_sig": "3VTVZPUoE8BrdajMiwLenrT1h3wxjpqFNAgJf57wxGu286U4dj29hoH51AAT1sc6K286eU7StzosrJo9SN4AJmTW",
+      "overlap_accs": [
+        "2fwy38cJcChCVySA9cd5SAFaEPtZQWN2ssFip43hnsHU",
+        "5jEgSw54VNydLuBfvsjqXMi5ButUp1FDbiqXv2yERCBc",
+        "EEwqAqRjatM4bNZHggDMCPjgv3EyXiEwUMGH7ig6zaZa",
+        "HgJnxHtdZdUPxP6Hx1uaDMLAyrtFYFqxF9YBTeMd4fzA"
+      ]
+    }
+  ]
+}
