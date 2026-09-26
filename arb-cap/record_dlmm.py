@@ -119,12 +119,26 @@ def b58decode(s: str) -> bytes:
     return raw[-32:] if len(raw) >= 32 else raw.rjust(32, b"\x00")
 
 
-def get_multiple(keys: list[str], retries: int = 12) -> list[dict | None]:
+def get_multiple(keys: list[str], retries: int = 12, *, commitment: str | None = None,
+                 min_context_slot: int | None = None) -> list[dict | None]:
+    config = {"encoding": "base64"}
+    if commitment is not None:
+        if commitment not in ("processed", "confirmed", "finalized"):
+            raise ValueError("invalid commitment")
+        config["commitment"] = commitment
+    if min_context_slot is not None:
+        if type(min_context_slot) is not int or min_context_slot < 0:
+            raise ValueError("invalid min_context_slot")
+        config["minContextSlot"] = min_context_slot
     out: list[dict | None] = []
     for i in range(0, len(keys), 100):
         chunk = keys[i : i + 100]
-        res = rpc("getMultipleAccounts", [chunk, {"encoding": "base64"}], retries=retries, backoff=2.0)
+        res = rpc("getMultipleAccounts", [chunk, config], retries=retries, backoff=2.0)
         ctx_slot = res["context"]["slot"]
+        if min_context_slot is not None and ctx_slot < min_context_slot:
+            raise RuntimeError("RPC context below requested minimum")
+        if len(res["value"]) != len(chunk):
+            raise RuntimeError("RPC account count mismatch")
         for acc in res["value"]:
             if acc is None:
                 out.append(None)
@@ -133,6 +147,7 @@ def get_multiple(keys: list[str], retries: int = 12) -> list[dict | None]:
             out.append(
                 {
                     "slot": ctx_slot,
+                    "commitment": commitment,
                     "owner": acc["owner"],
                     "data": raw,
                     "lamports": acc["lamports"],

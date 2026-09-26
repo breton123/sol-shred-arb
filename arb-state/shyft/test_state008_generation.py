@@ -132,7 +132,9 @@ class TestGeneration(unittest.TestCase):
     def test_rpc_finishing_after_disconnect_is_rejected(self):
         s = self.s
         entered, release = threading.Event(), threading.Event()
-        def rpc(keys):
+        requested_slot = s.stream_slot
+        def rpc(keys, **kwargs):
+            self.assertEqual(kwargs, {"commitment":"processed", "min_context_slot":requested_slot})
             entered.set()
             self.assertTrue(release.wait(2))
             return {"pair":{"slot":100,"data":b"stale-result"}}

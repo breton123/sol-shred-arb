@@ -30,12 +30,14 @@ def dlmm_oracle(pair: str) -> str:
     return d._pk(d.find_pda([b"oracle", d.b58decode(pair)], d.b58decode(DLMM)))
 
 
-def _chunk_get(keys: list[str]) -> dict[str, dict]:
+def _chunk_get(keys: list[str], *, commitment: str | None = None,
+               min_context_slot: int | None = None) -> dict[str, dict]:
     out: dict[str, dict] = {}
     uniq = [k for k in dict.fromkeys(keys) if k]
     for i in range(0, len(uniq), 80):
         chunk = uniq[i:i + 80]
-        rows = d.get_multiple(chunk, retries=3)
+        rows = d.get_multiple(chunk, retries=3, commitment=commitment,
+                              min_context_slot=min_context_slot)
         for pk, row in zip(chunk, rows):
             if row and row.get("data"):
                 out[pk] = row

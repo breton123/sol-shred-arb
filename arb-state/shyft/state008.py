@@ -877,11 +877,12 @@ class State008:
 
     def fetch_async(self, kind: str, keys: list[str], token: str | None = None) -> None:
         generation = self.provider_generation
+        min_slot = self.stream_slot
         def fetch():
             try:
-                accounts = dep._chunk_get(keys)
+                accounts = dep._chunk_get(keys, commitment="processed", min_context_slot=min_slot)
                 self.q.put({"kind": kind, "provider_generation": generation,
-                            "token": token, "accounts": accounts})
+                            "token": token, "min_context_slot": min_slot, "accounts": accounts})
             except Exception as ex:
                 self.q.put({"kind": "fetch_error", "provider_generation": generation,
                             "token": token, "error": type(ex).__name__})
@@ -937,6 +938,7 @@ class State008:
                     continue
                 prior_mtime, prior_n = self.univ_mtime, self.univ_n
                 known = set(self.bytes)
+                min_slot = self.stream_slot
             try:
                 if not UNIV.exists():
                     continue
@@ -946,7 +948,8 @@ class State008:
                 if mt == prior_mtime and n == prior_n:
                     continue
                 gen = dep.derive_generation(univ)
-                extra = dep._chunk_get([k for k in gen["accounts"] if k not in known])
+                extra = dep._chunk_get([k for k in gen["accounts"] if k not in known],
+                                       commitment="processed", min_context_slot=min_slot)
                 self.q.put({"kind": "univ_result", "provider_generation": generation,
                             "plan": gen, "accounts": extra, "mtime": mt})
             except Exception as ex:
