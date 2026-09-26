@@ -19,9 +19,20 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "arb-cap"))
 import live001 as live  # noqa: E402
 import record_dlmm as d  # noqa: E402
-import exec_live002b as e  # noqa: E402
+import exec_gates as gates  # noqa: E402
 
-from solders.signature import Signature
+e = None
+Signature = None
+
+
+def _load_exec():
+    """Signer stack only after FUNDED=1. The default path must not import it."""
+    global e, Signature
+    import exec_live002b as exec_mod
+    from solders.signature import Signature as Sig
+
+    e = exec_mod
+    Signature = Sig
 
 AUDIT = Path("/home/louis/captures/paper_orbit/opp_synced.jsonl")
 UNIV = Path("/home/louis/captures/paper_orbit/liveuniv.json")
@@ -43,9 +54,14 @@ ONCHAIN_FEE = CU_LIMIT * CU_PRICE // 1_000_000 + 5_000
 SWQOS_UNIT = 150_000
 SAFETY = 50_000
 HURDLE = ONCHAIN_FEE + SWQOS_UNIT + SAFETY  # 525000
+if HURDLE != gates.HURDLE:
+    raise RuntimeError(f"oneshot hurdle {HURDLE} != exec_gates.HURDLE {gates.HURDLE}")
 MIN_PROFIT = HURDLE
 WAIT_S = 5400
-S007_READY = Path("/home/louis/captures/state007/READY")
+# Only this path may arm. An env override to state007 or any other file is refused.
+_AUTH_PATH, _AUTH_ERR = gates.resolve_auth_ready(os.environ.get("AUTH_READY"))
+AUTH_READY = Path(gates.AUTH_READY_DEFAULT)
+S007_READY = Path(gates.STATE007_READY_ALIAS)
 HEARTBEAT_S = 30
 FUNDED = os.environ.get("FUNDED", "0") == "1"
 COOL = OUT / "COOLDOWN.json"
@@ -97,17 +113,6 @@ def save_cool(obj: dict) -> None:
     COOL.write_text(json.dumps(obj, indent=2) + "\n", encoding="utf-8")
 
 
-def route_blocked(pool: str) -> bool:
-    routes = load_cool().get("routes") or {}
-    if (routes.get(pool) or {}).get("SEND_BLOCKED"):
-        return True
-    pref = pool[:8]
-    for k, row in routes.items():
-        if row.get("SEND_BLOCKED") and (pool.startswith(k) or k.startswith(pref)):
-            return True
-    return False
-
-
 def note_trigger_missing(pool: str) -> dict:
     obj = load_cool()
     routes = obj.setdefault("routes", {})
@@ -133,6 +138,7 @@ _hash_stop = False
 
 def load_race_plane() -> dict[str, dict]:
     by: dict[str, dict] = {}
+    seen: list[dict] = []
     srcs = []
     if PLANE.exists():
         srcs.append(json.loads(PLANE.read_text(encoding="utf-8")).get("routes") or [])
@@ -142,6 +148,7 @@ def load_race_plane() -> dict[str, dict]:
         for r in routes:
             if not r.get("RACE_READY") or not r.get("tmpl0") or not r.get("tmpl1"):
                 continue
+            seen.append(r)
             rec = {
                 "dlmm": r["dlmm"],
                 "pump": r["pump"],
@@ -149,9 +156,17 @@ def load_race_plane() -> dict[str, dict]:
                 "alt": r.get("alt"),
                 "tmpl0": bytes.fromhex(r["tmpl0"]),
                 "tmpl1": bytes.fromhex(r["tmpl1"]),
+                # Uppercase RACE_READY was required to enter this map.
+                # Journal race_ready (tx_exact) is a different flag.
+                "plane_race_ready": 1,
             }
-            by[r["dlmm"]] = rec
-            by[r["pump"]] = rec
+            by[r["dlmm"]] = dict(rec)
+            by[r["pump"]] = dict(rec)
+    ambiguous = gates.ambiguous_pool_keys(seen)
+    for key in ambiguous:
+        if key in by:
+            by[key]["plane_race_ready"] = 0
+            by[key]["ambiguous"] = 1
     return by
 
 
@@ -203,36 +218,18 @@ def racer_send(tx: bytes) -> tuple[int, int, int]:
 
 
 def framed_ready(rec: dict) -> bool:
-    """#6 contract: FRAMED ∧ mut_authoritative ∧ STATE007_READY ∧ ALT RACE_READY."""
-    fr = rec.get("frame") or {}
-    pool = str(rec.get("pool") or "")
-    return (
-        fr.get("class") == "framed"
-        and rec.get("race_ready") == 1
-        and S007_READY.exists()
-        and bool(pool)
-        and pool in _plane
-    )
+    """Journal race_ready is tx_exact. Plane RACE_READY is Custom(6) plus templates.
+
+    Both are required. Pool membership alone is not plane-ready. STATE-008 READY
+    is the AUTH file. state007/READY does not satisfy this.
+    """
+    return gates.framed_ready(rec, _plane, AUTH_READY.exists())
 
 
 def size_gate(rec: dict) -> tuple[int, int] | None:
-    arb = rec.get("arb") or {}
-    if not framed_ready(rec):
-        return None
-    direction = arb.get("direction")
-    if direction is None or int(direction) not in (0, 1):
-        return None
-    if route_blocked(str(rec.get("pool") or "")):
-        return None
-    sq = rec.get("send_quote") or {}
     # Frozen cycle_quote at the actual cap. Never scale optimal gross.
-    if not sq.get("cap_ok"):
-        return None
-    gross = int(sq.get("cap_gross") or 0)
-    send = MAX_IN
-    if send < MIN_IN or gross <= HURDLE:
-        return None
-    return send, gross
+    # Send floor is HURDLE (525000), not hops_hurdle_for_seq.
+    return gates.size_gate(rec, _plane, AUTH_READY.exists(), load_cool())
 
 
 def send_journal(rec: dict, gate: tuple[int, int] | None) -> dict:
@@ -265,6 +262,12 @@ def send_journal(rec: dict, gate: tuple[int, int] | None) -> dict:
         "prereq": {
             "CORE010_FRAMED": (rec.get("frame") or {}).get("class") == "framed",
             "RACE_READY": rec.get("race_ready") == 1,
+            "tx_exact": rec.get("race_ready") == 1,
+            "plane_race_ready": int(
+                (( _plane.get(str(rec.get("pool") or ""))
+                   or _plane.get(gates.pool_pubkey(str(rec.get("pool") or "")))
+                   or {}).get("plane_race_ready") or 0)
+            ),
             "SYNCED": True,
             "exact_size_gt_hurdle": bool(gate),
         },
@@ -557,8 +560,17 @@ def main() -> int:
             flush=True,
         )
         return 0
-    if not S007_READY.exists():
-        print("STATE007 not READY — refuse to arm", flush=True)
+    _load_exec()
+    if _AUTH_ERR:
+        print(f"refuse {_AUTH_ERR} path={_AUTH_PATH}", flush=True)
+        return 1
+    if not AUTH_READY.exists():
+        print(f"STATE-008 not READY ({AUTH_READY}) — refuse to arm", flush=True)
+        if S007_READY.exists():
+            print(
+                f"note: {S007_READY} exists and is not the AUTH writer",
+                flush=True,
+            )
         return 1
     live.load_dotenv()
     if os.environ.get("SWQOS_KEY") is None and os.environ.get("SWQOS_API_KEY") is None:

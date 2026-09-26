@@ -10,13 +10,17 @@ from pathlib import Path
 AUDIT = Path("/home/louis/captures/paper_orbit/opp_synced.jsonl")
 STATS = Path("/home/louis/captures/paper_orbit/stats.json")
 PLANE = Path("/home/louis/arb-exec/.deploy/alt_plane.json")
+S008 = Path("/home/louis/captures/state008/READY")
 S007 = Path("/home/louis/captures/state007/READY")
 WINDOW = 2400
 
 
 def main() -> int:
     now = time.time()
-    print(f"ARMED={Path('/home/louis/arb-cap/oneshot/ARMED').exists()} S007_READY={S007.exists()}")
+    print(
+        f"ARMED={Path('/home/louis/arb-cap/oneshot/ARMED').exists()} "
+        f"STATE008_READY={S008.exists()} STATE007_ALIAS={S007.exists()}"
+    )
     print(f"audit_size={AUDIT.stat().st_size} mtime_age={int(now - AUDIT.stat().st_mtime)}s")
     plane = {}
     if PLANE.exists():
