@@ -8,6 +8,7 @@
  * arb-exec owns min_profit, tips, and whether to fire.
  */
 
+#ifndef ARB_CORE_OPPORTUNITY_H
 #define ROUTE_DLMM_PUMP  0u
 
 typedef struct {
@@ -18,5 +19,6 @@ typedef struct {
     uint8_t  direction;
     uint8_t  valid;
 } opportunity_t;
+#endif
 
 #endif /* ARB_EXEC_OPPORTUNITY_H */

@@ -1,0 +1,28 @@
+CAP-004  MRIYA N+1 — PREMIUM SHRED FEED
+source: frozen shredstream FEEDCAP1 + mev.live Mriya labels + Helius slim getBlock
+local machine: 20 us (predict + cycle_size + nonce + patch + Ed25519)
+
+pairs in file                 1371 / 1442 labels (95% Mriya sigs located)
+immediate (dist<=2)           956
+trigger found                 1359
+no trigger                    12
+
+physical (immediate, exclusive):
+  same shred                  47    4.9%
+  next shred                 692   72.4%
+  same FEC (further)         207   21.7%
+  different FEC               10    1.0%
+
+Available window (us)         p10       p50       p90       p99
+N first -> Mriya first       -212.6      0.8    861.0  13301.3
+N actionable -> Mriya first     0.0      0.0      0.9   5681.5
+N complete -> Mriya first       0.0      0.0      0.0   4463.6
+
+our local                    20.0 us
+budget_return (act-20us)      -20.0    -20.0    -19.1   5661.5
+budget_return < 0             890/956
+
+DLMM -> Pump immediate        n=312
+  same shred 4.2%  next shred 74.0%  same FEC 21.8%  diff FEC 0%
+  N actionable -> Mriya p50 = 0.0 us
+  budget_return < 0           300/312

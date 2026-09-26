@@ -1,0 +1,54 @@
+{
+  "n": 2464,
+  "usd": 2084.598920774373,
+  "stages": [
+    {
+      "stage": "relevant_unknown",
+      "n": 685,
+      "usd": 1116.6731847567075
+    },
+    {
+      "stage": "exact_direct",
+      "n": 1099,
+      "usd": 532.6489199976864
+    },
+    {
+      "stage": "unpredictable_preexec",
+      "n": 381,
+      "usd": 301.605846496223
+    },
+    {
+      "stage": "pool_not_in_universe",
+      "n": 223,
+      "usd": 86.30389016252666
+    },
+    {
+      "stage": "no_predecessor",
+      "n": 46,
+      "usd": 44.137626665167694
+    },
+    {
+      "stage": "pred_tx_missing",
+      "n": 30,
+      "usd": 3.2294526960601297
+    }
+  ],
+  "explained_usd": 967.925736017665,
+  "explained_pct": 46.43222858707547,
+  "unknown_usd": 1116.6731847567078,
+  "unique_pools_touched": 665,
+  "pools_in_univ": 57,
+  "pools_missing": 608,
+  "corpus": 1053,
+  "shape": {
+    "cpi": 997,
+    "direct": 1335,
+    "none": 76,
+    "mixed": 56
+  },
+  "amount_locus": {
+    "partial_amount_in_outer": 1996,
+    "amount_absent_from_outer": 389,
+    "no_inner_amount": 3
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "n": 2464,
+  "kinds": {
+    "v0": 1874,
+    "v1": 590
+  },
+  "before": {
+    "framed": 1874,
+    "invalid": 590
+  },
+  "after": {
+    "framed": 2464
+  },
+  "v1": {
+    "total": 590,
+    "framed": 590,
+    "incomplete": 0,
+    "invalid": 0
+  },
+  "usd": {
+    "v1_total": 349.9933517953078,
+    "v1_framed": 349.9933517953078,
+    "all": 2084.5989207743846,
+    "framed_after": 2084.5989207743846
+  },
+  "downstream": {
+    "UNKNOWN": 2460,
+    "TX_EXACT": 4
+  },
+  "downstream_v1": {
+    "UNKNOWN": 589,
+    "TX_EXACT": 1
+  },
+  "watched": {
+    "miss": 2464
+  },
+  "winner_recall": {
+    "before_framed": 1874,
+    "after_framed": 2464,
+    "before_pct": 76.06,
+    "after_pct": 100.0
+  },
+  "v1_samples_head": [
+    {
+      "sig": "5XnqfLZc7zjQqcm7kWRc7gnLo1ohpiA1sZT4dk5fm1nvetKxjsrMx49rFGdB9TSRdRrt8HASLYyJXxNDqX3WWkDj",
+      "usd": 48.81090785214287,
+      "n": 1595,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "2R2ndkNhasHFBEi6uPcD5RqEBMYBRj2Thwk93LfX1ZvvArAgBJwkxwYKa54LqkbdkvGqBjk6eAMDJWtjMauPvmBi",
+      "usd": 76.12856713773104,
+      "n": 2072,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "4PziiZn85ayhhr6nXKGpsyauEET55LwKjrPrE8LVfU7Xf88PsijsEv9jKdiWhy8nghv9pLzXZmAhZuXi9DctqoY1",
+      "usd": 23.80398060645591,
+      "n": 1530,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "2fomhGNbfbAEGfZkZ7thw1tgMauREYZ9CtMtWJr3s3LA3mtFcALNbB7efnEAdTDzEMVra8x6iCp2hx83SMKBirLJ",
+      "usd": 23.828616163194397,
+      "n": 1506,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "3JCjDS4eEBsDMRuioUS4GGa1JK9aSSs2sYkR1EMAYYZrYxSwJWjLWMHDrsbyDeHr9QYz2FS7hpMuVe6Ct8t5Giee",
+      "usd": 16.05750390821885,
+      "n": 2151,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "2ySsvEASU7P32wRAG65mt1nyuwmzpeiyhhngf4vpcVw1KpCq3WGHnv1GKD7M68CkQRpX7vuH8z6cKXMztvqWiKGX",
+      "usd": 12.453770168901013,
+      "n": 2193,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "47SQhX5VB8FxuNrzw2pyf8nP2ydWqd1LETQ4QwPeqLCpcggfbxykis7xZ3ZUPf7rPNWg3WdD8YgmBzCkHhd4WTUG",
+      "usd": 9.861943368183049,
+      "n": 1595,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "35Bco8XyDCu86HQG5GaRPWQtJHFC8EsZuMMSrSEXNTrRPSEi9xUD1QEYYPsyzKkT2Ljo98t5p5jX2ysopFumqou4",
+      "usd": 10.312017509239414,
+      "n": 2243,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "2kWwZq1waU5fAVBxAN2WhsvoNJiaFYdG48TDguXzHTXXtcXJTgYpvcdysKu5PxrQZYu24viSGSs3iVXW993oanBd",
+      "usd": 6.992023336157189,
+      "n": 2159,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "4YqsYHGiUbYLTYXzFXWQV1nGW4Cfv2FPJ4UyEW1gRz3ANJxQXESR4b7ABXqNXfbYu9AX43gjS9iLJjzEoym2xvsY",
+      "usd": 6.481572861617459,
+      "n": 1520,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "5gEWNeqCCLTvgKWKEWk8krWAuULMF8CsPSz2TmPfvxoGh5ysYuWkhtVZVCymXJSCyNQw8cTcw9rQkVGa4b25YDtM",
+      "usd": 4.472091515344288,
+      "n": 2031,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    },
+    {
+      "sig": "5qdVgUyjgRTdsoaLyQGCSVyd7FYZzsTnsm2kVXwhWtpaisY83xr9EVPX28nAR7Crfw4FGDnnVMovXPg6hersWWwk",
+      "usd": 4.328126204700471,
+      "n": 1877,
+      "stage": "UNKNOWN",
+      "n_exact": 0,
+      "dex_static": true,
+      "watched": false
+    }
+  ]
+}

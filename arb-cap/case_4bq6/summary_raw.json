@@ -1,0 +1,236 @@
+{
+  "wallet": "4BQ6ATUt26GFdiYQfht23iwfKyYD9D7XbL5ATqNGk3xK",
+  "n_signatures": 200000,
+  "err_n": 792,
+  "err_rate": 0.00396,
+  "first_iso": "2026-07-31T22:32:49+00:00",
+  "last_iso": "2026-09-24T12:54:39+00:00",
+  "first_sig": "4iQBoDoNz9kDPPnAuHmrxAExWynmN2eyYkchxKSCD2c8H3KDBvCna1iiMFCohuwa1TVBt6ekVeq3eZYP5Ebm84Av",
+  "last_sig": "4SdPZjGDWdWuPzmznYQtXzUJKBEgWNBnBz41ZDVWQakjReuHnSWuPvWJtSeQpPcWZXDhGHWznmezXanHa2jKKBCw",
+  "sol_balance": null,
+  "trial": {
+    "n": 182,
+    "profit": 1059.8979799504837,
+    "profit_usd": 1122.5007172230196,
+    "providers": [
+      [
+        null,
+        182
+      ]
+    ],
+    "aggregators": [
+      [
+        "MEViEnscUm6tsQRoGd9h6nLQaQspKj7DB2M5FwM3Xvz",
+        96
+      ],
+      [
+        "CGGqPC3oERK5a7X38ttJGVTdR1YCSm53nxTMrhAvBRJX",
+        86
+      ]
+    ],
+    "leaders": [
+      [
+        "binance staking",
+        10
+      ],
+      [
+        "Figment",
+        8
+      ],
+      [
+        "Helius",
+        7
+      ],
+      [
+        "Bitwise Onchain Solutions",
+        7
+      ],
+      [
+        "AP Node",
+        6
+      ],
+      [
+        "3ZYJx...je1cj",
+        5
+      ],
+      [
+        "AZoCY...kvEoX",
+        4
+      ],
+      [
+        "Twinstake",
+        4
+      ],
+      [
+        "Forward Industries",
+        4
+      ],
+      [
+        "Luganodes",
+        4
+      ],
+      [
+        "Kraken",
+        4
+      ],
+      [
+        "Haus \u2013 Best APY & No Fees",
+        3
+      ]
+    ],
+    "cities": [
+      [
+        "Frankfurt",
+        50
+      ],
+      [
+        "Amsterdam",
+        28
+      ],
+      [
+        "London",
+        15
+      ],
+      [
+        "Washington",
+        13
+      ],
+      [
+        "Tokyo",
+        12
+      ],
+      [
+        "New York",
+        11
+      ],
+      [
+        "Chicago",
+        9
+      ],
+      [
+        "R\u00f6delheim",
+        8
+      ]
+    ],
+    "tip_type": [
+      [
+        13,
+        182
+      ]
+    ],
+    "prio_fee_p50": 0.0,
+    "prio_fee_max": 0.0,
+    "tip_p50": 0.11517150285451956,
+    "tick_p50": 29,
+    "hops": [
+      [
+        2,
+        182
+      ]
+    ],
+    "routes": [
+      [
+        "Meteora DLMM -> Pump Swap",
+        169
+      ],
+      [
+        "Raydium CPMM -> Meteora DLMM",
+        8
+      ],
+      [
+        "Meteora DLMM -> Meteora DAMM V2",
+        4
+      ],
+      [
+        "Meteora DLMM",
+        1
+      ]
+    ]
+  },
+  "sample_n": 76,
+  "programs": [
+    [
+      "inner:TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      271
+    ],
+    [
+      "inner:11111111111111111111111111111111",
+      255
+    ],
+    [
+      "ComputeBudget111111111111111111111111111111",
+      152
+    ],
+    [
+      "inner:LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      126
+    ],
+    [
+      "inner:TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      75
+    ],
+    [
+      "inner:pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+      70
+    ],
+    [
+      "11111111111111111111111111111111",
+      61
+    ],
+    [
+      "MEViEnscUm6tsQRoGd9h6nLQaQspKj7DB2M5FwM3Xvz",
+      49
+    ],
+    [
+      "inner:pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+      35
+    ],
+    [
+      "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+      15
+    ],
+    [
+      "inner:6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+      15
+    ],
+    [
+      "inner:cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG",
+      14
+    ],
+    [
+      "CGGqPC3oERK5a7X38ttJGVTdR1YCSm53nxTMrhAvBRJX",
+      12
+    ]
+  ],
+  "nonce_ix": 0,
+  "an225_ix": 0,
+  "funding": [],
+  "cex": [],
+  "enhanced_inflows": [],
+  "program_accounts": [
+    {
+      "pid": "MEViEnscUm6tsQRoGd9h6nLQaQspKj7DB2M5FwM3Xvz",
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "lamports": 1141443,
+      "executable": true,
+      "authority": null,
+      "programData": "6e1x3suTHvzC3DPZR3jCXjDvKFjc9A2SGk99TbjkLPDP"
+    },
+    {
+      "pid": "6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P",
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "lamports": 9047612471,
+      "executable": true,
+      "authority": null,
+      "programData": "B5MvUwXdiW1NMM6QFFD3ssPKBujD4zMohncbM73Z2BQu"
+    },
+    {
+      "pid": "CGGqPC3oERK5a7X38ttJGVTdR1YCSm53nxTMrhAvBRJX",
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "lamports": 1141440,
+      "executable": true,
+      "authority": null,
+      "programData": "5N8FoU1cQ6SZ3cts6RNbGQvDCaSzTJjjyiG9s5V1uDNG"
+    }
+  ]
+}

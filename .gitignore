@@ -1,0 +1,44 @@
+.env
+**/.env
+**/.env.runtime
+**/.arb-state007.env
+arb-state/shyft/gen/
+arb-state/shyft/proto/
+arb-state/shyft/.venv/
+*.pem
+*.key
+arb-exec/.deploy/
+arb-exec/program/target/
+arb-exec/swqos/target/
+arb-feed/flowra/target/
+arb-exec/program/test-ledger/
+*.so
+arb-cap/frame_v1/raw/
+arb-cap/v1_router/txjson/
+
+# bytecode / caches
+__pycache__/
+*.pyc
+
+# archives and compressed capture dumps
+*.tar
+*.gz
+
+# capture corpora (regenerable; keep small live fixtures)
+arb-cap/*.jsonl
+arb-cap/**/*.jsonl
+arb-cap/**/*.bin
+!arb-cap/live001/liveuniv.bin
+!arb-cap/live002/liveuniv.bin
+!arb-cap/exec_ctrl/ctrl.bin
+!arb-cap/paper002/univ/*.bin
+arb-cap/case_4bq6/signatures.json
+arb-cap/case_4bq6/das_assets.json
+arb-cap/live002/candidates.json
+arb-cap/paper003/prove.json
+arb-cap/paper003/corpus/
+arb-cap/trigger011/alt_cache.json
+arb-cap/alpha_census/sigs_*.json
+arb-cap/alpha_census/joined*.json
+arb-cap/**/*.log
+arb-cap/**/*.tx

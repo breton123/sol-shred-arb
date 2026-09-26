@@ -1,0 +1,784 @@
+{
+  "n": 79,
+  "rows": [
+    {
+      "pool": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+      "protocol": "dlmm",
+      "n": 146,
+      "last_seen": 450357666,
+      "partner": false,
+      "score": 0,
+      "reason": "stable_or_sol"
+    },
+    {
+      "pool": "EXXfbVutbuexDZtPw8pkSvWxLFoUMBHd544CAGkmtPZm",
+      "protocol": "dlmm",
+      "n": 93,
+      "last_seen": 450357604,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "GeUkx21Vc6yg63YZ1BdXY95ZATm9LeBYCgSN1uJ3o18S",
+      "protocol": "dlmm",
+      "n": 49,
+      "last_seen": 450357678,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "DdMA1cHcHEqYfttc1z1sJEY978CcU1pyjNuTWTNmdvzU",
+      "protocol": "dlmm",
+      "n": 41,
+      "last_seen": 450357076,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "6qz7THwQvcjF3HyDGLuKaLBUk6EyJKeZXZMWLAeiwfjd",
+      "protocol": "dlmm",
+      "n": 40,
+      "last_seen": 450355756,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
+      "protocol": "dlmm",
+      "n": 39,
+      "last_seen": 450357528,
+      "partner": false,
+      "score": 0,
+      "reason": "stable_or_sol"
+    },
+    {
+      "pool": "9Ux4vtd8juEH4NMF4ae3tXYpKBdeCUUipX8z3EficKme",
+      "protocol": "dlmm",
+      "n": 38,
+      "last_seen": 450357358,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "FhdW3Y6Ea6hXKbkGkt5YSAVtDNd5qJ8USevMaPyEr45S",
+      "protocol": "dlmm",
+      "n": 36,
+      "last_seen": 450355027,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "5SHjDACvwtox5nY8kpWNYyaceWjtTG8C6L821D9Gtpjf",
+      "protocol": "dlmm",
+      "n": 33,
+      "last_seen": 450357662,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "6oQ9wVex4mKZti2GsGCfD8FWTMMC9PLQkztRU5cd6MK8",
+      "protocol": "dlmm",
+      "n": 24,
+      "last_seen": 450357697,
+      "partner": true,
+      "score": 24,
+      "pumps": [
+        "8SryA3Vw8bCiPqPpqvWyQjCMRxcZEJGoGtqKeYCferfm"
+      ]
+    },
+    {
+      "pool": "8ztFxjFPfVUtEf4SLSapcFj8GW2dxyUA9no2bLPq7H7V",
+      "protocol": "dlmm",
+      "n": 17,
+      "last_seen": 450356790,
+      "partner": true,
+      "score": 17,
+      "pumps": [
+        "7K7U6AUvgJH52ShbNrBcZae1zoGbZz7yay1P89Es5woX",
+        "Abaakv6c8ra8pSGiTmV4BYHmxfLsdjoMNz51UGdWLie4"
+      ]
+    },
+    {
+      "pool": "9SMp4yLKGtW9TnLimfVPkDARsyNSfJw43WMke4r7KoZj",
+      "protocol": "dlmm",
+      "n": 17,
+      "last_seen": 450357203,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
+      "protocol": "dlmm",
+      "n": 17,
+      "last_seen": 450355473,
+      "partner": true,
+      "score": 17,
+      "pumps": [
+        "43PW2g6CPCtKvdBCsCuDUuztNFGo4xb6qeRUeZP6tZnX",
+        "5GVBaRJy2r5T3ccY3D4jLBJm12wHrxDCNyUfe62FipyS"
+      ]
+    },
+    {
+      "pool": "7E2cK3tb8DhSNaTqGJ5nmXjumqoL89Qv9ZCssAfFSEQc",
+      "protocol": "dlmm",
+      "n": 16,
+      "last_seen": 450357474,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "54Vp27uLaw4wNLo5n7r4fcC6zLamoQc28xBARjss4EUJ",
+      "protocol": "dlmm",
+      "n": 13,
+      "last_seen": 450357184,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "3C5YE97HADPDxZehYq9Cis8AXr9aNyrUsczKzE1nDbW9",
+      "protocol": "dlmm",
+      "n": 13,
+      "last_seen": 450356834,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "2QDGj5BWMSNyEfmyDFx7eEvWWm4KujUPJ38Xdkntvxtd",
+      "protocol": "dlmm",
+      "n": 13,
+      "last_seen": 450357261,
+      "partner": true,
+      "score": 13,
+      "pumps": [
+        "VJf32Y1CFnaeHhaPnEEspP7T9AyYTYadx1WBbxkx4KQ",
+        "rrD9TypT3ft7wdCuMhaZ4RzvwJ14LLpEjVMMfKDTVQU"
+      ]
+    },
+    {
+      "pool": "JCLQiP7t1uxHiZHPotpUoVvPFFE48UxpkXHsVJJJvUrJ",
+      "protocol": "dlmm",
+      "n": 10,
+      "last_seen": 450355338,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
+      "protocol": "dlmm",
+      "n": 10,
+      "last_seen": 450357284,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "Hz1EtXTGaFEtAWRgRNpDMFV6vnSZtQUY9UqmdM6vfKSS",
+      "protocol": "dlmm",
+      "n": 9,
+      "last_seen": 450357650,
+      "partner": true,
+      "score": 9,
+      "pumps": [
+        "5v9QsXPMqdtN3VmUdG4psCaSUyh3p2AMXBMGA1ALQGaK"
+      ]
+    },
+    {
+      "pool": "BVRbyLjjfSBcoyiYFuxbgKYnWuiFaF9CSXEa5vdSZ9Hh",
+      "protocol": "dlmm",
+      "n": 8,
+      "last_seen": 450355360,
+      "partner": false,
+      "score": 0,
+      "reason": "stable_or_sol"
+    },
+    {
+      "pool": "4kdxjt8pKEW4qV4ji4HANixwswDJw3Egn8L4x2BEWQqT",
+      "protocol": "dlmm",
+      "n": 8,
+      "last_seen": 450357413,
+      "partner": true,
+      "score": 8,
+      "pumps": [
+        "Mah2d8pT3w5JfBt7AqZLeFBF5tfgdDWAHmJoQdLwLzX",
+        "9XL3m3Aj1drrcS1v95uUPzntUzJdsCpPUDezeXd2ueon"
+      ]
+    },
+    {
+      "pool": "2JTdBKpZy1vKAvfWQxno1SDZCnerqenVVg3aho4ZYXvw",
+      "protocol": "dlmm",
+      "n": 7,
+      "last_seen": 450356806,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "GYqytuXSiX3GaPuCkLMY4jeRR3mAtyAuQqhD32d45g5y",
+      "protocol": "dlmm",
+      "n": 6,
+      "last_seen": 450356814,
+      "partner": true,
+      "score": 6,
+      "pumps": [
+        "2kYQVpASZDhozveWrB3YPYocqUY7LESXFNsKkznv1E2j",
+        "8kfZkZw1MTmxoTDzPTdGL31Ed193aYPFa3nwS1AKhYEE"
+      ]
+    },
+    {
+      "pool": "HDhWhQCBrSh9xNWmNtsTi86eWj3yCoEiaRodjgNydo1b",
+      "protocol": "dlmm",
+      "n": 6,
+      "last_seen": 450357423,
+      "partner": true,
+      "score": 6,
+      "pumps": [
+        "5v9QsXPMqdtN3VmUdG4psCaSUyh3p2AMXBMGA1ALQGaK"
+      ]
+    },
+    {
+      "pool": "CgqwPLSFfht89pF5RSKGUUMFj5zRxoUt4861w2SkXaqY",
+      "protocol": "dlmm",
+      "n": 4,
+      "last_seen": 450352868,
+      "partner": false,
+      "score": 0,
+      "reason": "stable_or_sol"
+    },
+    {
+      "pool": "HfgjZDmexhFVD28Vkb1NbQwWeXP3uDcVTLPjSGHmRHhL",
+      "protocol": "dlmm",
+      "n": 4,
+      "last_seen": 450355050,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "6e7V9eegCHw997T72MxgwwJipZ6GJyZF8NvjkzT1rvpN",
+      "protocol": "dlmm",
+      "n": 4,
+      "last_seen": 450355632,
+      "partner": true,
+      "score": 4,
+      "pumps": [
+        "FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC"
+      ]
+    },
+    {
+      "pool": "HMBtgxCCc8Tukkm668qbxQUbjUVEAP37b9oAFfWffCUy",
+      "protocol": "dlmm",
+      "n": 4,
+      "last_seen": 450356497,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "3h9GhSUzozu2eRQ9MCLCeHWYshywm4mqbzPtz2h1zGMF",
+      "protocol": "dlmm",
+      "n": 3,
+      "last_seen": 450351789,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "EtPcWELeHvrwaUwESUJTtvSAtmJS4DRbqtzMcY82s58J",
+      "protocol": "dlmm",
+      "n": 3,
+      "last_seen": 450353608,
+      "partner": true,
+      "score": 3,
+      "pumps": [
+        "VJf32Y1CFnaeHhaPnEEspP7T9AyYTYadx1WBbxkx4KQ",
+        "rrD9TypT3ft7wdCuMhaZ4RzvwJ14LLpEjVMMfKDTVQU"
+      ]
+    },
+    {
+      "pool": "7o3bfXjeDL6Wzuwk1VR8nvEwSJTA2hHJhBgUA95nFDDa",
+      "protocol": "dlmm",
+      "n": 3,
+      "last_seen": 450356077,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "CFC6n181TdaxSZWNxYH5MmoLsVAf2V94bzWSbdhu8TgH",
+      "protocol": "dlmm",
+      "n": 3,
+      "last_seen": 450355482,
+      "partner": true,
+      "score": 3,
+      "pumps": [
+        "7czW7oGc1Rs7i18Rt2xdL9EKGxPukNmMhi7VdDTwjQaE",
+        "GbyTnKNoSbBEuTt3W4ZKPjCNaFaFTRjYPNDVB1Cf8m8P"
+      ]
+    },
+    {
+      "pool": "3nQVsxL89GC1UDQgz9YcwvW6Q1NR2n3EiaxCDnG6BETW",
+      "protocol": "dlmm",
+      "n": 3,
+      "last_seen": 450357522,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450351743,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "GgoFghiA6Ca7YNmG6dRxwKQWkZhRK8ND47EREz46arot",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450351987,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "Eqv1tJGkLFeH4giGy8vqKxF4NJBHtGR5cGmKG6cpVy4Z",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450351843,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "43wQydX3UuRKVief4bkPxNz31inxCwvBNY7s1C9rK1XD",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450355802,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "GAGBFpcXqdvKw6ajVUn85v96paJbYbcijc4CNkB3YwGY",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450353877,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "9ToMYnmEeYKc1AWYAFo8yjPKM1bt3vPhgw1U6qh9RxBd",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450356713,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "5hbf9JP8k5zdrZp9pokPypFQoBse5mGCmW6nqodurGcd",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450353608,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "4gtQKQWbH3vBrQqQzYAHmTvGHj18yrofDCzCWh1W5XhK",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450355132,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "J8a3ZKcDZA8HSinuCyjJggU8hnDgwkZKmwH8qDZ9nUcY",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450353948,
+      "partner": true,
+      "score": 2,
+      "pumps": [
+        "C2TadtxCNNowWioMpcAYPcgscMsJhuH4FHkzfBAh37yZ"
+      ]
+    },
+    {
+      "pool": "3sVrUSPny3dHukHuBeivBp87rqGQ8heBdHA48iZEDmwG",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450356880,
+      "partner": true,
+      "score": 2,
+      "pumps": [
+        "2kYQVpASZDhozveWrB3YPYocqUY7LESXFNsKkznv1E2j",
+        "8kfZkZw1MTmxoTDzPTdGL31Ed193aYPFa3nwS1AKhYEE"
+      ]
+    },
+    {
+      "pool": "88LoXa6pK8RjStugRxTwz3scTHMc986y7xE1DLNbwfPy",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450355321,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "HbjYfcWZBjCBYTJpZkLGxqArVmZVu3mQcRudb6Wg1sVh",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450357245,
+      "partner": true,
+      "score": 2,
+      "pumps": [
+        "VJf32Y1CFnaeHhaPnEEspP7T9AyYTYadx1WBbxkx4KQ",
+        "rrD9TypT3ft7wdCuMhaZ4RzvwJ14LLpEjVMMfKDTVQU"
+      ]
+    },
+    {
+      "pool": "AtQ6AYNnpyngry46nwfK2Ffbd1xtNd4vAT3XkZio4x3S",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450355997,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "GbrDAq3RjcVWeroLDUwmnuQ8N5xaaKj2Rk2dJDg64CLY",
+      "protocol": "dlmm",
+      "n": 2,
+      "last_seen": 450357438,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "46CgAPEz8V2e9UL5PDa3JNWFW6sk7uFCj7TjdB3XbKD3",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450351790,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "8SryA3Vw8bCiPqPpqvWyQjCMRxcZEJGoGtqKeYCferfm"
+      ]
+    },
+    {
+      "pool": "D5ozarJBkGKRw7ceuftyS31cqrjooTnKyvDhNeME79bE",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450351794,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "6UyJscTkCBSqfZxRxHnkKa37SE1pNa8tv9MXVbdTugGm",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450351818,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "6fTztHYyqE7HYLrdrJtGd7N44FAS6yLv7jMcuWyB8uen",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450351927,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "31p1hptjhFo6ZD8oBqkfutNXQKGGPyi7YcEAfsyKW777",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450351967,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "51AhFzj1wHv8Em7dNpfarA1fKP9u4iBY5YNkFS1r2kRK",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450352029,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "2jgeBSxH9bZnbez1TXygHHNgibBgAZ4fHaEvFxT4SqfM",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450352300,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "HiYHWTBnbtyQJYfw5NWLKqHij23HHc5qefab4CDVqw8w",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450352880,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "8eRh3PYkBpfADNwkrRuXs6SjiNpNMCL8zCR9SVh3bMQF",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450352984,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "AsSyvUnbfaZJPRrNh3kUuvZTeHKoMVWEoHz86f4Q5D9x",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450353179,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "2kYQVpASZDhozveWrB3YPYocqUY7LESXFNsKkznv1E2j",
+        "8kfZkZw1MTmxoTDzPTdGL31Ed193aYPFa3nwS1AKhYEE"
+      ]
+    },
+    {
+      "pool": "81GpCm4d13y8TozYtThabuSCLQN2o3bbrvDogXFPn8sA",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450353335,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "8SryA3Vw8bCiPqPpqvWyQjCMRxcZEJGoGtqKeYCferfm"
+      ]
+    },
+    {
+      "pool": "9PYge8aBV119HoFWm8HBvaaSqPvJpu2kUwMV9imRnPAx",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450353364,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "BRjMA8UALNp3diTKHfdeAn5riQrYPoaYez7KhYWD4oEs"
+      ]
+    },
+    {
+      "pool": "3fUj4dDSwgpJuzriE32KsgmGGowKNZpnt7T9AD1noZrV",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450353425,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "92J3X46dbnoPs25Vc3fr5m1xt9GVrQddqiPD9uzXQHH",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450353695,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "2TtUS5ADKUkmsnj4wNygN9zxMDh8XewKoyC8jLBGLvuR",
+        "4ka8BrmspaG6oPoCrLy7q9yJ2X9aUW2JbVfAESA2cYia"
+      ]
+    },
+    {
+      "pool": "2gXV31km1F58FVFrwvjVKkLisWPnoGP6MNAiNWbp3MZn",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450354330,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "3dcwhqJp6JBTJPq8ga335HWgSQVS7uQmdmeX7iGjMNpj"
+      ]
+    },
+    {
+      "pool": "GuPbekwP9MqB23CghhiMQZTaigPdUJooovo1neCErhM8",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450354363,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "BhQEFZCRnWKQ21LEt4DUby7fKynfmLVJcNjfHNqjEF61",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450354649,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "Gis8fU4MutdDa6tHCouMV5Xfgo7hER2fKQWG3v9aQ16U",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450354900,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "A3N64gxHQL8b2cQ75JM3nVqoRFYWmntaEUFfDmhYe1Nv",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450355149,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "RA1HTmQgmA35zp35EfcktrF9sKVh4m5x6qSD788BWhA",
+        "Tyo8Q92Ge5YjGGZZtmV1FgwEqFJEY3UgEpEUQHjvTVG"
+      ]
+    },
+    {
+      "pool": "8eLx26sto5xBSg8r1ksidtkmQyHzV2JUrQU97qmKw1Tq",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450355349,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "8R4DDi9X3RBLr876hhRJCv4Gvsy8d9SkABgb8YiHapo9"
+      ]
+    },
+    {
+      "pool": "9JivMChLZWRk7bKf89cFLXfnXeEMqsPrgdHHymfS7Vcm",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450355356,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "7czW7oGc1Rs7i18Rt2xdL9EKGxPukNmMhi7VdDTwjQaE",
+        "GbyTnKNoSbBEuTt3W4ZKPjCNaFaFTRjYPNDVB1Cf8m8P"
+      ]
+    },
+    {
+      "pool": "BCv5Ggg5563AYfkrErdXok2hKfjgUNtQ1A4yKuNbTjQ9",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450355356,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "7czW7oGc1Rs7i18Rt2xdL9EKGxPukNmMhi7VdDTwjQaE",
+        "GbyTnKNoSbBEuTt3W4ZKPjCNaFaFTRjYPNDVB1Cf8m8P"
+      ]
+    },
+    {
+      "pool": "5BEYpX8vFT9FZx7doc8cdhzUXZh7Tbr3GR27tHYcZQjB",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450356146,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "4maoSBQHBsKafpQ5onsSWE1oZWe6fhq53WDL3689Rani",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450356196,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "Cch4MggUmTtYH3Zd7X7AHGWZNsSmwa6NotWh25LQ6A4y",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450356264,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    },
+    {
+      "pool": "5cuy7pMhTPhVZN9xuhgSbykRb986siGJb6vnEtkuBrSU",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450356533,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "GjDp2sUpWxgKjpabLkmUcQBENM8iMs7dpDdB9X99zXsP",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450356667,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "Eio6hAieGTAmKgfvbEfbnXke6o5kfEd74tqHm2Z9SFjf",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450356840,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "43PW2g6CPCtKvdBCsCuDUuztNFGo4xb6qeRUeZP6tZnX",
+        "5GVBaRJy2r5T3ccY3D4jLBJm12wHrxDCNyUfe62FipyS"
+      ]
+    },
+    {
+      "pool": "9d9mb8kooFfaD3SctgZtkxQypkshx6ezhbKio89ixyy2",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450356883,
+      "partner": false,
+      "score": 0,
+      "reason": "no_snap_or_not_sol"
+    },
+    {
+      "pool": "Cqc2v6yhK5NBgmhNoYBFYmUA5WR1UriYANa3wf7ijN7C",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450357083,
+      "partner": true,
+      "score": 1,
+      "pumps": [
+        "7mETms4aUreNwHSL6ZnXntWw8cGiBTcNjHKm1o159tSQ",
+        "FbRpnhQjeGpNW2e9JMQyJwxg6ei6hnUNAbrdzso1Gwhy"
+      ]
+    },
+    {
+      "pool": "5tb9fNLKr2wdJRSTNYRu39kGTjnYVseWo2bGyNgxnLHS",
+      "protocol": "dlmm",
+      "n": 1,
+      "last_seen": 450357201,
+      "partner": false,
+      "score": 0,
+      "reason": "no_pump"
+    }
+  ]
+}

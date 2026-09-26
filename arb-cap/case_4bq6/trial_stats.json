@@ -1,0 +1,64 @@
+{
+  "n": 182,
+  "profit": 1059.8979799504837,
+  "hops": {
+    "2": 182
+  },
+  "routes": [
+    [
+      "Meteora DLMM \u2192 Pump Swap",
+      169
+    ],
+    [
+      "Raydium CPMM \u2192 Meteora DLMM",
+      8
+    ],
+    [
+      "Meteora DLMM \u2192 Meteora DAMM V2",
+      4
+    ],
+    [
+      "Meteora DLMM",
+      1
+    ]
+  ],
+  "providers": {
+    "J": 1,
+    "i": 1,
+    "t": 1,
+    "o": 1
+  },
+  "fee_p50": 0.0,
+  "sample_keys": [
+    "aggregator",
+    "base_token",
+    "compute_units",
+    "dexes",
+    "incentive_type",
+    "inner_instructions_accounts_count",
+    "mint2_symbol",
+    "mint_symbol",
+    "number_of_swap_steps",
+    "primary_instruction_accounts_count",
+    "priority_fee_usd",
+    "profit_usd",
+    "programs_source_type",
+    "provider",
+    "pure_profit",
+    "signature",
+    "slot",
+    "sol_price",
+    "three_leg_arb_mint",
+    "tick_index",
+    "time",
+    "tip",
+    "tip_type",
+    "two_leg_arb_mint",
+    "user",
+    "validator_city",
+    "validator_client",
+    "validator_name",
+    "validator_pubkey",
+    "validator_version"
+  ]
+}

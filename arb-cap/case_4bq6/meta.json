@@ -1,0 +1,272 @@
+{
+  "program_data": [
+    {
+      "account": "6e1x3suTHvzC3DPZR3jCXjDvKFjc9A2SGk99TbjkLPDP",
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "lamports": 14028557160,
+      "authority": "SMB6JY59jr4JJCDdSt5uBD6DPEYX7VFKKJbCubvHV91",
+      "slot": 449242727
+    },
+    {
+      "account": "5N8FoU1cQ6SZ3cts6RNbGQvDCaSzTJjjyiG9s5V1uDNG",
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "lamports": 1234993720,
+      "authority": "6HG7FCcdN3yEt8LGbyS9XcwqCTAV6ktWuPETS84tYJdu",
+      "slot": 449155740
+    },
+    {
+      "account": "B5MvUwXdiW1NMM6QFFD3ssPKBujD4zMohncbM73Z2BQu",
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "lamports": 53268311040,
+      "authority": "7gZufwwAo17y5kg8FMyJy2phgpvv9RSdzWtdXiWHjFr8",
+      "slot": 449734335
+    }
+  ],
+  "das": {
+    "native_lamports": 25460396206,
+    "native_sol": 25.460396206,
+    "items": [
+      {
+        "id": "J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump",
+        "symbol": "TripleT",
+        "balance": 10051296,
+        "decimals": 6,
+        "price": 0.0073998263,
+        "value": 0.07437784459617734
+      },
+      {
+        "id": "Hy1LfQLL4zLQihmiQKZm7DQzXm5K8aVSfKtdHFYXbKMm",
+        "symbol": "AMBA",
+        "balance": 209584973,
+        "decimals": 6,
+        "price": 0.0012362088,
+        "value": 0.2590907944591331
+      },
+      {
+        "id": "Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump",
+        "symbol": "HODL",
+        "balance": 88727857,
+        "decimals": 6,
+        "price": 0.0015625062,
+        "value": 0.13863782608030387
+      },
+      {
+        "id": "HgcxVs6kJhPAaGqnPNGaa7zYgNT49hJrLufiqcNMuYZT",
+        "symbol": "FEELSGOOD",
+        "balance": 41333169,
+        "decimals": 6,
+        "price": 0.003098308,
+        "value": 0.12806289267291035
+      },
+      {
+        "id": "HeeBovJNKd27tQ6xkeP1dfSyTr8LyLwhJz9wfFTbPLEX",
+        "symbol": "HEEBOO",
+        "balance": 10366781,
+        "decimals": 6,
+        "price": 0.009051777,
+        "value": 0.09383779419905693
+      },
+      {
+        "id": "HcfnJxLov6tY8i1dq9uYRRZKCvxADPpovcfkyXzdpump",
+        "symbol": "Chonketha",
+        "balance": 2344593,
+        "decimals": 6,
+        "price": 0.004370197,
+        "value": 0.01024633373586042
+      },
+      {
+        "id": "HJw6kWDKasqfchrVbK9dj5uMv5RdEcqGTsUKbB5cdLCy",
+        "symbol": null,
+        "balance": null,
+        "decimals": null,
+        "price": null,
+        "value": null
+      },
+      {
+        "id": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
+        "symbol": "Tokabu",
+        "balance": 6315417,
+        "decimals": 6,
+        "price": 0.001473333,
+        "value": 0.009304712199696573
+      },
+      {
+        "id": "Gymbmn9wwMKe4NnmVceyyfpncp9arbwPfSdBsyY9pump",
+        "symbol": "Doom",
+        "balance": 1129164252,
+        "decimals": 6,
+        "price": 0.00014265148,
+        "value": 0.16107695070502262
+      },
+      {
+        "id": "GusW76CGVDDGPnsDGEc9r1y7f75QA6X3XANfkRpapump",
+        "symbol": "PUMPAPI.IO DECODED SOLANA DATA STREAM FOR FREE | LOW LATENCY | BUY AND SELL FIRST | FREE HISTORICAL REPLAY | JITO BUNDLES | NO SIGN UP | YOU CAN BUILD ANY STRATEGY WITH AI | PYTHON, RUST, JS, GO TO PUMPAPI.IO",
+        "balance": 700000000,
+        "decimals": 6,
+        "price": null,
+        "value": null
+      },
+      {
+        "id": "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump",
+        "symbol": "CHILLHOUSE",
+        "balance": 115680210,
+        "decimals": 6,
+        "price": 0.0019203544,
+        "value": 0.2221470044484583
+      },
+      {
+        "id": "GkBZGFgNy9Q6jHjBuYeTqsvugfEMhniACF9ieV8H3TtC",
+        "symbol": "BLEE",
+        "balance": 1690666050,
+        "decimals": 6,
+        "price": 7.950072e-05,
+        "value": 0.1344091712428839
+      },
+      {
+        "id": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
+        "symbol": "Jimothy",
+        "balance": 62963647,
+        "decimals": 6,
+        "price": 0.0047035506,
+        "value": 0.2961526995945284
+      },
+      {
+        "id": "GY9mZfyPpxXxBXBxS2hB2XjhP3kfUsywTvgveozxpump",
+        "symbol": "ELON",
+        "balance": 24148473079,
+        "decimals": 6,
+        "price": 0.0008739522,
+        "value": 21.10461051469717
+      },
+      {
+        "id": "GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump",
+        "symbol": "JEANPHIL",
+        "balance": 2863082367,
+        "decimals": 6,
+        "price": 0.004291529,
+        "value": 12.287000537516361
+      },
+      {
+        "id": "GPzpoXpD74E2C4CJNayuoyBqPQJEsPtdse3nhntrpump",
+        "symbol": "LOOKSMAX",
+        "balance": 15968500522,
+        "decimals": 6,
+        "price": 0.00018610257,
+        "value": 2.9717789328321036
+      },
+      {
+        "id": "GKaYkXHF6n5mKQ9htxWjN1SaXw7nTXQT4Y8S8vMYpump",
+        "symbol": "LONGCAT",
+        "balance": 6931337338,
+        "decimals": 6,
+        "price": null,
+        "value": null
+      },
+      {
+        "id": "G8TTWtBR6AqxzMC8nSwdVt7NCUDGvqjUEWRr5SXdpump",
+        "symbol": "SCANNY",
+        "balance": 1846480654,
+        "decimals": 6,
+        "price": 9.629561e-06,
+        "value": 0.017780797606201628
+      },
+      {
+        "id": "G85CQEBqwsoe3qkb5oXXpdZFh7uhYXhDRsQAM4aJuBLV",
+        "symbol": "ORGO",
+        "balance": 35372287474,
+        "decimals": 9,
+        "price": 0.00027841364,
+        "value": 0.009848127487334664
+      },
+      {
+        "id": "FvMLDEUDKUr9C34e8Nynz5Aqfdk34a2RBKQxygLpfomo",
+        "symbol": "FAMILY",
+        "balance": 6976579775,
+        "decimals": 6,
+        "price": 2.9249666e-05,
+        "value": 0.2040626290306697
+      },
+      {
+        "id": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
+        "symbol": "three",
+        "balance": 255614871,
+        "decimals": 6,
+        "price": 0.0006763495,
+        "value": 0.17288499119529244
+      },
+      {
+        "id": "FdCQhzKRrADd5Ffmu1TPxzbUz9t89HpHm1U7YuTMpump",
+        "symbol": "BROOD",
+        "balance": 3384281728,
+        "decimals": 6,
+        "price": 2.6830136e-05,
+        "value": 0.09080073746459628
+      },
+      {
+        "id": "FbYYdLRX2sL5xzLGjdhfaWNhtpxqXBSoqvUY8o8W8eNF",
+        "symbol": "TOEROGAN",
+        "balance": 536540993,
+        "decimals": 6,
+        "price": 8.763809e-05,
+        "value": 0.04702142637363279
+      },
+      {
+        "id": "FZqdw6oSDCbHtKYxmhnfbi97SnyVy8jaYpdCoMrrjKa2",
+        "symbol": "Pistacio",
+        "balance": 3560126404,
+        "decimals": 6,
+        "price": 0.0002493666,
+        "value": 0.8877766030807713
+      },
+      {
+        "id": "FMqh9mqR6drPZqqW6wPqLHxX4rqNDWGhYLaMfoaJpump",
+        "symbol": "world",
+        "balance": 574528,
+        "decimals": 6,
+        "price": 0.00033035394,
+        "value": 0.0001897975893225521
+      },
+      {
+        "id": "FDaJxBqw1fDhwPQTn8XU3bKH8sXXRe8o5kzC3CdUAv7X",
+        "symbol": "SWEEP",
+        "balance": 12071590540,
+        "decimals": 6,
+        "price": 5.0317456e-05,
+        "value": 0.6074117263722829
+      },
+      {
+        "id": "F5tfztTnE4sYsMhZT5KrFpWvHmYSfJZoRjCuxKPbpump",
+        "symbol": "Aliens",
+        "balance": 18658184,
+        "decimals": 6,
+        "price": null,
+        "value": null
+      },
+      {
+        "id": "EygStH4gHv1h4E8w4raYv6NGsrDiij3nbfCc26iTpump",
+        "symbol": "LARP",
+        "balance": 2003699847,
+        "decimals": 6,
+        "price": 0.0003382017,
+        "value": 0.6776546987664227
+      },
+      {
+        "id": "Evqh1a8VWU5AiSyk7riicHtwhuFDahEKCKnU2TkCPPPo",
+        "symbol": "SDFI",
+        "balance": null,
+        "decimals": null,
+        "price": null,
+        "value": null
+      },
+      {
+        "id": "EtSVEVHfw75944qMeJs8JZKy3TpgU69pTXY78JvduBY1",
+        "symbol": "USDC",
+        "balance": 702197863,
+        "decimals": 6,
+        "price": 9.262275e-06,
+        "value": 0.0065039496718208075
+      }
+    ],
+    "n_items": 155
+  }
+}

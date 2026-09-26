@@ -1,0 +1,89 @@
+{
+  "program": "CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt",
+  "rows": [
+    {
+      "seq": "dlmm-dlmm",
+      "cu": 87236,
+      "cu_used": 87236,
+      "cu_limit": 104683,
+      "cu_price": 1000000,
+      "onchain_fee": 109683,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 309683,
+      "source": "measured"
+    },
+    {
+      "seq": "dlmm-pump",
+      "cu": 135673,
+      "cu_used": 135673,
+      "cu_limit": 162807,
+      "cu_price": 1000000,
+      "onchain_fee": 167807,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 367807,
+      "source": "measured"
+    },
+    {
+      "seq": "pump-dlmm",
+      "cu": 149534,
+      "cu_used": 149534,
+      "cu_limit": 179440,
+      "cu_price": 1000000,
+      "onchain_fee": 184440,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 384440,
+      "source": "measured"
+    },
+    {
+      "seq": "pump-pump",
+      "cu": null,
+      "cu_used": 180000,
+      "cu_limit": 216000,
+      "cu_price": 1000000,
+      "onchain_fee": 221000,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 421000,
+      "source": "estimate"
+    },
+    {
+      "seq": "dlmm-dlmm-dlmm",
+      "cu": null,
+      "cu_used": 160000,
+      "cu_limit": 192000,
+      "cu_price": 1000000,
+      "onchain_fee": 197000,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 397000,
+      "source": "estimate"
+    },
+    {
+      "seq": "dlmm-dlmm-pump",
+      "cu": null,
+      "cu_used": 200000,
+      "cu_limit": 240000,
+      "cu_price": 1000000,
+      "onchain_fee": 245000,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 445000,
+      "source": "estimate"
+    },
+    {
+      "seq": "pump-dlmm-dlmm",
+      "cu": null,
+      "cu_used": 200000,
+      "cu_limit": 240000,
+      "cu_price": 1000000,
+      "onchain_fee": 245000,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 445000,
+      "source": "estimate"
+    }
+  ]
+}

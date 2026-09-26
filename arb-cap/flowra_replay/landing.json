@@ -1,0 +1,14 @@
+{
+  "trigger_sampled": 5417,
+  "known_trigger": 103,
+  "landed": 4026,
+  "known_landed": 18,
+  "failed": 547,
+  "expired_or_unseen": 844,
+  "landed_rate_trigger": 0.7432158021044859,
+  "getTransaction_known_landed": 18,
+  "same_tx_dlmm_and_pump": 0,
+  "sibling_slots_scanned": 15,
+  "slots_with_ge2_dlmm_pump": 0,
+  "note": "RPC landing is not leader latency. same_tx_dlmm_and_pump = the pending tx itself contained both venues. slots_with_ge2_dlmm_pump = another DLMM+Pump tx in the same landed slot (possible backrun / searcher). Not proof we would have won. No S_today quotes. No hot_decide."
+}

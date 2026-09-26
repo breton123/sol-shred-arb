@@ -1,0 +1,507 @@
+{
+  "eligible": 439,
+  "eligible_profit": 1025.9603814134448,
+  "supported_n": 121,
+  "supported_profit": 419.7538045627972,
+  "core_sees": 0,
+  "core_predicted": 0.0,
+  "core_why": "no historical DLMM bin snapshot; cycle_size not run",
+  "signed_before": 121,
+  "signed_before_all": 439,
+  "median_lead_supported_us": 3687.564,
+  "p10_lead_supported_us": 193.67,
+  "p90_lead_supported_us": 15755.545,
+  "sweet_n": 27,
+  "sweet_profit": 369.5857000751762,
+  "sweet_loose_n": 66,
+  "sweet_loose_profit": 396.9610632816724,
+  "profit_tab": [
+    {
+      "bin": "<$0.10",
+      "n": 157,
+      "profit": 3.7379091292526323,
+      "supported_n": 35,
+      "supported_profit": 0.5624749902664109
+    },
+    {
+      "bin": "$0.10\u20131",
+      "n": 184,
+      "profit": 61.194500227456494,
+      "supported_n": 47,
+      "supported_profit": 16.223989860635502
+    },
+    {
+      "bin": "$1\u20135",
+      "n": 65,
+      "profit": 148.07009181829534,
+      "supported_n": 25,
+      "supported_profit": 55.51021833953468
+    },
+    {
+      "bin": "$5\u201310",
+      "n": 9,
+      "profit": 62.66636835296755,
+      "supported_n": 6,
+      "supported_profit": 41.10135742304925
+    },
+    {
+      "bin": "$10\u201350",
+      "n": 13,
+      "profit": 253.4426324774604,
+      "supported_n": 5,
+      "supported_profit": 82.38296524155089
+    },
+    {
+      "bin": "$50+",
+      "n": 5,
+      "profit": 496.90751550615545,
+      "supported_n": 2,
+      "supported_profit": 223.97390119611947
+    }
+  ],
+  "window_tab": [
+    {
+      "bin": "20\u201350 \u00b5s",
+      "n": 0,
+      "profit": 0,
+      "supported_n": 0,
+      "supported_profit": 0
+    },
+    {
+      "bin": "50\u2013100 \u00b5s",
+      "n": 0,
+      "profit": 0,
+      "supported_n": 0,
+      "supported_profit": 0
+    },
+    {
+      "bin": "100\u2013250 \u00b5s",
+      "n": 86,
+      "profit": 155.17921289042548,
+      "supported_n": 28,
+      "supported_profit": 22.409373818865117
+    },
+    {
+      "bin": "250\u2013500 \u00b5s",
+      "n": 24,
+      "profit": 105.97702124723263,
+      "supported_n": 6,
+      "supported_profit": 15.528015547826204
+    },
+    {
+      "bin": "0.5\u20131 ms",
+      "n": 15,
+      "profit": 118.26152948604805,
+      "supported_n": 2,
+      "supported_profit": 13.9031512601558
+    },
+    {
+      "bin": "1\u20135 ms",
+      "n": 99,
+      "profit": 178.74495062404372,
+      "supported_n": 32,
+      "supported_profit": 24.50402420977834
+    },
+    {
+      "bin": "5 ms+",
+      "n": 215,
+      "profit": 467.79766716569486,
+      "supported_n": 53,
+      "supported_profit": 343.40923972617173
+    }
+  ],
+  "route_tab": [
+    {
+      "route": "Meteora DLMM \u2192 Pump Swap",
+      "n": 121,
+      "profit": 419.75380456279726
+    },
+    {
+      "route": "Raydium Concentrated Liquidity \u2192 Meteora DLMM \u2192 Pump Swap",
+      "n": 16,
+      "profit": 114.20385199632834
+    },
+    {
+      "route": "Meteora DLMM \u2192 Meteora DAMM V2",
+      "n": 24,
+      "profit": 108.38439642232163
+    },
+    {
+      "route": "Meteora DLMM",
+      "n": 22,
+      "profit": 98.78300869306766
+    },
+    {
+      "route": "Raydium Liquidity Pool V4 \u2192 Raydium CPMM \u2192 Orca Whirlpools \u2192 Meteora DLMM",
+      "n": 1,
+      "profit": 48.40253275553633
+    },
+    {
+      "route": "Raydium Concentrated Liquidity \u2192 Meteora DLMM",
+      "n": 23,
+      "profit": 30.438334764374808
+    },
+    {
+      "route": "Pump Swap \u2192 Meteora DAMM V2",
+      "n": 18,
+      "profit": 29.340314623481465
+    },
+    {
+      "route": "Raydium CPMM \u2192 Orca Whirlpools \u2192 Meteora DLMM",
+      "n": 13,
+      "profit": 22.939655687062753
+    },
+    {
+      "route": "Raydium CPMM \u2192 Meteora DLMM \u2192 Manifest \u2192 Pancake Swap",
+      "n": 1,
+      "profit": 16.345918215528936
+    },
+    {
+      "route": "Raydium CPMM \u2192 Meteora DLMM \u2192 Manifest",
+      "n": 2,
+      "profit": 15.896511174239654
+    },
+    {
+      "route": "Orca Whirlpools \u2192 Meteora DLMM \u2192 Pump Swap",
+      "n": 11,
+      "profit": 13.488062310875108
+    },
+    {
+      "route": "Raydium Concentrated Liquidity \u2192 Orca Whirlpools",
+      "n": 6,
+      "profit": 12.847342702646875
+    },
+    {
+      "route": "Orca Whirlpools \u2192 Meteora DLMM",
+      "n": 25,
+      "profit": 12.048776341174838
+    },
+    {
+      "route": "Raydium CPMM \u2192 Meteora DLMM",
+      "n": 10,
+      "profit": 11.572083947794392
+    },
+    {
+      "route": "Raydium CPMM \u2192 Raydium Concentrated Liquidity \u2192 Orca Whirlpools",
+      "n": 2,
+      "profit": 8.439593248038834
+    },
+    {
+      "route": "Raydium Concentrated Liquidity",
+      "n": 8,
+      "profit": 5.104215368362169
+    },
+    {
+      "route": "Raydium CPMM \u2192 Raydium Concentrated Liquidity \u2192 Meteora DLMM",
+      "n": 6,
+      "profit": 5.0061215318964845
+    },
+    {
+      "route": "Raydium Liquidity Pool V4 \u2192 Raydium CPMM \u2192 Meteora DLMM",
+      "n": 1,
+      "profit": 4.78254470247688
+    },
+    {
+      "route": "Raydium Liquidity Pool V4 \u2192 Raydium CPMM \u2192 Pancake Swap",
+      "n": 1,
+      "profit": 4.526685973114378
+    },
+    {
+      "route": "Orca Whirlpools \u2192 Meteora DLMM \u2192 Manifest",
+      "n": 2,
+      "profit": 4.309000267768448
+    }
+  ],
+  "cross_all": [
+    {
+      "profit": "<$0.10",
+      "window": "100\u2013250 \u00b5s",
+      "n": 31,
+      "profit_sum": 0.6235125404773268
+    },
+    {
+      "profit": "<$0.10",
+      "window": "250\u2013500 \u00b5s",
+      "n": 4,
+      "profit_sum": 0.053196672791554454
+    },
+    {
+      "profit": "<$0.10",
+      "window": "0.5\u20131 ms",
+      "n": 6,
+      "profit_sum": 0.09790045839295557
+    },
+    {
+      "profit": "<$0.10",
+      "window": "1\u20135 ms",
+      "n": 41,
+      "profit_sum": 1.211929320224172
+    },
+    {
+      "profit": "<$0.10",
+      "window": "5 ms+",
+      "n": 75,
+      "profit_sum": 1.7513701373666233
+    },
+    {
+      "profit": "$0.10\u20131",
+      "window": "100\u2013250 \u00b5s",
+      "n": 32,
+      "profit_sum": 9.510656052470118
+    },
+    {
+      "profit": "$0.10\u20131",
+      "window": "250\u2013500 \u00b5s",
+      "n": 14,
+      "profit_sum": 4.372642768436129
+    },
+    {
+      "profit": "$0.10\u20131",
+      "window": "0.5\u20131 ms",
+      "n": 6,
+      "profit_sum": 2.3989334066179127
+    },
+    {
+      "profit": "$0.10\u20131",
+      "window": "1\u20135 ms",
+      "n": 40,
+      "profit_sum": 12.90028148368334
+    },
+    {
+      "profit": "$0.10\u20131",
+      "window": "5 ms+",
+      "n": 92,
+      "profit_sum": 32.011986516248996
+    },
+    {
+      "profit": "$1\u20135",
+      "window": "100\u2013250 \u00b5s",
+      "n": 18,
+      "profit_sum": 39.67551223548605
+    },
+    {
+      "profit": "$1\u20135",
+      "window": "250\u2013500 \u00b5s",
+      "n": 3,
+      "profit_sum": 7.958789758709041
+    },
+    {
+      "profit": "$1\u20135",
+      "window": "1\u20135 ms",
+      "n": 10,
+      "profit_sum": 22.088597851849954
+    },
+    {
+      "profit": "$1\u20135",
+      "window": "5 ms+",
+      "n": 34,
+      "profit_sum": 78.34719197225029
+    },
+    {
+      "profit": "$5\u201310",
+      "window": "100\u2013250 \u00b5s",
+      "n": 1,
+      "profit_sum": 6.088162449037077
+    },
+    {
+      "profit": "$5\u201310",
+      "window": "0.5\u20131 ms",
+      "n": 2,
+      "profit_sum": 13.9031512601558
+    },
+    {
+      "profit": "$5\u201310",
+      "window": "5 ms+",
+      "n": 6,
+      "profit_sum": 42.67505464377467
+    },
+    {
+      "profit": "$10\u201350",
+      "window": "100\u2013250 \u00b5s",
+      "n": 1,
+      "profit_sum": 11.43502624958167
+    },
+    {
+      "profit": "$10\u201350",
+      "window": "250\u2013500 \u00b5s",
+      "n": 1,
+      "profit_sum": 10.391614293366205
+    },
+    {
+      "profit": "$10\u201350",
+      "window": "1\u20135 ms",
+      "n": 6,
+      "profit_sum": 142.57327378768264
+    },
+    {
+      "profit": "$10\u201350",
+      "window": "5 ms+",
+      "n": 5,
+      "profit_sum": 89.0427181468299
+    },
+    {
+      "profit": "$50+",
+      "window": "100\u2013250 \u00b5s",
+      "n": 1,
+      "profit_sum": 87.85824835806025
+    },
+    {
+      "profit": "$50+",
+      "window": "250\u2013500 \u00b5s",
+      "n": 1,
+      "profit_sum": 83.21382159109436
+    },
+    {
+      "profit": "$50+",
+      "window": "0.5\u20131 ms",
+      "n": 1,
+      "profit_sum": 101.86154436088138
+    },
+    {
+      "profit": "$50+",
+      "window": "5 ms+",
+      "n": 2,
+      "profit_sum": 223.97390119611947
+    }
+  ],
+  "cross_supported": [
+    {
+      "profit": "<$0.10",
+      "window": "100\u2013250 \u00b5s",
+      "n": 9,
+      "profit_sum": 0.17800503964776407
+    },
+    {
+      "profit": "<$0.10",
+      "window": "1\u20135 ms",
+      "n": 15,
+      "profit_sum": 0.3269776676262799
+    },
+    {
+      "profit": "<$0.10",
+      "window": "5 ms+",
+      "n": 11,
+      "profit_sum": 0.0574922829923669
+    },
+    {
+      "profit": "$0.10\u20131",
+      "window": "100\u2013250 \u00b5s",
+      "n": 11,
+      "profit_sum": 3.091931957778064
+    },
+    {
+      "profit": "$0.10\u20131",
+      "window": "250\u2013500 \u00b5s",
+      "n": 3,
+      "profit_sum": 1.284710244187401
+    },
+    {
+      "profit": "$0.10\u20131",
+      "window": "1\u20135 ms",
+      "n": 10,
+      "profit_sum": 3.5661253466598573
+    },
+    {
+      "profit": "$0.10\u20131",
+      "window": "5 ms+",
+      "n": 23,
+      "profit_sum": 8.281222312010179
+    },
+    {
+      "profit": "$1\u20135",
+      "window": "100\u2013250 \u00b5s",
+      "n": 7,
+      "profit_sum": 13.051274372402212
+    },
+    {
+      "profit": "$1\u20135",
+      "window": "250\u2013500 \u00b5s",
+      "n": 2,
+      "profit_sum": 3.8516910102725976
+    },
+    {
+      "profit": "$1\u20135",
+      "window": "1\u20135 ms",
+      "n": 5,
+      "profit_sum": 9.101579682493037
+    },
+    {
+      "profit": "$1\u20135",
+      "window": "5 ms+",
+      "n": 11,
+      "profit_sum": 29.505673274366835
+    },
+    {
+      "profit": "$5\u201310",
+      "window": "100\u2013250 \u00b5s",
+      "n": 1,
+      "profit_sum": 6.088162449037077
+    },
+    {
+      "profit": "$5\u201310",
+      "window": "0.5\u20131 ms",
+      "n": 2,
+      "profit_sum": 13.9031512601558
+    },
+    {
+      "profit": "$5\u201310",
+      "window": "5 ms+",
+      "n": 3,
+      "profit_sum": 21.11004371385637
+    },
+    {
+      "profit": "$10\u201350",
+      "window": "250\u2013500 \u00b5s",
+      "n": 1,
+      "profit_sum": 10.391614293366205
+    },
+    {
+      "profit": "$10\u201350",
+      "window": "1\u20135 ms",
+      "n": 1,
+      "profit_sum": 11.510444001358174
+    },
+    {
+      "profit": "$10\u201350",
+      "window": "5 ms+",
+      "n": 3,
+      "profit_sum": 60.480906946826515
+    },
+    {
+      "profit": "$50+",
+      "window": "5 ms+",
+      "n": 2,
+      "profit_sum": 223.97390119611947
+    }
+  ],
+  "by_who": [
+    {
+      "who": "Dtvmxr",
+      "n": 120,
+      "profit": 510.6354995090574,
+      "supported_n": 40,
+      "supported_profit": 214.11999703530586
+    },
+    {
+      "who": "7dGrdJ",
+      "n": 117,
+      "profit": 86.41268309516192,
+      "supported_n": 41,
+      "supported_profit": 45.10325228854669
+    },
+    {
+      "who": "gtagyE",
+      "n": 166,
+      "profit": 391.6278521671271,
+      "supported_n": 25,
+      "supported_profit": 150.39974531230735
+    },
+    {
+      "who": "9EwQoN",
+      "n": 36,
+      "profit": 37.28434664209829,
+      "supported_n": 15,
+      "supported_profit": 10.13080992663728
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+CAP-004  TOP-5 AFTER MRIYA — PREMIUM SHRED FEED
+trial wall 1790205095..1790217009   frozen FEEDCAP1  (read-only)
+searchers ranked by trial-window pure_profit, Mriya excluded
+
+  #2 DtvmxrTACskMG2W8a6KXgSemUfvyNVeQTgfpJoGvMVKx   304 arbs   3192.8
+  #3 7dGrdJRYtsNR8UYxZ3TnifXGjGc9eRYLq9sELwYpuuUu   369 arbs   1257.1
+  #4 4BQ6ATUt26GFdiYQfht23iwfKyYD9D7XbL5ATqNGk3xK   182 arbs   1059.9
+  #5 gtagyESa99t49VmUqnnfsuowYnigSNKuYXdXWyXWNdd   497 arbs    925.2
+  #6 9EwQoN74Hzw747EM7wB3WtvgAdRGH1czaPtbqZj1qDj4   339 arbs    651.8
+
+pairs 1691   trigger ok 1666   located 1625 / both 1601   immediate both-found 834
+local signed-ready 20 us     budget_return = T_searcher_first - T_N_actionable - 20
+
+IMMEDIATE (dist<=2) — same experiment as Mriya
+                    n   same   next   sFEC   dFEC   act=0  bud>=0   p50 act   p90 act
+  Dtvmxr           62    1.6   67.7   25.8    4.8      42       6      0.0      3.9
+  7dGrdJ          142    4.9   59.9   33.1    2.1      96      11      0.0      2.2
+  4BQ6AT          173    0.6   58.4   41.0    0.0     173       0      0.0      0.0
+  gtagyE          202    2.5   56.9   36.1    4.5     112      26      0.0    413.4
+  9EwQoN          255    4.7   72.5   22.0    0.8     216       8      0.0      0.7
+  ALL FIVE        834    3.1   63.3   31.5    2.0     639      51      0.0      0.9
+  Mriya (ref)     956    4.9   72.4   21.7    1.0     706      66      0.0      0.9
+
+ALL DISTANCES  N-actionable -> searcher
+                    n  act=0  bud>=0   p50     p90      $bud>=0   $all
+  Dtvmxr          281     42     140   9.6  16739        607.9  3162.9
+  7dGrdJ          350     96     142   2.0  10693        119.8  1230.4
+  4BQ6AT          175    173       0   0.0      0          0.0  1037.4
+  gtagyE          468    113     177   1.3   9332        395.0   614.9
+  9EwQoN          327    218      41   0.0    213         47.9   650.8
+  ALL            1601    642     500   0.6   9332       1170.6  6696.4
+
+BY DISTANCE (pooled 5)
+  imm<=2   n=834  act=0=639  bud>=0= 51  p50=0.0     $82.9
+  3-5      n=221  act=0=  3  bud>=0= 77  p50=2.0     $90.9
+  6-20     n=350  act=0=  0  bud>=0=199  p50=209.6  $744.6
+  21+      n=196  act=0=  0  bud>=0=173  p50=7372   $252.2
+
+POSITIVE BUDGET vs Mriya occupancy
+  all pos-budget                         500 races  $1170.6
+  Mriya also in slot                      61 races  $144.7
+  Mriya immediate in same slot            47 races   $99.7
+  NO Mriya in slot                       439 races  $1026.0
+    of those dist<=2                      48 races   $78.3
+    of those dist>=6                     321 races  $858.0
+
+VERDICT
+  Immediate seat: dead for all five. 4BQ6AT is Mriya-class (173/173 act==0).
+  Slack vs #2-#6 is the late seats they take when Mriya is absent:
+  ~$1026 of THEIR realized profit sat behind a >=20 us (usually 200 us-7 ms) window
+  after N was already on this feed. That is leftover, not the N+1 seat.
+  Does not prove we would realize that $ — only that those searchers were late
+  enough that 20 us local + this feed is not the binding constraint.

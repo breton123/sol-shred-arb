@@ -9,6 +9,8 @@
 #define TX_KEY_SZ        32u
 #define TX_SIG_SZ        64u
 #define TX_BLOCKHASH_SZ  32u
+/* Receive/understand. Send path (SWQOS / v0 compile) stays 1232. */
+#define TX_RECV_MAX      4096u
 
 #define PROTO_NONE  0u
 #define PROTO_DLMM  1u

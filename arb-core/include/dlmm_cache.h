@@ -18,7 +18,8 @@
 
 #define DLMM_CACHE_K           16
 #define DLMM_CACHE_WINDOW      (2 * DLMM_CACHE_K + 1)
-#define DLMM_CACHE_MAX_POOLS   256
+/* Hard refuse only. Cache length is heap-reserved per generation. */
+#define DLMM_CACHE_MAX_POOLS   65535
 
 #define DLMM_CAP_MAGIC         0x43303034u
 #define DLMM_CAP_VER           1
@@ -46,8 +47,9 @@ typedef struct {
 } dlmm_pool_hot_t;
 
 typedef struct {
-    dlmm_pool_hot_t pool[DLMM_CACHE_MAX_POOLS];
-    uint32_t        n;
+    dlmm_pool_hot_t *pool;
+    uint32_t         n;
+    uint32_t         cap;
 } dlmm_cache_t;
 
 typedef struct {
@@ -91,6 +93,8 @@ typedef struct {
 } dlmm_cap_verdict_t;
 
 void dlmm_cache_init(dlmm_cache_t *c);
+int dlmm_cache_reserve(dlmm_cache_t *c, uint32_t cap);
+void dlmm_cache_free(dlmm_cache_t *c);
 
 /* Install confirmed state. Window recenters on s->active_id. Bins outside ±K drop. */
 int dlmm_cache_put(dlmm_cache_t *c, uint32_t pool_idx, const dlmm_state_t *s);

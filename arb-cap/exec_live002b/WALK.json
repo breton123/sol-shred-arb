@@ -1,0 +1,19 @@
+{
+  "gate": "EXEC-LIVE-003",
+  "why": "Observed mainnet Pump Sell n=24 on PAIR_PUMP. Appended pool_v2 + fee_recipient + fee_recipient_quote. PUMP_N 22→24, metas 58→60, tx 623 B. Impossible min_profit hit Custom(6). Stop touching executor.",
+  "err": {"InstructionError": [2, {"Custom": 6}]},
+  "unitsConsumed": 125657,
+  "tx_len": 623,
+  "margin": 609,
+  "path": {
+    "OUR_EXEC": true,
+    "dlmm_swap2": true,
+    "pump_sell": true,
+    "transfers": true,
+    "profit_guard": true
+  },
+  "fee_recipient": "5cjcW9wExnJJiqgLjq7DEG75Pm6JBgE1hNv4B2vHXUW6",
+  "fee_recipient_quote": "GYH1Gae1wJytMSvMvw8JVcv7nuAbxi8i9erNVbERnzXd",
+  "alt": "3iN6TXFH5nwhRhMYsY92muGfyey8aKkiSTVYXL8Bu7SG",
+  "our_exec": "38dsYLgtLkHKDMYNBemkEM3WkvZSUo3RvxZSm7eMDj4K"
+}

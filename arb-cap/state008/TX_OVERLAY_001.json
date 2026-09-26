@@ -1,0 +1,112 @@
+{
+  "sig": "2sjGjP4KjtwZA8cQXTHJvPbFbhSmW76H1e8CZEoLAwE2TvZqK4QC4Cnas4Y8Y9QZfWAQngUmtXchrfjCiv5Qguup",
+  "slot": 450482164,
+  "err": null,
+  "n_outer": 6,
+  "n_inner": 4,
+  "log_ixs": [
+    "Swap"
+  ],
+  "pricing_ixs": [
+    {
+      "inner": false,
+      "program": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "kind": "dlmm_swap1",
+      "disc": "f8c69e91e17587c8",
+      "dlen": 24,
+      "accounts": [
+        "GYqytuXSiX3GaPuCkLMY4jeRR3mAtyAuQqhD32d45g5y",
+        "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+        "5HUsU653znmCuEqK9rk6N3D1VsBCpYVuhKaLZ1GpPZ4v",
+        "8rdFaxcGmi9V7J5nuT3PQJxcFvYS3c8kQrNniT9hW14t",
+        "5B1yfnAXRxNtGzDeYrbde9yT9b8apNML2HckRwyu4oGj",
+        "5tmiuBEEzD3zE4RqgHPEBDznNawYmojFJwRLfbJSNwAk",
+        "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+        "So11111111111111111111111111111111111111112",
+        "3onGEdZWHZLv4sWAfaMdTbmaU6x2RVe3UfRQhCLStJVN",
+        "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+        "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
+        "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6",
+        "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+        "8BMU2qbuTZJAp1BETTpCKu5zWZ3L9fFX8ys5rAP2w9kE"
+      ],
+      "exact": true
+    },
+    {
+      "inner": true,
+      "program": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "kind": "dlmm_unknown_disc",
+      "disc": "e445a52e51cb9a1d",
+      "dlen": 145,
+      "accounts": [
+        "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6"
+      ],
+      "exact": false
+    },
+    {
+      "inner": true,
+      "program": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "kind": "dlmm_unknown_disc",
+      "disc": "e445a52e51cb9a1d",
+      "dlen": 163,
+      "accounts": [
+        "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6"
+      ],
+      "exact": false
+    }
+  ],
+  "on_pool": [
+    {
+      "inner": false,
+      "program": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "kind": "dlmm_swap1",
+      "disc": "f8c69e91e17587c8",
+      "dlen": 24,
+      "accounts": [
+        "GYqytuXSiX3GaPuCkLMY4jeRR3mAtyAuQqhD32d45g5y",
+        "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+        "5HUsU653znmCuEqK9rk6N3D1VsBCpYVuhKaLZ1GpPZ4v",
+        "8rdFaxcGmi9V7J5nuT3PQJxcFvYS3c8kQrNniT9hW14t",
+        "5B1yfnAXRxNtGzDeYrbde9yT9b8apNML2HckRwyu4oGj",
+        "5tmiuBEEzD3zE4RqgHPEBDznNawYmojFJwRLfbJSNwAk",
+        "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+        "So11111111111111111111111111111111111111112",
+        "3onGEdZWHZLv4sWAfaMdTbmaU6x2RVe3UfRQhCLStJVN",
+        "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+        "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
+        "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+        "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6",
+        "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+        "8BMU2qbuTZJAp1BETTpCKu5zWZ3L9fFX8ys5rAP2w9kE"
+      ],
+      "exact": true
+    }
+  ],
+  "unknown_on_pool": [],
+  "account_writes": [
+    "9nXDunV8eNvYSVys7JSBkm2hz9Q79Q3EYeko19srVeMC",
+    "45cZHQWjAvqw84kPqPJii5Bn7XdzAe5eqJkxFPmJkgjh",
+    "GYqytuXSiX3GaPuCkLMY4jeRR3mAtyAuQqhD32d45g5y",
+    "5HUsU653znmCuEqK9rk6N3D1VsBCpYVuhKaLZ1GpPZ4v",
+    "8rdFaxcGmi9V7J5nuT3PQJxcFvYS3c8kQrNniT9hW14t",
+    "5B1yfnAXRxNtGzDeYrbde9yT9b8apNML2HckRwyu4oGj",
+    "5tmiuBEEzD3zE4RqgHPEBDznNawYmojFJwRLfbJSNwAk",
+    "3onGEdZWHZLv4sWAfaMdTbmaU6x2RVe3UfRQhCLStJVN",
+    "8BMU2qbuTZJAp1BETTpCKu5zWZ3L9fFX8ys5rAP2w9kE",
+    "FyG7LxgBT1wV6KVy3pxj3UsgvqNf75xRAAYkhVmyCniv",
+    "9LdLfrdmq8D3oqymC8yWtZgjA38FLMGbcP2aNAjD2Bpj",
+    "astraEJ2fEj8Xmy6KLG7B3VfbKfsHXhHrNdCQx7iGJK",
+    "11111111111111111111111111111111",
+    "SysvarRecentB1ockHashes11111111111111111111",
+    "ComputeBudget111111111111111111111111111111",
+    "9VFiimgx8hReh6TqamMFXFRXrtsZUfFGuoBTcW3jb7n8",
+    "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+    "So11111111111111111111111111111111111111112",
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6"
+  ]
+}

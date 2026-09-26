@@ -1,0 +1,6378 @@
+{
+  "telemetry": {
+    "v1_router_total": 589,
+    "v1_direct": 0,
+    "v1_shape_known": 502,
+    "v1_symbolic_exact": 0,
+    "v1_symbolic_bounded": 502,
+    "v1_unknown": 87,
+    "v1_router_usd": 349.8382977770597,
+    "labels": 589,
+    "holdout": 109,
+    "locus": {
+      "amount_absent_from_outer": 554,
+      "partial_amount_in_outer": 35
+    },
+    "n_gt_1232": 589,
+    "n_max": 2430
+  },
+  "outers": [
+    {
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "n": 68,
+      "usd": 112.29421555904818,
+      "unique_shapes": 68,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 56,
+        "unknown": 12
+      }
+    },
+    {
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "n": 49,
+      "usd": 102.33581812641094,
+      "unique_shapes": 30,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 44,
+        "unknown": 5
+      }
+    },
+    {
+      "outer": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr",
+      "n": 48,
+      "usd": 36.04012705143464,
+      "unique_shapes": 47,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 43,
+        "unknown": 5
+      }
+    },
+    {
+      "outer": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg",
+      "n": 62,
+      "usd": 28.445303256835277,
+      "unique_shapes": 7,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 62,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "giftBX9qeXhyECT79zNvJBTMFDxRny8w4yS8iky8BsK",
+      "n": 35,
+      "usd": 26.004770960322205,
+      "unique_shapes": 35,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 30,
+        "unknown": 5
+      }
+    },
+    {
+      "outer": "aUcoKkPfBdqiR5rCLPSD2hwVZduWb3eH4V2KvaebTZp",
+      "n": 34,
+      "usd": 8.867660969521145,
+      "unique_shapes": 34,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 25,
+        "unknown": 9
+      }
+    },
+    {
+      "outer": "8zz4wCGxRTMDkB3Pz36eV3NQ9eMz1yAGboieBC6idS3k",
+      "n": 3,
+      "usd": 6.930112448761179,
+      "unique_shapes": 3,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 3,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "9GCBb4NsSDRuEkkGfQkN37oppmMVPops5sXDWhAKAvQQ",
+      "n": 4,
+      "usd": 4.802360809186494,
+      "unique_shapes": 4,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 3,
+        "unknown": 1
+      }
+    },
+    {
+      "outer": "joeHSutRWndCtp1EPx5tz5zHyaPBZUZ5JsxDEVB1RPZ",
+      "n": 21,
+      "usd": 3.093193276255611,
+      "unique_shapes": 21,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 16,
+        "unknown": 5
+      }
+    },
+    {
+      "outer": "9i7QdbBHx7fjLAAaFfcDRgkdS4oNfKv8duzyE27a1kJ6",
+      "n": 3,
+      "usd": 2.958955970061225,
+      "unique_shapes": 3,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 3,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "L6pUpkHtq3CLtJRTrZ9GsBxfweZ8iPS6CnDQMdmcbad",
+      "n": 51,
+      "usd": 2.4448354223028534,
+      "unique_shapes": 51,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 45,
+        "unknown": 6
+      }
+    },
+    {
+      "outer": "HVi6VyyLvTtFTA8f8atavxVjUKi8WjmnydfKgoZKzt7H",
+      "n": 15,
+      "usd": 2.339657781914549,
+      "unique_shapes": 8,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 15,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "Di8ymXQ7Kw8C2aNFbef2pXAxv5EQV9T8GuomrfogtX9S",
+      "n": 1,
+      "usd": 2.06499497280285,
+      "unique_shapes": 1,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 1,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "FsU1rcaEC361jBr9JE5wm7bpWRSTYeAMN4R2MCs11rNF",
+      "n": 2,
+      "usd": 2.0170150345640687,
+      "unique_shapes": 2,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "GD6v17qZJbf1zde2JjZiKBQt3TC5kBP6KbAnfxUcE6aD",
+      "n": 37,
+      "usd": 1.8858836856179166,
+      "unique_shapes": 36,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 32,
+        "unknown": 5
+      }
+    },
+    {
+      "outer": "LiApkFTR9qVaGQgb4hykwbw7ir3ZPPMmE1zNPiakVGh",
+      "n": 2,
+      "usd": 1.6031179807402312,
+      "unique_shapes": 2,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "CkvEApcoFPWUgBDheYvUzHqtUj58AXop7vwizEieXXSE",
+      "n": 30,
+      "usd": 0.9717899616971326,
+      "unique_shapes": 30,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 19,
+        "unknown": 11
+      }
+    },
+    {
+      "outer": "DRSw8uSW9De7eCKSM9qXm7aD2QKrvcJnA7Hf4Uu3ezYM",
+      "n": 23,
+      "usd": 0.9165248734365622,
+      "unique_shapes": 23,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 14,
+        "unknown": 9
+      }
+    },
+    {
+      "outer": "HiP3dRdEbzPETVLrwu7Mht6G3XQkPVF6dUgXtDFeiRvH",
+      "n": 15,
+      "usd": 0.7372103464868472,
+      "unique_shapes": 7,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 15,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "H5q1jexA6N9YAoTbAvP5rkavv13haCJUqqvVFBxaRcZh",
+      "n": 8,
+      "usd": 0.6264468724529578,
+      "unique_shapes": 8,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 5,
+        "unknown": 3
+      }
+    },
+    {
+      "outer": "NA777pkN8YYSsQKk1zvwKgJmThtuWbmhonzJxRARQm5",
+      "n": 1,
+      "usd": 0.5455596759505379,
+      "unique_shapes": 1,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 1,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "9oGumqDij9gq54z6tz1RTpdDwmJY24Wq7WAUex7BK54i",
+      "n": 5,
+      "usd": 0.4769654135977136,
+      "unique_shapes": 1,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 5,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "HiPMPcYjLNPgjvdzBoavzMbCeHaXWkAuDxyuE9VoPrkf",
+      "n": 6,
+      "usd": 0.2842542524571479,
+      "unique_shapes": 4,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 6,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "DSkiugWe78XQcfRgaCDnZkTMyRnaSd9LQQhY7XnhPijf",
+      "n": 2,
+      "usd": 0.24210559755013333,
+      "unique_shapes": 2,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 2,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "ePdJeHkCP9vB5YuczjVqmw87t4Sf3CFrLYJ5z6VinPN",
+      "n": 16,
+      "usd": 0.22585737005687875,
+      "unique_shapes": 6,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 16,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "4jxAyXCoM8Zh8AezP72hB2QuDwyXrvmm6VwT58sdPQEu",
+      "n": 1,
+      "usd": 0.208229880894123,
+      "unique_shapes": 1,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 1,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "ApexMZD5oFtFKADpdFC9eFt39aK5cUpNgeRR5RBcBcjS",
+      "n": 30,
+      "usd": 0.15925212883513884,
+      "unique_shapes": 30,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 22,
+        "unknown": 8
+      }
+    },
+    {
+      "outer": "8HYMd3SeijBjvZzMDj3o1sYxwwRZiPEUW8SbxFv5SUMf",
+      "n": 9,
+      "usd": 0.15436917644349113,
+      "unique_shapes": 4,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 9,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "7obtMdiXQaLCao2mCRzsanxRusUH8QAz8eT5PJyUTHFQ",
+      "n": 1,
+      "usd": 0.08518578407663474,
+      "unique_shapes": 1,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 1,
+        "unknown": 0
+      }
+    },
+    {
+      "outer": "theovTrkQogG4GbMdQfDZGUMdZafXF8JtXvh4btu31i",
+      "n": 3,
+      "usd": 0.06041348907562241,
+      "unique_shapes": 3,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 2,
+        "unknown": 1
+      }
+    },
+    {
+      "outer": "MEViEnscUm6tsQRoGd9h6nLQaQspKj7DB2M5FwM3Xvz",
+      "n": 3,
+      "usd": 0.015210110705749581,
+      "unique_shapes": 2,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 1,
+        "unknown": 2
+      }
+    },
+    {
+      "outer": "cockB8LqPqULDU7SZQB122ns4We6AjJxvQa7VTCX3Zx",
+      "n": 1,
+      "usd": 0.0008995375636589353,
+      "unique_shapes": 1,
+      "prediction_coverage": {
+        "symbolic_exact": 0,
+        "symbolic_bounded": 1,
+        "unknown": 0
+      }
+    }
+  ],
+  "shapes": [
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02b52889b0d35a08|41|ws1/rs0/wu30/ru26|wsol+usdc",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02b52889b0d35a08",
+      "data_len": 41,
+      "nacct": 77,
+      "nkeys": 57,
+      "mask": 31,
+      "writable": "ws1/rs0/wu30/ru26",
+      "n": 1,
+      "usd": 76.12856713773104,
+      "example": "2R2ndkNhasHFBEi6uPcD5RqEBMYBRj2Thwk93LfX1ZvvArAgBJwkxwYKa54LqkbdkvGqBjk6eAMDJWtjMauPvmBi",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|0202000000180001|35|ws1/rs0/wu19/ru22|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "0202000000180001",
+      "data_len": 35,
+      "nacct": 46,
+      "nkeys": 42,
+      "mask": 15,
+      "writable": "ws1/rs0/wu19/ru22",
+      "n": 2,
+      "usd": 58.67285122032592,
+      "example": "5XnqfLZc7zjQqcm7kWRc7gnLo1ohpiA1sZT4dk5fm1nvetKxjsrMx49rFGdB9TSRdRrt8HASLYyJXxNDqX3WWkDj",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 2
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|02020000001acf67|44|ws1/rs0/wu18/ru20|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "02020000001acf67",
+      "data_len": 44,
+      "nacct": 45,
+      "nkeys": 39,
+      "mask": 15,
+      "writable": "ws1/rs0/wu18/ru20",
+      "n": 1,
+      "usd": 23.828616163194397,
+      "example": "2fomhGNbfbAEGfZkZ7thw1tgMauREYZ9CtMtWJr3s3LA3mtFcALNbB7efnEAdTDzEMVra8x6iCp2hx83SMKBirLJ",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "giftBX9qeXhyECT79zNvJBTMFDxRny8w4yS8iky8BsK|041b160000051306|21|ws1/rs0/wu21/ru19|wsol",
+      "outer": "giftBX9qeXhyECT79zNvJBTMFDxRny8w4yS8iky8BsK",
+      "disc": "041b160000051306",
+      "data_len": 21,
+      "nacct": 53,
+      "nkeys": 41,
+      "mask": 15,
+      "writable": "ws1/rs0/wu21/ru19",
+      "n": 1,
+      "usd": 23.80398060645591,
+      "example": "4PziiZn85ayhhr6nXKGpsyauEET55LwKjrPrE8LVfU7Xf88PsijsEv9jKdiWhy8nghv9pLzXZmAhZuXi9DctqoY1",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg|d4c338b7ba130647|103|ws1/rs0/wu30/ru23|wsol",
+      "outer": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg",
+      "disc": "d4c338b7ba130647",
+      "data_len": 103,
+      "nacct": 56,
+      "nkeys": 54,
+      "mask": 15,
+      "writable": "ws1/rs0/wu30/ru23",
+      "n": 39,
+      "usd": 21.76607231593905,
+      "example": "5gEWNeqCCLTvgKWKEWk8krWAuULMF8CsPSz2TmPfvxoGh5ysYuWkhtVZVCymXJSCyNQw8cTcw9rQkVGa4b25YDtM",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": 1.0,
+          "n_train": 33,
+          "n_hold": 6,
+          "exact": true,
+          "bounded": false
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 33,
+          "n_hold": 6,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 33,
+          "n_hold": 6,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 33,
+          "n_hold": 6,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 33,
+          "n_hold": 6,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 33,
+          "n_hold": 6,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 33,
+          "n_hold": 6,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 39
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|020e3577b80f7e4e|41|ws1/rs0/wu35/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "020e3577b80f7e4e",
+      "data_len": 41,
+      "nacct": 92,
+      "nkeys": 59,
+      "mask": 31,
+      "writable": "ws1/rs0/wu35/ru23",
+      "n": 1,
+      "usd": 16.05750390821885,
+      "example": "3JCjDS4eEBsDMRuioUS4GGa1JK9aSSs2sYkR1EMAYYZrYxSwJWjLWMHDrsbyDeHr9QYz2FS7hpMuVe6Ct8t5Giee",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr|fbdae4aad57a0fd3|54|ws1/rs0/wu36/ru24|wsol",
+      "outer": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr",
+      "disc": "fbdae4aad57a0fd3",
+      "data_len": 54,
+      "nacct": 61,
+      "nkeys": 61,
+      "mask": 15,
+      "writable": "ws1/rs0/wu36/ru24",
+      "n": 1,
+      "usd": 12.453770168901013,
+      "example": "2ySsvEASU7P32wRAG65mt1nyuwmzpeiyhhngf4vpcVw1KpCq3WGHnv1GKD7M68CkQRpX7vuH8z6cKXMztvqWiKGX",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr|5138638c983d54b3|54|ws1/rs0/wu38/ru23|wsol",
+      "outer": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr",
+      "disc": "5138638c983d54b3",
+      "data_len": 54,
+      "nacct": 61,
+      "nkeys": 62,
+      "mask": 15,
+      "writable": "ws1/rs0/wu38/ru23",
+      "n": 1,
+      "usd": 10.312017509239414,
+      "example": "35Bco8XyDCu86HQG5GaRPWQtJHFC8EsZuMMSrSEXNTrRPSEi9xUD1QEYYPsyzKkT2Ljo98t5p5jX2ysopFumqou4",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr|f421825ef28ec67c|53|ws1/rs0/wu37/ru22|wsol",
+      "outer": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr",
+      "disc": "f421825ef28ec67c",
+      "data_len": 53,
+      "nacct": 60,
+      "nkeys": 60,
+      "mask": 15,
+      "writable": "ws1/rs0/wu37/ru22",
+      "n": 1,
+      "usd": 6.992023336157189,
+      "example": "2kWwZq1waU5fAVBxAN2WhsvoNJiaFYdG48TDguXzHTXXtcXJTgYpvcdysKu5PxrQZYu24viSGSs3iVXW993oanBd",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "8zz4wCGxRTMDkB3Pz36eV3NQ9eMz1yAGboieBC6idS3k|00482a7b00000000|37|ws1/rs0/wu19/ru20|wsol",
+      "outer": "8zz4wCGxRTMDkB3Pz36eV3NQ9eMz1yAGboieBC6idS3k",
+      "disc": "00482a7b00000000",
+      "data_len": 37,
+      "nacct": 59,
+      "nkeys": 40,
+      "mask": 15,
+      "writable": "ws1/rs0/wu19/ru20",
+      "n": 1,
+      "usd": 6.481572861617459,
+      "example": "4YqsYHGiUbYLTYXzFXWQV1nGW4Cfv2FPJ4UyEW1gRz3ANJxQXESR4b7ABXqNXfbYu9AX43gjS9iLJjzEoym2xvsY",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02deb183fe84f620|39|ws1/rs0/wu27/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02deb183fe84f620",
+      "data_len": 39,
+      "nacct": 76,
+      "nkeys": 51,
+      "mask": 31,
+      "writable": "ws1/rs0/wu27/ru23",
+      "n": 1,
+      "usd": 4.328126204700471,
+      "example": "5qdVgUyjgRTdsoaLyQGCSVyd7FYZzsTnsm2kVXwhWtpaisY83xr9EVPX28nAR7Crfw4FGDnnVMovXPg6hersWWwk",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02fd92b59cf02c94|41|ws1/rs0/wu36/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02fd92b59cf02c94",
+      "data_len": 41,
+      "nacct": 92,
+      "nkeys": 60,
+      "mask": 31,
+      "writable": "ws1/rs0/wu36/ru23",
+      "n": 1,
+      "usd": 3.545892476448692,
+      "example": "3SV43tAfu263kwALoyKbP3N9CUYbs2VAegmMb1jsMptT9YoP3jUd16zinMmJUe7PegSW33Sw1tjLZXUHDcFfik47",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg|d4c338b7ba130647|103|ws1/rs0/wu33/ru21|wsol",
+      "outer": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg",
+      "disc": "d4c338b7ba130647",
+      "data_len": 103,
+      "nacct": 53,
+      "nkeys": 55,
+      "mask": 15,
+      "writable": "ws1/rs0/wu33/ru21",
+      "n": 5,
+      "usd": 3.240211254146042,
+      "example": "jJtBb8pQ5ExixoDksEiBtVshLDBBY5neUkdsmUPBck4wShaznMg7qr4rQc79WY2dCeAo9zPGo3cBmMyprhYcxd4",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": 1.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 5
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "aUcoKkPfBdqiR5rCLPSD2hwVZduWb3eH4V2KvaebTZp|02f740ac9037a969|37|ws1/rs0/wu33/ru24|wsol",
+      "outer": "aUcoKkPfBdqiR5rCLPSD2hwVZduWb3eH4V2KvaebTZp",
+      "disc": "02f740ac9037a969",
+      "data_len": 37,
+      "nacct": 89,
+      "nkeys": 58,
+      "mask": 31,
+      "writable": "ws1/rs0/wu33/ru24",
+      "n": 1,
+      "usd": 3.1198599607590336,
+      "example": "3f7F7Py9Bg589YcyGGaeCMmcvAJgu6ycWXLR95kEqgkMU2ZEY5GAQNqq6w7BW7A91m6nqNAPwN5mMLeZmWw4qKuG",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|02020000001a613e|44|ws1/rs0/wu17/ru20|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "02020000001a613e",
+      "data_len": 44,
+      "nacct": 45,
+      "nkeys": 38,
+      "mask": 15,
+      "writable": "ws1/rs0/wu17/ru20",
+      "n": 1,
+      "usd": 2.6580373434577047,
+      "example": "4i54qoZ6YBZRK2nUcfNCLYusvSQB6BQ9DhqxM5ambrL3hczCDq2zkq2eixNUFXmGBdLVmXrtFVMGUhkoVgbyeLEd",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "aUcoKkPfBdqiR5rCLPSD2hwVZduWb3eH4V2KvaebTZp|0260245be7a85872|37|ws1/rs0/wu34/ru24|wsol",
+      "outer": "aUcoKkPfBdqiR5rCLPSD2hwVZduWb3eH4V2KvaebTZp",
+      "disc": "0260245be7a85872",
+      "data_len": 37,
+      "nacct": 90,
+      "nkeys": 59,
+      "mask": 31,
+      "writable": "ws1/rs0/wu34/ru24",
+      "n": 1,
+      "usd": 2.6423280012946457,
+      "example": "2oxukMYkUMgLpYZHcYh6iySWZ3NXWmtvZgoZrxBNvvAVmvmLQLN9MhWnqksPzbtCF5XZkqEg7nrEKAGNR6fhpHqC",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|0202000000180001|35|ws1/rs0/wu20/ru23|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "0202000000180001",
+      "data_len": 35,
+      "nacct": 46,
+      "nkeys": 44,
+      "mask": 15,
+      "writable": "ws1/rs0/wu20/ru23",
+      "n": 1,
+      "usd": 2.4864397665177997,
+      "example": "KU4zHtbS5JDe6hJ95y4D7Btb1RP4decqw96pw5sshh7Y5P61WAU58pBLPRLzyTQyPxXsuGXuDnrGcASmmc6zC2m",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|02020000001a51b9|35|ws1/rs0/wu17/ru22|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "02020000001a51b9",
+      "data_len": 35,
+      "nacct": 42,
+      "nkeys": 40,
+      "mask": 15,
+      "writable": "ws1/rs0/wu17/ru22",
+      "n": 1,
+      "usd": 2.4074082510671113,
+      "example": "5Jbo9um8NCEqfYKrR9F2UodxKZz66ubKVhPYJcVpJo52Af4HfzuaefTVAoq2XKMYe64bwUmfQoLQbgTqX1fobs1D",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "9GCBb4NsSDRuEkkGfQkN37oppmMVPops5sXDWhAKAvQQ|0a020000004b001b|35|ws1/rs0/wu18/ru21|wsol",
+      "outer": "9GCBb4NsSDRuEkkGfQkN37oppmMVPops5sXDWhAKAvQQ",
+      "disc": "0a020000004b001b",
+      "data_len": 35,
+      "nacct": 58,
+      "nkeys": 40,
+      "mask": 15,
+      "writable": "ws1/rs0/wu18/ru21",
+      "n": 1,
+      "usd": 2.2523873475914216,
+      "example": "37vDEb6uckVNWWPnCgjkBHqsdLHCWymLgiHY4wUuB1G8RJjP76oGnY3iNzgZKjbRtw7ZJZDF2dSV7ijHzAA3eRQe",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr|adcd7e308fc400f1|55|ws1/rs0/wu38/ru24|wsol",
+      "outer": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr",
+      "disc": "adcd7e308fc400f1",
+      "data_len": 55,
+      "nacct": 62,
+      "nkeys": 63,
+      "mask": 15,
+      "writable": "ws1/rs0/wu38/ru24",
+      "n": 1,
+      "usd": 2.1738425023691343,
+      "example": "ggor8DbTJy8mKSTvEGABX5iTv4HcFocydAHgEK8tn3KZXANTdqaSaHoKgQWvHdqHAE9WkHxb81tzbvqFWqdNxGT",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "9i7QdbBHx7fjLAAaFfcDRgkdS4oNfKv8duzyE27a1kJ6|0c|1|ws1/rs0/wu15/ru20|wsol",
+      "outer": "9i7QdbBHx7fjLAAaFfcDRgkdS4oNfKv8duzyE27a1kJ6",
+      "disc": "0c",
+      "data_len": 1,
+      "nacct": 1,
+      "nkeys": 36,
+      "mask": 15,
+      "writable": "ws1/rs0/wu15/ru20",
+      "n": 1,
+      "usd": 2.1345468201080564,
+      "example": "3DL7uDXFLbjq5AhgYPLX2gviHNnKg57kNSe37ccz42VZBedmXNEMPmopihwVhHnmpTTy9bfNX7JvHyTQZMskDr6t",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "Di8ymXQ7Kw8C2aNFbef2pXAxv5EQV9T8GuomrfogtX9S|0c0100081ee73e38|123|ws1/rs0/wu33/ru25|wsol",
+      "outer": "Di8ymXQ7Kw8C2aNFbef2pXAxv5EQV9T8GuomrfogtX9S",
+      "disc": "0c0100081ee73e38",
+      "data_len": 123,
+      "nacct": 166,
+      "nkeys": 59,
+      "mask": 31,
+      "writable": "ws1/rs0/wu33/ru25",
+      "n": 1,
+      "usd": 2.06499497280285,
+      "example": "3ngG8PgGM284Jwqf3hfk3HoDAkBYgE4EZmufnDrjq2A9GrrXuE2NqHk7wVxJtu8Ckw7SFLCN3W7PsYH8BoAETwVY",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|023f90e96b28de86|39|ws1/rs0/wu35/ru25|wsol+usdc",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "023f90e96b28de86",
+      "data_len": 39,
+      "nacct": 78,
+      "nkeys": 61,
+      "mask": 31,
+      "writable": "ws1/rs0/wu35/ru25",
+      "n": 1,
+      "usd": 1.9898169822888747,
+      "example": "4TnJfGABgmx4Wwxjus7BfGmYF7zdLtuRjB6KsZ3f1Zcbfm4tvAfxMsDKS568MGRj2MXft5K3LPC5KWQRdUsTjxvK",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|0202000000180001|44|ws1/rs0/wu20/ru21|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "0202000000180001",
+      "data_len": 44,
+      "nacct": 48,
+      "nkeys": 42,
+      "mask": 15,
+      "writable": "ws1/rs0/wu20/ru21",
+      "n": 2,
+      "usd": 1.938363346197931,
+      "example": "2nfHE4XxkS9YTud8spCAi7ifHDo89LWgf5YSg3QSWnJx4KsrPia9XmuHYeauq7okUUB4RCqHuY3C1sbtFkWT2oz5",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": 1.0,
+          "n_train": 1,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 1,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 1,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 1,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 1,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 1,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 1,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 2
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "aUcoKkPfBdqiR5rCLPSD2hwVZduWb3eH4V2KvaebTZp|02c737ef3e5c4e5e|37|ws1/rs0/wu33/ru24|wsol",
+      "outer": "aUcoKkPfBdqiR5rCLPSD2hwVZduWb3eH4V2KvaebTZp",
+      "disc": "02c737ef3e5c4e5e",
+      "data_len": 37,
+      "nacct": 89,
+      "nkeys": 58,
+      "mask": 31,
+      "writable": "ws1/rs0/wu33/ru24",
+      "n": 1,
+      "usd": 1.8005863271150306,
+      "example": "5EUCatBGMN6spkebAj7Tabt11jxe6c3WiHiE9K58G6VsX41Rz9NHBGRUvQ8mzdB23WgLg3FeP8JvnCWngYTKdCdJ",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|0202000000180001|35|ws1/rs0/wu18/ru22|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "0202000000180001",
+      "data_len": 35,
+      "nacct": 46,
+      "nkeys": 41,
+      "mask": 15,
+      "writable": "ws1/rs0/wu18/ru22",
+      "n": 1,
+      "usd": 1.7159776148848078,
+      "example": "65gnEcHZpLpJdSbyVJBEBtKd6CUuApvmp1nPKZvA8o7TD6zxD7RQqNwRd7VXJhiS6z3iGWFjgaPSFDbm2LYCcwH",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|02020000001a15d9|44|ws1/rs0/wu16/ru20|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "02020000001a15d9",
+      "data_len": 44,
+      "nacct": 43,
+      "nkeys": 37,
+      "mask": 15,
+      "writable": "ws1/rs0/wu16/ru20",
+      "n": 1,
+      "usd": 1.7010212050317657,
+      "example": "4dZy59Ayf5G9v6jjmF79QsLhNAMx4FpzsS9SZ4ZpNiTaY5DLq4fbEXugfKG2YCQ83GVw1XhioWq1vdoJURnThNes",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|02020000001a8a99|23|ws1/rs0/wu16/ru21|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "02020000001a8a99",
+      "data_len": 23,
+      "nacct": 42,
+      "nkeys": 38,
+      "mask": 15,
+      "writable": "ws1/rs0/wu16/ru21",
+      "n": 1,
+      "usd": 1.662848476774978,
+      "example": "2wi1SSoWWRutyvzF1DNCM8kYtQW5AMTUyDsaDwcqzzfQXmPQnmeN11gw5v4UhQeFfNUKnZ4fhBgqyZhyG8xa8sUZ",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg|d4c338b7ba130647|109|ws1/rs0/wu38/ru23|wsol",
+      "outer": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg",
+      "disc": "d4c338b7ba130647",
+      "data_len": 109,
+      "nacct": 64,
+      "nkeys": 62,
+      "mask": 15,
+      "writable": "ws1/rs0/wu38/ru23",
+      "n": 5,
+      "usd": 1.6628201664058342,
+      "example": "4DmjEBMAA4Wav46ZXwatxkXNz9AbeTQbqLLQcNr1eeYENwFfWxEtXuqDU5dyuzumQ4S4iMD9ADUwUspunZd784mm",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": 1.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 5
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|02020000001a8c62|35|ws1/rs0/wu16/ru21|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "02020000001a8c62",
+      "data_len": 35,
+      "nacct": 43,
+      "nkeys": 38,
+      "mask": 15,
+      "writable": "ws1/rs0/wu16/ru21",
+      "n": 1,
+      "usd": 1.6456852385526508,
+      "example": "3YPgmhs3GuJ3CecUfCVG9NCx3EHyNayf3DY3jape4WkRZUQdyrpDBAPCS47JPJ9V45JdNPAYbu1EZrftNnQqKC3S",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "LiApkFTR9qVaGQgb4hykwbw7ir3ZPPMmE1zNPiakVGh|00e2651949000000|37|ws1/rs0/wu18/ru19|wsol",
+      "outer": "LiApkFTR9qVaGQgb4hykwbw7ir3ZPPMmE1zNPiakVGh",
+      "disc": "00e2651949000000",
+      "data_len": 37,
+      "nacct": 49,
+      "nkeys": 38,
+      "mask": 15,
+      "writable": "ws1/rs0/wu18/ru19",
+      "n": 1,
+      "usd": 1.5362453720666462,
+      "example": "4oxvTwoCG43K6QbZ3BQsxrwhRPHETwJFgfxC3E5Y92dVLF97HoZYshLcg6oc8VNmH7BUY2GG5p8KoVosFLvVtyM5",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "9GCBb4NsSDRuEkkGfQkN37oppmMVPops5sXDWhAKAvQQ|070200000036144b|35|ws1/rs0/wu17/ru19|wsol",
+      "outer": "9GCBb4NsSDRuEkkGfQkN37oppmMVPops5sXDWhAKAvQQ",
+      "disc": "070200000036144b",
+      "data_len": 35,
+      "nacct": 57,
+      "nkeys": 37,
+      "mask": 15,
+      "writable": "ws1/rs0/wu17/ru19",
+      "n": 1,
+      "usd": 1.5316696200368456,
+      "example": "3gX3Wcyd1Nk73YeCqeyUrWFar8PHmQGyRmKrhFQ1Hp2uJu2CcseYBzEE1xnt3HpDnRqkNVBbAhVELqTNqGj91kZv",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr|f9d5357740dbbb6a|54|ws1/rs0/wu39/ru24|wsol",
+      "outer": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr",
+      "disc": "f9d5357740dbbb6a",
+      "data_len": 54,
+      "nacct": 61,
+      "nkeys": 64,
+      "mask": 15,
+      "writable": "ws1/rs0/wu39/ru24",
+      "n": 1,
+      "usd": 1.514219309524358,
+      "example": "4i87sCdVLcuDK9fc3QFBb6jXj3iKdBVs2HXPy7g9XT8LBVP6CUb9fHNeUw9T3ne8eXMsgut4nU2RKDKh6y5kH6Ey",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "joeHSutRWndCtp1EPx5tz5zHyaPBZUZ5JsxDEVB1RPZ|0c0214013327|6|ws1/rs0/wu17/ru20|wsol",
+      "outer": "joeHSutRWndCtp1EPx5tz5zHyaPBZUZ5JsxDEVB1RPZ",
+      "disc": "0c0214013327",
+      "data_len": 6,
+      "nacct": 39,
+      "nkeys": 38,
+      "mask": 15,
+      "writable": "ws1/rs0/wu17/ru20",
+      "n": 1,
+      "usd": 1.3378107658608327,
+      "example": "3RhBC7Xa3EUdzfL8shHvuNoqthiHPvFe7iYfCYGFGzZyYKCZh9Xq5t8BphiPHpcKGjeL3G6JYSj8919aJfuM9KoU",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "HVi6VyyLvTtFTA8f8atavxVjUKi8WjmnydfKgoZKzt7H|0603000000000000|141|ws1/rs0/wu37/ru26|wsol",
+      "outer": "HVi6VyyLvTtFTA8f8atavxVjUKi8WjmnydfKgoZKzt7H",
+      "disc": "0603000000000000",
+      "data_len": 141,
+      "nacct": 67,
+      "nkeys": 64,
+      "mask": 15,
+      "writable": "ws1/rs0/wu37/ru26",
+      "n": 6,
+      "usd": 1.3294139584501063,
+      "example": "2b7zHoWmvC7uBB65mohXd7VTeDqR3FRBZLTuoGNw1kCfb19z6ky9GxCbnLedVuJBzBf6Mphf7nxnMExnHNu3LVht",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 6,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 6,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 6,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 6,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 6,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 6,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 6,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 6
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|0202000000180001|44|ws1/rs0/wu20/ru22|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "0202000000180001",
+      "data_len": 44,
+      "nacct": 48,
+      "nkeys": 43,
+      "mask": 15,
+      "writable": "ws1/rs0/wu20/ru22",
+      "n": 2,
+      "usd": 1.1988467179499374,
+      "example": "3M4hfdsYtnffduapd36WLz7iqPdqzASy3EJGmWyZd12eDat5iR2XDoMoGtr4v84jXgzaqu9q6ZiFFEnqzkRTyw4Y",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 2
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "joeHSutRWndCtp1EPx5tz5zHyaPBZUZ5JsxDEVB1RPZ|0c021401253922|7|ws1/rs0/wu18/ru21|wsol",
+      "outer": "joeHSutRWndCtp1EPx5tz5zHyaPBZUZ5JsxDEVB1RPZ",
+      "disc": "0c021401253922",
+      "data_len": 7,
+      "nacct": 39,
+      "nkeys": 40,
+      "mask": 15,
+      "writable": "ws1/rs0/wu18/ru21",
+      "n": 1,
+      "usd": 1.0871719817705443,
+      "example": "3nxKMK6EubzBzMmRSHuHz5CiWHRGVhSvbRsRSJ5uQKNBq3zA5ViEGUqgiJ5HgxWK2dfChEUHCQCqL3d9QG9XoPf5",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "FsU1rcaEC361jBr9JE5wm7bpWRSTYeAMN4R2MCs11rNF|0805040000000000|186|ws1/rs0/wu36/ru23|wsol",
+      "outer": "FsU1rcaEC361jBr9JE5wm7bpWRSTYeAMN4R2MCs11rNF",
+      "disc": "0805040000000000",
+      "data_len": 186,
+      "nacct": 102,
+      "nkeys": 60,
+      "mask": 31,
+      "writable": "ws1/rs0/wu36/ru23",
+      "n": 1,
+      "usd": 1.0642747066276337,
+      "example": "4R2Fdjw49jWqbFGBWYu6xnD6yi5S2W5TowpsDyxt7zEjFJW6PdBKiEJHA8uUV7E41aqyQYPnouDtFRyRqTgRt5ct",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02ad74bcfaa96ca5|39|ws1/rs0/wu27/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02ad74bcfaa96ca5",
+      "data_len": 39,
+      "nacct": 76,
+      "nkeys": 51,
+      "mask": 31,
+      "writable": "ws1/rs0/wu27/ru23",
+      "n": 1,
+      "usd": 1.0489330005510855,
+      "example": "3n8YQ4K2FT7TTgwSy3Ekg455s1xjrdc9N3aoXMy8dfHzKBy7FHoRhw3JfZR162YwmXvT5jTCWpGfTAJ55mCxXSGa",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02a600626015737b|43|ws1/rs0/wu33/ru24|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02a600626015737b",
+      "data_len": 43,
+      "nacct": 82,
+      "nkeys": 58,
+      "mask": 31,
+      "writable": "ws1/rs0/wu33/ru24",
+      "n": 1,
+      "usd": 1.0456918866838516,
+      "example": "3YuAURxVFRyy2BELQA94ZEkcesxwcNJVXhZQsLCNFBxkB3LCDbP4QEaEm4TnbDfvotmjavXaL89rCo9GEo3yiDms",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|0202000000180001|35|ws1/rs0/wu19/ru23|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "0202000000180001",
+      "data_len": 35,
+      "nacct": 45,
+      "nkeys": 43,
+      "mask": 15,
+      "writable": "ws1/rs0/wu19/ru23",
+      "n": 1,
+      "usd": 0.9857762655073256,
+      "example": "26pGFgYM1RmYhZfPZZR54DBazmzN4keS2CQc8tUP6NMR8jfKLWxmUfhPSUD83hvGGKdD5QPVE3S8mzqMwZLtyH59",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "FsU1rcaEC361jBr9JE5wm7bpWRSTYeAMN4R2MCs11rNF|0804050000000000|160|ws1/rs0/wu30/ru20|wsol",
+      "outer": "FsU1rcaEC361jBr9JE5wm7bpWRSTYeAMN4R2MCs11rNF",
+      "disc": "0804050000000000",
+      "data_len": 160,
+      "nacct": 77,
+      "nkeys": 51,
+      "mask": 31,
+      "writable": "ws1/rs0/wu30/ru20",
+      "n": 1,
+      "usd": 0.9527403279364348,
+      "example": "CehamgkCvTpc6LbLzJSPhAjCEhL7DvGv2t9SLhpaoNzehzimUTbCGnr74QEwmPoPB7vvsEZf4n53mZShCYphSrL",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02915ffbbc4323e8|41|ws1/rs0/wu34/ru27|wsol+usdc",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02915ffbbc4323e8",
+      "data_len": 41,
+      "nacct": 79,
+      "nkeys": 62,
+      "mask": 31,
+      "writable": "ws1/rs0/wu34/ru27",
+      "n": 1,
+      "usd": 0.8725458707210596,
+      "example": "4Egz2brjhUxb9LvkVjFxRb141bFYwwr1TGNrUBUKHZ9UuKGU1YS3ojQgKY6gHxfdGYep24px8vfUYMSDtcpmd5VU",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "9GCBb4NsSDRuEkkGfQkN37oppmMVPops5sXDWhAKAvQQ|07020000004b001b|35|ws1/rs0/wu18/ru20|wsol",
+      "outer": "9GCBb4NsSDRuEkkGfQkN37oppmMVPops5sXDWhAKAvQQ",
+      "disc": "07020000004b001b",
+      "data_len": 35,
+      "nacct": 59,
+      "nkeys": 39,
+      "mask": 15,
+      "writable": "ws1/rs0/wu18/ru20",
+      "n": 1,
+      "usd": 0.8432867125977148,
+      "example": "2gRd9UwhTBGEqYeehrHDcjuWWsKQxct6uvfoaBZA39gzBkkcp2H9CyS1eEDrjrtPMZDxfL3boD2sFxWtiDaNWebh",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr|c1d42ed8c7c5b74c|54|ws1/rs0/wu37/ru23|wsol",
+      "outer": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr",
+      "disc": "c1d42ed8c7c5b74c",
+      "data_len": 54,
+      "nacct": 61,
+      "nkeys": 61,
+      "mask": 15,
+      "writable": "ws1/rs0/wu37/ru23",
+      "n": 1,
+      "usd": 0.8087039449065873,
+      "example": "5iqZTbaK65ZAMXRoPoEUj45txGmDEcNY947EvWZe8FaqoU45WNw4WHM9C6h1EtvxPoZuhmDKGywx6V4DoMem6ZNQ",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg|d4c338b7ba130647|103|ws1/rs0/wu32/ru21|wsol",
+      "outer": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg",
+      "disc": "d4c338b7ba130647",
+      "data_len": 103,
+      "nacct": 52,
+      "nkeys": 54,
+      "mask": 15,
+      "writable": "ws1/rs0/wu32/ru21",
+      "n": 4,
+      "usd": 0.7588039856507873,
+      "example": "2ytypeu5xBNj323ow6vYGsCjvputfxcRKXa1yjRNGQtmGYHn35iFkyF5mmV157egSvzvghdugercPyw1mFscTKoF",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": 1.0,
+          "n_train": 3,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 3,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 3,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 3,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 3,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 3,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 3,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 4
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02f3589964036bd8|41|ws1/rs0/wu35/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02f3589964036bd8",
+      "data_len": 41,
+      "nacct": 92,
+      "nkeys": 59,
+      "mask": 31,
+      "writable": "ws1/rs0/wu35/ru23",
+      "n": 1,
+      "usd": 0.629313965128833,
+      "example": "2UDPzb8xvVdzGGDArhryWzparBwHohVURzQU77ZbDbzWyfJGE4HVfkdCsjEeqTGNSNFho9RuCrZ3La6Gw2ZJWD36",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|027e72360fe30fbd|41|ws1/rs0/wu35/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "027e72360fe30fbd",
+      "data_len": 41,
+      "nacct": 92,
+      "nkeys": 59,
+      "mask": 31,
+      "writable": "ws1/rs0/wu35/ru23",
+      "n": 1,
+      "usd": 0.6018138773502046,
+      "example": "3aoh4KPRbmbJk52a8v36N3CcLW87LpgPnzEbXG99xdTatQkfHRbNCAVmPbBp8sPmwvGB7uH8J7sWyzso4tncmcWL",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02c1c57847b30ada|41|ws1/rs0/wu35/ru24|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02c1c57847b30ada",
+      "data_len": 41,
+      "nacct": 90,
+      "nkeys": 60,
+      "mask": 31,
+      "writable": "ws1/rs0/wu35/ru24",
+      "n": 1,
+      "usd": 0.5883209917628663,
+      "example": "4qM8ab8BbWnLBubUbdFeda1wvdnKBYsVNN8EwCDYN4rHKpXLunjbrZg7xAkzjqe6i9Ju79PquU3ih4fwnf2MDX5n",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02fe90d74cc41455|39|ws1/rs0/wu29/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02fe90d74cc41455",
+      "data_len": 39,
+      "nacct": 77,
+      "nkeys": 53,
+      "mask": 31,
+      "writable": "ws1/rs0/wu29/ru23",
+      "n": 1,
+      "usd": 0.5830294775714066,
+      "example": "62hmZyDvF44FMJuBHK6AgLc46XvGr6dpBGNVX4xtBzQtdoRB91W3EeXiQ8HgmQztpecogZ6QqTFKLVWf6nD3RihL",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "giftBX9qeXhyECT79zNvJBTMFDxRny8w4yS8iky8BsK|041b15000019f0df|21|ws1/rs0/wu21/ru18|wsol",
+      "outer": "giftBX9qeXhyECT79zNvJBTMFDxRny8w4yS8iky8BsK",
+      "disc": "041b15000019f0df",
+      "data_len": 21,
+      "nacct": 52,
+      "nkeys": 40,
+      "mask": 15,
+      "writable": "ws1/rs0/wu21/ru18",
+      "n": 1,
+      "usd": 0.5719674201742924,
+      "example": "3VrGxCXKBTNRenZQpkFnZ4AjfmCdCbmFEYi2nZmnFZVQ14ZhXEgmGBd4rXUbjezLHiLVanzDT6HJx4TYZuntGKpu",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr|9e1358a54b2d8e2a|55|ws1/rs0/wu39/ru23|wsol",
+      "outer": "3iqgDsg6aeZK36BSbfd86HFiSfCnkGznE5jHzShqEtGr",
+      "disc": "9e1358a54b2d8e2a",
+      "data_len": 55,
+      "nacct": 62,
+      "nkeys": 63,
+      "mask": 15,
+      "writable": "ws1/rs0/wu39/ru23",
+      "n": 1,
+      "usd": 0.569624296740646,
+      "example": "4EKBJ6cHH2f7uht2SsnoUu3h1z79ntBox1zvQEzy3vRyRRtGMa72J1JUC2RCQLWDQeDs8J2W6tRhQuZJK53hWDJr",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "CkvEApcoFPWUgBDheYvUzHqtUj58AXop7vwizEieXXSE|03208a36e1fee16a|31|ws1/rs0/wu16/ru23|wsol",
+      "outer": "CkvEApcoFPWUgBDheYvUzHqtUj58AXop7vwizEieXXSE",
+      "disc": "03208a36e1fee16a",
+      "data_len": 31,
+      "nacct": 48,
+      "nkeys": 40,
+      "mask": 15,
+      "writable": "ws1/rs0/wu16/ru23",
+      "n": 1,
+      "usd": 0.5565239106415747,
+      "example": "2uE4FhxEXoQHhL8eEiQUuuYP5rMQgDHpgyHSjvVWg55nAnGAVA4RM5St5D8hDHNhZxapebt5pEsE9eChxh1Txz2H",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "NA777pkN8YYSsQKk1zvwKgJmThtuWbmhonzJxRARQm5|01281001ff190200|13|ws1/rs0/wu18/ru21|wsol",
+      "outer": "NA777pkN8YYSsQKk1zvwKgJmThtuWbmhonzJxRARQm5",
+      "disc": "01281001ff190200",
+      "data_len": 13,
+      "nacct": 38,
+      "nkeys": 40,
+      "mask": 15,
+      "writable": "ws1/rs0/wu18/ru21",
+      "n": 1,
+      "usd": 0.5455596759505379,
+      "example": "4Skqa4tUX9QprwuQw8Ax3W2hsS8cJJoEhFvLj8kH9TS5zKC7ZYYuNdeLewous389t7bvkpDD63Fe6LffZTkSPmZs",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02ac0af0df504d5e|39|ws1/rs0/wu28/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02ac0af0df504d5e",
+      "data_len": 39,
+      "nacct": 77,
+      "nkeys": 52,
+      "mask": 31,
+      "writable": "ws1/rs0/wu28/ru23",
+      "n": 1,
+      "usd": 0.5418582434036627,
+      "example": "61dS1w1DAL6MwCGLsPkGJMEnRKZpF9fjjLBhk6rnVXKL8E1sXW9p6PjZ13CWMAKk3jquyQrEm2SZYhR4bzQmD4ZP",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02fab5b707a52a47|41|ws1/rs0/wu35/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02fab5b707a52a47",
+      "data_len": 41,
+      "nacct": 92,
+      "nkeys": 59,
+      "mask": 31,
+      "writable": "ws1/rs0/wu35/ru23",
+      "n": 1,
+      "usd": 0.5353809424185475,
+      "example": "3p2RbqDQbseNTJzTtf4CGSy6KXNQB5HHNRwuyqeJHM58vaD23GqEwMGTibb5kAAzGRB7Gzh6GsS7m39ZTJfGo5iH",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "HVi6VyyLvTtFTA8f8atavxVjUKi8WjmnydfKgoZKzt7H|0604000000000000|181|ws1/rs0/wu35/ru25|wsol",
+      "outer": "HVi6VyyLvTtFTA8f8atavxVjUKi8WjmnydfKgoZKzt7H",
+      "disc": "0604000000000000",
+      "data_len": 181,
+      "nacct": 62,
+      "nkeys": 61,
+      "mask": 15,
+      "writable": "ws1/rs0/wu35/ru25",
+      "n": 1,
+      "usd": 0.4968271593646459,
+      "example": "2D5diHQdyuXZQGDzFb6CneBB2xG8CUmjnL7j3z8QVRtXk1h1RPSqtsVWgbMwiydQKekzVq61UHWWDxxTPFW24i1Q",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "9i7QdbBHx7fjLAAaFfcDRgkdS4oNfKv8duzyE27a1kJ6|0c|1|ws1/rs0/wu17/ru21|wsol",
+      "outer": "9i7QdbBHx7fjLAAaFfcDRgkdS4oNfKv8duzyE27a1kJ6",
+      "disc": "0c",
+      "data_len": 1,
+      "nacct": 1,
+      "nkeys": 39,
+      "mask": 15,
+      "writable": "ws1/rs0/wu17/ru21",
+      "n": 1,
+      "usd": 0.4836998680116898,
+      "example": "PzKW8WT7mFS2FSy6TCdiGWc7CATLaauaho2w4t8VfkeHhEErGjXGwPyz7DDRMQxLCzavHyPRmxJzWBhCmsHRzxE",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "9oGumqDij9gq54z6tz1RTpdDwmJY24Wq7WAUex7BK54i|6500000000000000|37|ws1/rs0/wu20/ru21|wsol",
+      "outer": "9oGumqDij9gq54z6tz1RTpdDwmJY24Wq7WAUex7BK54i",
+      "disc": "6500000000000000",
+      "data_len": 37,
+      "nacct": 45,
+      "nkeys": 42,
+      "mask": 15,
+      "writable": "ws1/rs0/wu20/ru21",
+      "n": 5,
+      "usd": 0.4769654135977136,
+      "example": "sRfzGdpxz4hdGWuxnM2YKrJN4bqA4t49wWzNUVABcmYmrKqp4YYRKF3VwL99kCG55ZmDhyo1XDa7tGJ1ccbWPRz",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": 1.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 4,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 5
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "8zz4wCGxRTMDkB3Pz36eV3NQ9eMz1yAGboieBC6idS3k|00b6957a00000000|39|ws1/rs0/wu28/ru22|wsol+usdc",
+      "outer": "8zz4wCGxRTMDkB3Pz36eV3NQ9eMz1yAGboieBC6idS3k",
+      "disc": "00b6957a00000000",
+      "data_len": 39,
+      "nacct": 78,
+      "nkeys": 51,
+      "mask": 15,
+      "writable": "ws1/rs0/wu28/ru22",
+      "n": 1,
+      "usd": 0.4468819717095389,
+      "example": "47KQLynR7bGUXHnhsekHej58mUJFQnNo7N9uVZASRjkU5MQ8XxMFFSzWDkhYqnLQ7YxD9yRJvCfk5v5eP1mPNh6V",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|02020000001a7686|35|ws1/rs0/wu14/ru21|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "02020000001a7686",
+      "data_len": 35,
+      "nacct": 41,
+      "nkeys": 36,
+      "mask": 15,
+      "writable": "ws1/rs0/wu14/ru21",
+      "n": 1,
+      "usd": 0.44469513065392485,
+      "example": "44ZS3HFANuCRtVvRYVgZC7sEjaMXsTjhYhZKhoF7Hkin5mk37F5fPVhLAGUaa2Jw9uPutqF3TDWfKUkKTjZtpufM",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|0222f75bd84cd8f3|41|ws1/rs0/wu34/ru25|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "0222f75bd84cd8f3",
+      "data_len": 41,
+      "nacct": 82,
+      "nkeys": 60,
+      "mask": 31,
+      "writable": "ws1/rs0/wu34/ru25",
+      "n": 1,
+      "usd": 0.4355461892226152,
+      "example": "2JSLfrmZY5bbT7TkTMdYSRoRCcqWQSDgbErYjXrkGW2WrCAs2rYVa1DsUX4YnY5Ao8eWrVgLViXMtD1kFknNwkdp",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "L6pUpkHtq3CLtJRTrZ9GsBxfweZ8iPS6CnDQMdmcbad|7ab3b45c00000000|22|ws1/rs0/wu17/ru20|wsol",
+      "outer": "L6pUpkHtq3CLtJRTrZ9GsBxfweZ8iPS6CnDQMdmcbad",
+      "disc": "7ab3b45c00000000",
+      "data_len": 22,
+      "nacct": 39,
+      "nkeys": 38,
+      "mask": 12,
+      "writable": "ws1/rs0/wu17/ru20",
+      "n": 1,
+      "usd": 0.4277167127242465,
+      "example": "5QQEkAEzBaXUE7Z6nTWu5hEboLVrEKYz7Ui2u6MntDf2zo8FhJaV5kbTJyu2myZc9czVPDBfQhjmYVdXVZLAEGBq",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg|d4c338b7ba130647|109|ws1/rs0/wu37/ru23|wsol",
+      "outer": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg",
+      "disc": "d4c338b7ba130647",
+      "data_len": 109,
+      "nacct": 63,
+      "nkeys": 61,
+      "mask": 15,
+      "writable": "ws1/rs0/wu37/ru23",
+      "n": 3,
+      "usd": 0.4226142076806166,
+      "example": "5Hvi6bGwBMDhc2Ka9EyrH7QyutcNGwuAR55xs4rjGKMz25S1RXtqmnqRRfi3nC2Qaax53831g3Q4tXEGXSdb1pn",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": 1.0,
+          "n_train": 2,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 2,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 2,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 2,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 2,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 2,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 2,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 3
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg|d4c338b7ba130647|109|ws1/rs0/wu40/ru21|wsol",
+      "outer": "5aMAKxzyqesf1dn7cDLPdGxwshZf1aVNavYzAQQU32Fg",
+      "disc": "d4c338b7ba130647",
+      "data_len": 109,
+      "nacct": 60,
+      "nkeys": 62,
+      "mask": 15,
+      "writable": "ws1/rs0/wu40/ru21",
+      "n": 1,
+      "usd": 0.408310042857151,
+      "example": "5DhefSqGWTzT5SKV1nMtQT2pcMk8BkkTannEFq1X8t8kXSWD8adyUGG8r4hnzFgKCn8EAipBtPiWkbV1z6EJZqZX",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "giftBX9qeXhyECT79zNvJBTMFDxRny8w4yS8iky8BsK|041b1500008e8cae|21|ws1/rs0/wu19/ru19|wsol",
+      "outer": "giftBX9qeXhyECT79zNvJBTMFDxRny8w4yS8iky8BsK",
+      "disc": "041b1500008e8cae",
+      "data_len": 21,
+      "nacct": 52,
+      "nkeys": 39,
+      "mask": 15,
+      "writable": "ws1/rs0/wu19/ru19",
+      "n": 1,
+      "usd": 0.40403305276335255,
+      "example": "5pvu9fXJzFKRibFWrEX7ZrnGR5AWnbBEUmvhaXjq56avyantPscfMffX5sGVRyD5Nuk47JF3BkuZkkYmhVgbCNDc",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|025518e751a14b41|41|ws1/rs0/wu35/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "025518e751a14b41",
+      "data_len": 41,
+      "nacct": 92,
+      "nkeys": 59,
+      "mask": 31,
+      "writable": "ws1/rs0/wu35/ru23",
+      "n": 1,
+      "usd": 0.3879267625015529,
+      "example": "3rN3psaNuuQfure5VJjnmkqFNoj45qmEnisJE2b5V8J6vyk8njwJBRNh2tGsCMKLNJbLkqRZCGnq1kTLHx7cvXkK",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "L6pUpkHtq3CLtJRTrZ9GsBxfweZ8iPS6CnDQMdmcbad|d4ada71300000000|22|ws1/rs0/wu17/ru20|wsol",
+      "outer": "L6pUpkHtq3CLtJRTrZ9GsBxfweZ8iPS6CnDQMdmcbad",
+      "disc": "d4ada71300000000",
+      "data_len": 22,
+      "nacct": 39,
+      "nkeys": 38,
+      "mask": 12,
+      "writable": "ws1/rs0/wu17/ru20",
+      "n": 1,
+      "usd": 0.3808241887113586,
+      "example": "3HCm5nm8L7xR3vR9AfKztcjEGS8vCprX4sTJHTdabUNv92G7P1Cxe61v2d4EdGrS4tgUdGmkHGpGa1FQdoeAsRp1",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|05002e6f0b000100|15|ws1/rs0/wu16/ru22|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "05002e6f0b000100",
+      "data_len": 15,
+      "nacct": 43,
+      "nkeys": 39,
+      "mask": 15,
+      "writable": "ws1/rs0/wu16/ru22",
+      "n": 1,
+      "usd": 0.35627379936429615,
+      "example": "4R1FbDWW6SbS4gxiUGmKdbniJ39CKzhNKYf23yR3m36DUj2X421mfzwikZ8697iu7GHryuss16jnjBu1pG3MVJLt",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "aUcoKkPfBdqiR5rCLPSD2hwVZduWb3eH4V2KvaebTZp|02b30c90829e5659|35|ws1/rs0/wu31/ru22|wsol",
+      "outer": "aUcoKkPfBdqiR5rCLPSD2hwVZduWb3eH4V2KvaebTZp",
+      "disc": "02b30c90829e5659",
+      "data_len": 35,
+      "nacct": 69,
+      "nkeys": 54,
+      "mask": 31,
+      "writable": "ws1/rs0/wu31/ru22",
+      "n": 1,
+      "usd": 0.3554166060534053,
+      "example": "5qeS1SepzBH63bW4zG265HfoK4dNkXks4tfM6hgFjpihbQBDDe9UAbAsMFFGrRLrC6FV6LUtmfcskwmo8dCXcoJ1",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "HiP3dRdEbzPETVLrwu7Mht6G3XQkPVF6dUgXtDFeiRvH|0000000000000000|26|ws1/rs0/wu40/ru23|wsol",
+      "outer": "HiP3dRdEbzPETVLrwu7Mht6G3XQkPVF6dUgXtDFeiRvH",
+      "disc": "0000000000000000",
+      "data_len": 26,
+      "nacct": 90,
+      "nkeys": 64,
+      "mask": 15,
+      "writable": "ws1/rs0/wu40/ru23",
+      "n": 3,
+      "usd": 0.34195010891259653,
+      "example": "3K4oAmJ7QLtEF9n9pXPckbLqgzBvNckckwVXuNjMpF71Qgt95fdB8Zz7PrAcLxW2NvDNxv9m47ivixh3wczmJLtC",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 3
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "9i7QdbBHx7fjLAAaFfcDRgkdS4oNfKv8duzyE27a1kJ6|0c|1|ws1/rs0/wu16/ru21|wsol",
+      "outer": "9i7QdbBHx7fjLAAaFfcDRgkdS4oNfKv8duzyE27a1kJ6",
+      "disc": "0c",
+      "data_len": 1,
+      "nacct": 1,
+      "nkeys": 38,
+      "mask": 15,
+      "writable": "ws1/rs0/wu16/ru21",
+      "n": 1,
+      "usd": 0.340709281941479,
+      "example": "4L4HqNF68Fq5CxEWiQ7AdHS323eVr9sxpjUKVQw8RUsWBH6o4xdyo3cZU8Yk1P6EVREAfQcxPXoW8cSbfV19XVDk",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "DRSw8uSW9De7eCKSM9qXm7aD2QKrvcJnA7Hf4Uu3ezYM|01a88e7b11000000|21|ws1/rs0/wu15/ru20|wsol",
+      "outer": "DRSw8uSW9De7eCKSM9qXm7aD2QKrvcJnA7Hf4Uu3ezYM",
+      "disc": "01a88e7b11000000",
+      "data_len": 21,
+      "nacct": 36,
+      "nkeys": 36,
+      "mask": 15,
+      "writable": "ws1/rs0/wu15/ru20",
+      "n": 1,
+      "usd": 0.337220922820023,
+      "example": "5xzFaovrWuarGvnqeSmPYRmrYtr5jxzeWJEJTg8sQfQyaSypcMCaxf7d5NvnYtkVc2qiPWhZjFNkjq6LwWq8WAxH",
+      "fields": {
+        "pools": {
+          "train": null,
+          "holdout": 1.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "direction": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": null,
+          "holdout": 0.0,
+          "n_train": 0,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "unknown"
+    },
+    {
+      "shape": "GD6v17qZJbf1zde2JjZiKBQt3TC5kBP6KbAnfxUcE6aD|0301020288130000|80|ws1/rs0/wu17/ru20|wsol",
+      "outer": "GD6v17qZJbf1zde2JjZiKBQt3TC5kBP6KbAnfxUcE6aD",
+      "disc": "0301020288130000",
+      "data_len": 80,
+      "nacct": 37,
+      "nkeys": 38,
+      "mask": 31,
+      "writable": "ws1/rs0/wu17/ru20",
+      "n": 2,
+      "usd": 0.3064562492112505,
+      "example": "5UUa5NuGvjw1oTnf8brX1uhn2yJqAHjT6Cdr4miyYt9vwQcX3KcGaDnJ83RarE5Aa6kyutwY47E9ruK7YC8qtvNu",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 2
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02580557103565cd|41|ws1/rs0/wu35/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02580557103565cd",
+      "data_len": 41,
+      "nacct": 92,
+      "nkeys": 59,
+      "mask": 31,
+      "writable": "ws1/rs0/wu35/ru23",
+      "n": 1,
+      "usd": 0.29580376383692203,
+      "example": "429znVGTNhf7oea1FVNsRj4ZHXeknqksTp2QVoEkK4uT557wk7Q1njSXFvbtd2Fdh8ndKYPYYCzge6pJK64ooKUm",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T|0202000000180001|23|ws1/rs0/wu19/ru22|wsol",
+      "outer": "King7ki4SKMBPb3iupnQwTyjsq294jaXsgLmJo8cb7T",
+      "disc": "0202000000180001",
+      "data_len": 23,
+      "nacct": 46,
+      "nkeys": 42,
+      "mask": 15,
+      "writable": "ws1/rs0/wu19/ru22",
+      "n": 13,
+      "usd": 0.2862943781287365,
+      "example": "4GsHP6skk5UZtMqLGjgc31BF7HX2xp4KGuPWHYJG1ia44rKrBwFcEDsYrnhmEenRFA6tktePJaViwe4ywGVsAVZL",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": 1.0,
+          "n_train": 12,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 12,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 12,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 12,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 12,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 12,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": 0.0,
+          "n_train": 12,
+          "n_hold": 1,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 13
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "HiPMPcYjLNPgjvdzBoavzMbCeHaXWkAuDxyuE9VoPrkf|1400010000000000|15|ws1/rs0/wu23/ru20|wsol",
+      "outer": "HiPMPcYjLNPgjvdzBoavzMbCeHaXWkAuDxyuE9VoPrkf",
+      "disc": "1400010000000000",
+      "data_len": 15,
+      "nacct": 48,
+      "nkeys": 44,
+      "mask": 15,
+      "writable": "ws1/rs0/wu23/ru20",
+      "n": 3,
+      "usd": 0.2767319132253764,
+      "example": "2Drt5erE4yU34ywyx8PSiQ1nnSBYX68GyTUqtgckMcNdySrx6KwdipcVuofdPeZRHsh7tNPJRxEf9ehAMW2w7BR2",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 3,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 3
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "HiP3dRdEbzPETVLrwu7Mht6G3XQkPVF6dUgXtDFeiRvH|0000000000000000|26|ws1/rs0/wu39/ru24|wsol",
+      "outer": "HiP3dRdEbzPETVLrwu7Mht6G3XQkPVF6dUgXtDFeiRvH",
+      "disc": "0000000000000000",
+      "data_len": 26,
+      "nacct": 82,
+      "nkeys": 64,
+      "mask": 15,
+      "writable": "ws1/rs0/wu39/ru24",
+      "n": 2,
+      "usd": 0.2731489548530787,
+      "example": "2gQkDVxLk9zc3Eas5ec4Dn7dMYVvtvibYjJjk8i2kSyVrnuqHgy9wjSictx65nDMwasmyJt3DDgsRdTzXfj8ddcy",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 2,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 2
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "L6pUpkHtq3CLtJRTrZ9GsBxfweZ8iPS6CnDQMdmcbad|97d4ff6100000000|22|ws1/rs0/wu17/ru20|wsol",
+      "outer": "L6pUpkHtq3CLtJRTrZ9GsBxfweZ8iPS6CnDQMdmcbad",
+      "disc": "97d4ff6100000000",
+      "data_len": 22,
+      "nacct": 39,
+      "nkeys": 38,
+      "mask": 12,
+      "writable": "ws1/rs0/wu17/ru20",
+      "n": 1,
+      "usd": 0.2585893734183822,
+      "example": "2L6cYhYwEZ943afavkcGxpYLKA7PigXWorjKhcrvUZH1yD5TouSK9E6DGdqAj8X7mzjQB8JHZdjP8ZKKD5FcKn9e",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    },
+    {
+      "shape": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz|02520ef1cf5c4c77|39|ws1/rs0/wu28/ru23|wsol",
+      "outer": "AtqbPMZMCccvHj9P8bJdg4QZuzX6bs9KAbGueL4oQcUz",
+      "disc": "02520ef1cf5c4c77",
+      "data_len": 39,
+      "nacct": 77,
+      "nkeys": 52,
+      "mask": 31,
+      "writable": "ws1/rs0/wu28/ru23",
+      "n": 1,
+      "usd": 0.25527982179672265,
+      "example": "4kR67QJafQhqCD4DFsYoqaSZhbdRNoMpLhJsz98S2aaVeV8Eg45sAV7w5ToaXHHoWsL3afgYsWXUjtpvLrw1JLF3",
+      "fields": {
+        "pools": {
+          "train": 1.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": true
+        },
+        "direction": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "input_expression": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "output_previous_leg": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "balance_delta": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "inverse_quote": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        },
+        "terminal_state": {
+          "train": 0.0,
+          "holdout": null,
+          "n_train": 1,
+          "n_hold": 0,
+          "exact": false,
+          "bounded": false
+        }
+      },
+      "loci": {
+        "amount_absent_from_outer": 1
+      },
+      "verdict": "symbolic_bounded"
+    }
+  ],
+  "n_shapes": 476,
+  "direct": [],
+  "frozen_exact": []
+}

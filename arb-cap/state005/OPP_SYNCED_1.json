@@ -1,0 +1,57 @@
+{
+  "kind": "opp_synced",
+  "sig_hex": "0453e58d1aad333a3eec16aa5c7818633b122cd3ca22e5bdf3db83bcb88c95e873715c0a99024deec060189e1f2adfedeac7af63f26ac853d162193fbca40480",
+  "pool": "f4a0db7dac99f6a05cbff96ed801e07275b82d6c0e4cd667ed1f8bd8966cc1d8",
+  "state_version_before": 450359192,
+  "auth_slot": 450365204,
+  "auth_ns": 1281085894656258,
+  "n": {
+    "pool_idx": 6,
+    "proto": 1,
+    "direction": 1,
+    "amount_in": 10508564825
+  },
+  "s_prime": {
+    "active_id": -21202,
+    "active_after": -21202,
+    "reserve_x": 118577087157,
+    "reserve_y": 12477125691,
+    "vol_acc": 60000,
+    "vol_ref": 40000,
+    "idx_ref": -21200,
+    "last_upd": 1790342629,
+    "fee": 1663174,
+    "protocol_fee": 166316,
+    "touched": [
+      {
+        "id": -21202,
+        "x": 3948768746,
+        "y": 318364905
+      },
+      {
+        "id": -21201,
+        "x": 6558132905,
+        "y": 0
+      }
+    ]
+  },
+  "arb": {
+    "direction": 0,
+    "amount_in": 13333333333,
+    "intermediate": 110973743184,
+    "final": 873872504714,
+    "gross": 860539171381
+  },
+  "timing": {
+    "actionable_ns": 1281094181792065,
+    "decision_ns": 126520,
+    "signed_ready_ns": 153499
+  },
+  "sig": "6254xiyHvPT8jDPUJQnSoAucp3d6rYUZ73jARTxbBsaKJ5vGiBQZtfK54RUbMuWcr4DcSQeKVjbisA8w4aFHNDM",
+  "n_landed": false,
+  "subsequent": null,
+  "edge_exists": false,
+  "taken": false,
+  "same_slot": false,
+  "note": "First opp_synced: pool was SYNCED immediately before N. gross is cycle_size protocol units. No send."
+}

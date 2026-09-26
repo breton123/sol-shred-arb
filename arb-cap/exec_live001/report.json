@@ -1,0 +1,18 @@
+{
+  "wallet": "HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX",
+  "program_id_attempted": "6xfcHyCsRkqbeJhX3RVd4gfHmTcQ6UWUhcP5cfGGrWNg",
+  "executable": false,
+  "loader": "BPFLoader2 (SIMD-0093, writes disabled)",
+  "locked_lamports": 70104000,
+  "sol_before": 0.091326,
+  "sol_after_approx": 0.021,
+  "program_bytes_v0": 7648,
+  "program_bytes_default": 13672,
+  "pair_dlmm": "DAErPzgiYQDhDwpMRgdvikXaZmnmznc3du3jy9i1AABk",
+  "pair_pump": "BRjMA8UALNp3diTKHfdeAn5riQrYPoaYez7KhYWD4oEs",
+  "tiny_in": 10000,
+  "sim_live": null,
+  "unitsConsumed": null,
+  "shim_51k": "discarded",
+  "need_sol_for_loader_v3": 0.15
+}

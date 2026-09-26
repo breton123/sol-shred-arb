@@ -1,0 +1,62 @@
+LATE-BOOK  no-Mriya + budget_return>=0
+eligible races             439
+competitor realized        $1026.0
+
+PROFIT
+bin              n          $  supp n     supp $
+<$0.10         157        3.7      35        0.6
+$0.10–1        184       61.2      47       16.2
+$1–5            65      148.1      25       55.5
+$5–10            9       62.7       6       41.1
+$10–50          13      253.4       5       82.4
+$50+             5      496.9       2      224.0
+
+WINDOW (N-actionable → competitor first)
+bin              n          $  supp n     supp $
+20–50 µs         0        0.0       0        0.0
+50–100 µs        0        0.0       0        0.0
+100–250 µs      86      155.2      28       22.4
+250–500 µs      24      106.0       6       15.5
+0.5–1 ms        15      118.3       2       13.9
+1–5 ms          99      178.7      32       24.5
+5 ms+          215      467.8      53      343.4
+
+PROTOCOL
+route                                                                        n          $
+Meteora DLMM → Pump Swap                                                   121      419.8
+Raydium Concentrated Liquidity → Meteora DLMM → Pump Swap                   16      114.2
+Meteora DLMM → Meteora DAMM V2                                              24      108.4
+Meteora DLMM                                                                22       98.8
+Raydium Liquidity Pool V4 → Raydium CPMM → Orca Whirlpools → Meteora DLMM     1       48.4
+Raydium Concentrated Liquidity → Meteora DLMM                               23       30.4
+Pump Swap → Meteora DAMM V2                                                 18       29.3
+Raydium CPMM → Orca Whirlpools → Meteora DLMM                               13       22.9
+Raydium CPMM → Meteora DLMM → Manifest → Pancake Swap                        1       16.3
+Raydium CPMM → Meteora DLMM → Manifest                                       2       15.9
+Orca Whirlpools → Meteora DLMM → Pump Swap                                  11       13.5
+Raydium Concentrated Liquidity → Orca Whirlpools                             6       12.8
+Orca Whirlpools → Meteora DLMM                                              25       12.0
+Raydium CPMM → Meteora DLMM                                                 10       11.6
+Raydium CPMM → Raydium Concentrated Liquidity → Orca Whirlpools              2        8.4
+
+SWEET SPOT  supported DLMM↔Pump ∩ profit≥$1 ∩ window≥500µs
+n=27  $369.6
+loose  supported ∩ ≥$0.10 ∩ ≥250µs
+n=66  $397.0
+
+LATE-BOOK PAPER REPLAY
+eligible races             439
+our supported route        121
+our core sees +PnL         0
+our predicted profit       $0
+competitor realized        $1026.0
+  of which supported       $419.8
+our signed-ready before competitor:
+                           439 / 439  (all, by construction)
+  on supported only        121 / 121
+median lead (supported)    3687.6 µs
+p10 / p90 lead             193.7 / 15755.5 µs
+
+CORE: cycle_size not run. Trial window has no DLMM bin snapshots;
+the 80 CORE-004 triples are earlier slots and do not overlap.
+V1 gate that we CAN answer from this corpus is route ∩ window ∩ $.

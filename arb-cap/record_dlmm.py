@@ -63,10 +63,10 @@ def _pace() -> None:
     _rpc_next = time.time() + _RPC_MIN_INTERVAL
 
 
-def rpc(method: str, params):
+def rpc(method: str, params, retries: int = 12, backoff: float = 15.0):
     body = json.dumps({"jsonrpc": "2.0", "id": 1, "method": method, "params": params}).encode()
     last = None
-    for attempt in range(12):
+    for attempt in range(max(1, retries)):
         _pace()
         req = urllib.request.Request(
             rpc_url(), data=body, headers={"Content-Type": "application/json"}
@@ -83,14 +83,14 @@ def rpc(method: str, params):
             return obj["result"]
         except (urllib.error.HTTPError, RateLimit) as e:
             last = e
-            wait = min(90.0, 15.0 * (attempt + 1))
+            wait = min(8.0, backoff * (attempt + 1))
             code = getattr(e, "code", 429)
             if code == 429 or isinstance(e, RateLimit):
                 hdrs = getattr(e, "headers", None)
                 ra = hdrs.get("Retry-After") if hdrs else None
                 if ra:
                     try:
-                        wait = min(90.0, max(wait, float(ra)))
+                        wait = min(8.0, max(wait, float(ra)))
                     except ValueError:
                         pass
                 print(f"rpc 429 {method} backoff {wait:.0f}s", flush=True)
@@ -119,11 +119,11 @@ def b58decode(s: str) -> bytes:
     return raw[-32:] if len(raw) >= 32 else raw.rjust(32, b"\x00")
 
 
-def get_multiple(keys: list[str]) -> list[dict | None]:
+def get_multiple(keys: list[str], retries: int = 12) -> list[dict | None]:
     out: list[dict | None] = []
     for i in range(0, len(keys), 100):
         chunk = keys[i : i + 100]
-        res = rpc("getMultipleAccounts", [chunk, {"encoding": "base64"}])
+        res = rpc("getMultipleAccounts", [chunk, {"encoding": "base64"}], retries=retries, backoff=2.0)
         ctx_slot = res["context"]["slot"]
         for acc in res["value"]:
             if acc is None:
@@ -136,6 +136,7 @@ def get_multiple(keys: list[str]) -> list[dict | None]:
                     "owner": acc["owner"],
                     "data": raw,
                     "lamports": acc["lamports"],
+                    "executable": acc.get("executable"),
                 }
             )
     return out
@@ -412,6 +413,47 @@ def array_indexes(active_id: int) -> list[int]:
     lo = bin_array_index(active_id - 16)
     hi = bin_array_index(active_id + 16)
     return list(range(lo, hi + 1))
+
+
+def array_indexes_k(active_id: int, k: int) -> list[int]:
+    lo = bin_array_index(active_id - k)
+    hi = bin_array_index(active_id + k)
+    return list(range(lo, hi + 1))
+
+
+def pricing_snap(pair: str, k: int = 64) -> dict | None:
+    """LbPair + real BinArrays. reserve_* is bin-sum, never vault."""
+    accs = get_multiple([pair])
+    if not accs or not accs[0] or accs[0]["owner"] != DLMM:
+        return None
+    try:
+        lb = parse_lbpair(accs[0]["data"])
+    except ValueError:
+        return None
+    keys = [bin_array_pda(pair, i) for i in array_indexes_k(lb["active_id"], k)]
+    arrs = get_multiple(keys)
+    bins = []
+    for acc in arrs:
+        if acc:
+            bins.extend(parse_bin_array(acc["data"]))
+    use = [b for b in bins if abs(b["id"] - lb["active_id"]) <= k]
+    use.sort(key=lambda b: b["id"])
+    vx = _pk(lb["vault_x"])
+    vy = _pk(lb["vault_y"])
+    vaults = get_multiple([vx, vy])
+    vault_x = token_amount(vaults[0]["data"]) if vaults and vaults[0] else None
+    vault_y = token_amount(vaults[1]["data"]) if vaults and vaults[1] else None
+    return {
+        "slot": accs[0]["slot"],
+        "pair": pair,
+        "lb": lb,
+        "bins": use,
+        "reserve_x": sum(b["x"] for b in use),
+        "reserve_y": sum(b["y"] for b in use),
+        "vault_x": vault_x,
+        "vault_y": vault_y,
+        "k": k,
+    }
 
 
 def pool_keys(pair: str, lb: dict) -> list[str]:
@@ -719,7 +761,7 @@ def main() -> int:
                 print("refresh err", e, flush=True)
             time.sleep(0.8)
 
-    print(f"done {have} triples → {out}", flush=True)
+    print(f"done {have} triples -> {out}", flush=True)
     return 0
 
 

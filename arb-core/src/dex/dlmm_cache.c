@@ -18,6 +18,42 @@ scalar_bytes(void)
 void
 dlmm_cache_init(dlmm_cache_t *c)
 {
+    if (c == NULL) {
+        return;
+    }
+    memset(c, 0, sizeof(*c));
+}
+
+int
+dlmm_cache_reserve(dlmm_cache_t *c, uint32_t cap)
+{
+    dlmm_pool_hot_t *p;
+
+    if (c == NULL || cap == 0 || cap > DLMM_CACHE_MAX_POOLS) {
+        return -1;
+    }
+    if (c->cap >= cap && c->pool != NULL) {
+        return 0;
+    }
+    p = realloc(c->pool, (size_t)cap * sizeof(*p));
+    if (p == NULL) {
+        return -1;
+    }
+    if (cap > c->cap) {
+        memset(p + c->cap, 0, (size_t)(cap - c->cap) * sizeof(*p));
+    }
+    c->pool = p;
+    c->cap = cap;
+    return 0;
+}
+
+void
+dlmm_cache_free(dlmm_cache_t *c)
+{
+    if (c == NULL) {
+        return;
+    }
+    free(c->pool);
     memset(c, 0, sizeof(*c));
 }
 
@@ -102,6 +138,19 @@ dlmm_cache_put(dlmm_cache_t *c, uint32_t pool_idx, const dlmm_state_t *s)
     if (c == NULL || s == NULL || pool_idx >= DLMM_CACHE_MAX_POOLS) {
         return -1;
     }
+    if (pool_idx >= c->cap) {
+        uint32_t nc = c->cap != 0 ? c->cap : 8u;
+        while (nc <= pool_idx) {
+            if (nc > DLMM_CACHE_MAX_POOLS / 2u) {
+                nc = DLMM_CACHE_MAX_POOLS;
+                break;
+            }
+            nc *= 2u;
+        }
+        if (dlmm_cache_reserve(c, nc) != 0) {
+            return -1;
+        }
+    }
     h = &c->pool[pool_idx];
     memset(h, 0, sizeof(*h));
     h->occupied = 1;
@@ -123,7 +172,8 @@ dlmm_cache_put(dlmm_cache_t *c, uint32_t pool_idx, const dlmm_state_t *s)
 const dlmm_pool_hot_t *
 dlmm_cache_get(const dlmm_cache_t *c, uint32_t pool_idx)
 {
-    if (c == NULL || pool_idx >= DLMM_CACHE_MAX_POOLS || !c->pool[pool_idx].occupied) {
+    if (c == NULL || c->pool == NULL || pool_idx >= c->cap
+        || !c->pool[pool_idx].occupied) {
         return NULL;
     }
     return &c->pool[pool_idx];
@@ -157,7 +207,7 @@ dlmm_cache_predict(const dlmm_cache_t *c, uint32_t pool_idx,
 int
 dlmm_cache_commit(dlmm_cache_t *c, uint32_t pool_idx, const dlmm_pool_hot_t *spec)
 {
-    if (c == NULL || spec == NULL || pool_idx >= DLMM_CACHE_MAX_POOLS) {
+    if (c == NULL || spec == NULL || c->pool == NULL || pool_idx >= c->cap) {
         return -1;
     }
     if (!c->pool[pool_idx].occupied || !spec->occupied) {
@@ -353,6 +403,7 @@ dlmm_cap_check(const dlmm_cap_rec_t *rec, dlmm_cap_verdict_t *v)
     state_from_cap_bins(rec, 0, &expect);
     dlmm_cache_init(&cache);
     if (dlmm_cache_put(&cache, rec->pool_idx, &before) != 0) {
+        dlmm_cache_free(&cache);
         return -1;
     }
     v->hot_bytes = dlmm_hot_bytes(dlmm_cache_get(&cache, rec->pool_idx));
@@ -367,6 +418,7 @@ dlmm_cap_check(const dlmm_cap_rec_t *rec, dlmm_cap_verdict_t *v)
     if (dlmm_cache_predict(&cache, rec->pool_idx, &ix, &spec, &res) != 0) {
         v->insufficient = 1;
         v->match = 0;
+        dlmm_cache_free(&cache);
         return 0;
     }
     {
@@ -393,5 +445,6 @@ dlmm_cap_check(const dlmm_cap_rec_t *rec, dlmm_cap_verdict_t *v)
     v->crossed = (uint16_t)((spec.active_id > before.active_id)
         ? (spec.active_id - before.active_id)
         : (before.active_id - spec.active_id));
+    dlmm_cache_free(&cache);
     return 0;
 }

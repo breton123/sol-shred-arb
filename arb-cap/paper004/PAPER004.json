@@ -1,0 +1,1084 @@
+{
+  "decisions": 113,
+  "opp": 34,
+  "why": {
+    "DLMM_MISSING_BIN": 72,
+    "OK": 34,
+    "PUMP_APPLY_FAIL": 2,
+    "NO_DLMM_PARTNER": 2,
+    "NO_PUMP_PARTNER": 1,
+    "NO_OPP": 2
+  },
+  "state_sufficient_replay": 36,
+  "missing_state_replay": 77,
+  "distribution": {
+    "n": 34,
+    "sol_px": 121.01,
+    "gross_sol_p50": 61.279179702,
+    "gross_sol_p90": 254.708031346,
+    "gross_sol_max": 350.561673232,
+    "gross_usd_p50": 7415.39353573902,
+    "gross_usd_p90": 30822.218873179463,
+    "gross_usd_max": 42421.46807780432,
+    "net_usd_p50": 7415.380829689021,
+    "tiny_lt_1c": 0,
+    "mid_1c_1d": 4,
+    "big_ge_1d": 30
+  },
+  "s_prime": {
+    "checked": 10,
+    "eq": 0,
+    "close": 0,
+    "mismatch": 10,
+    "n_unseen": 12,
+    "n_fail": 12
+  },
+  "chain": [
+    {
+      "i": 0,
+      "sig": "5FsVs9hP1VCw2jdoFNWgBGE7ibZjD9BvhacEF3ZTq6cKTdtS5RYnyMvPvhFxCVZ8tse9WG7cPQ9rrMu7Y6zBaDmq",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338778,
+      "n_dir": 1,
+      "n_ain": 4812642394,
+      "our_dir": 0,
+      "our_ain": 1500000000,
+      "predicted_gross_sol": 100.752232215,
+      "predicted_gross_usd": 12192.02762033715,
+      "predicted_net_usd": 12192.01491428715,
+      "ts_ns": 1274033921517114,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450338928,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    },
+    {
+      "i": 1,
+      "sig": "mwSC5UAuyycibRivNRf5PJ3REEcoN4mqA9EUync56DpGNdczuHgCrUGfCt54EmA9iMzwBwqG1cNNfxLuDJwWHdT",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338779,
+      "n_dir": 1,
+      "n_ain": 4363488457,
+      "our_dir": 0,
+      "our_ain": 2000000000,
+      "predicted_gross_sol": 134.160226415,
+      "predicted_gross_usd": 16234.728998479151,
+      "predicted_net_usd": 16234.716292429153,
+      "ts_ns": 1274065746372905,
+      "why": "OK",
+      "n_landed": true,
+      "slot": 450339045,
+      "confirm": "finalized",
+      "block_time": 1790335642,
+      "tx_index": null,
+      "first_shred_ns": 1274065746372905,
+      "s_prime_vs_post": {
+        "pred_rx": 727694829757,
+        "pred_ry": 352225612435,
+        "post_rx": 679970012108,
+        "post_ry": 355581853044,
+        "d_rx": 47724817649,
+        "d_ry": 3356240609,
+        "pred_active": -21186,
+        "chain_active": -21121
+      },
+      "s_prime_eq": false,
+      "actual_post": {
+        "vault_x_pre": 675606523651,
+        "vault_x_post": 679970012108,
+        "vault_y_pre": 356109362952,
+        "vault_y_post": 355581853044,
+        "chain_active_id": -21121
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      }
+    },
+    {
+      "i": 2,
+      "sig": "5DDLLcMWmEuFMnxqvY5qBuZbLegF62vaxJNqjigvyPJafd6ZqjHgYVyLdwDCqxzAoHgG9dEJ7L8ik1AwNHyS1Pbi",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338780,
+      "n_dir": 1,
+      "n_ain": 1315832588,
+      "our_dir": 0,
+      "our_ain": 2000000000,
+      "predicted_gross_sol": 134.190513251,
+      "predicted_gross_usd": 16238.39400850351,
+      "predicted_net_usd": 16238.381302453512,
+      "ts_ns": 1274071792592738,
+      "why": "OK",
+      "n_landed": true,
+      "slot": 450339068,
+      "confirm": "finalized",
+      "block_time": 1790335648,
+      "tx_index": null,
+      "first_shred_ns": 1274071792592738,
+      "s_prime_vs_post": {
+        "pred_rx": 729010506184,
+        "pred_ry": 352067452419,
+        "post_rx": 689608917035,
+        "post_ry": 354417285797,
+        "d_rx": 39401589149,
+        "d_ry": 2349833378,
+        "pred_active": -21187,
+        "chain_active": -21121
+      },
+      "s_prime_eq": false,
+      "actual_post": {
+        "vault_x_pre": 688293084447,
+        "vault_x_post": 689608917035,
+        "vault_y_pre": 354576210499,
+        "vault_y_post": 354417285797,
+        "chain_active_id": -21121
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": {
+          "sig": "3pDM22hohhu4shbjGBsJTTZ5AJw8yKW3iRrfH3TkqZ5CS9kX9jRnXzYqjcKHCcxVV6hYNGnWMfkfogfD5ZAQeCf1",
+          "slot": 450344662,
+          "searcher": "3i51cKbLbaKAqvRJdCUaq9hsnvf9kqCfMujNgFj7nRKt",
+          "tx_index": null,
+          "same_slot": false
+        }
+      }
+    },
+    {
+      "i": 3,
+      "sig": "2qWNiYzweYBKy8h4RaZejcY146pZFPbSPS5gYa6EpqWdov2GgbydL3ST2MvFf9hUBWiD1vFnF3GgvFzuyno5ApYw",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338781,
+      "n_dir": 0,
+      "n_ain": 608654615,
+      "our_dir": 0,
+      "our_ain": 1666666666,
+      "predicted_gross_sol": 111.882199243,
+      "predicted_gross_usd": 13538.864930395432,
+      "predicted_net_usd": 13538.85222434543,
+      "ts_ns": 1274075785337332,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 4,
+      "sig": "4x8hJeruZNZhwj4KK9Vm7nUuNLhThPEBa8DTY9FJicjh2GoZzL7sz8bHvd2FigFZvnFSbcZNjtin7QPPterVcrRa",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338782,
+      "n_dir": 0,
+      "n_ain": 500146443,
+      "our_dir": 0,
+      "our_ain": 1166666666,
+      "predicted_gross_sol": 78.417673876,
+      "predicted_gross_usd": 9489.32271573476,
+      "predicted_net_usd": 9489.31000968476,
+      "ts_ns": 1274082437754299,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450339105,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          4,
+          {
+            "Custom": 6003
+          }
+        ]
+      }
+    },
+    {
+      "i": 5,
+      "sig": "45R1G1Kqka3RhC8qEwUQ8qgJpdDyXb2fDC2WKB2jQdJBKjRPoVpYdpcUrwn11awXEn9GGWgJ9yGdKkEMCMCBuNLX",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338783,
+      "n_dir": 0,
+      "n_ain": 650406837,
+      "our_dir": 0,
+      "our_ain": 555555555,
+      "predicted_gross_sol": 37.403332773,
+      "predicted_gross_usd": 4526.177298860731,
+      "predicted_net_usd": 4526.164592810731,
+      "ts_ns": 1274082542338211,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 6,
+      "sig": "oGBwhTwKXyLAu4NzxK18DJ9LbBTeRUVPLdQTNfmysqgxPPwmFw6Cq6tjDHnHkBXQDmpmz7Gk32xnBW4i4GH6tsZ",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338784,
+      "n_dir": 0,
+      "n_ain": 306266,
+      "our_dir": 0,
+      "our_ain": 555555555,
+      "predicted_gross_sol": 37.405500427,
+      "predicted_gross_usd": 4526.43960667127,
+      "predicted_net_usd": 4526.426900621271,
+      "ts_ns": 1274131195390868,
+      "why": "OK",
+      "n_landed": true,
+      "slot": 450339290,
+      "confirm": "finalized",
+      "block_time": 1790335708,
+      "tx_index": null,
+      "first_shred_ns": 1274131195390868,
+      "s_prime_vs_post": {
+        "pred_rx": 714386974935,
+        "pred_ry": 353826626969,
+        "post_rx": 688769620068,
+        "post_ry": 353205062593,
+        "d_rx": 25617354867,
+        "d_ry": 621564376,
+        "pred_active": -21164,
+        "chain_active": -21121
+      },
+      "s_prime_eq": false,
+      "actual_post": {
+        "vault_x_pre": 688772154627,
+        "vault_x_post": 688769620068,
+        "vault_y_pre": 353204756327,
+        "vault_y_post": 353205062593,
+        "chain_active_id": -21121
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": {
+          "sig": "3pDM22hohhu4shbjGBsJTTZ5AJw8yKW3iRrfH3TkqZ5CS9kX9jRnXzYqjcKHCcxVV6hYNGnWMfkfogfD5ZAQeCf1",
+          "slot": 450344662,
+          "searcher": "3i51cKbLbaKAqvRJdCUaq9hsnvf9kqCfMujNgFj7nRKt",
+          "tx_index": null,
+          "same_slot": false
+        }
+      }
+    },
+    {
+      "i": 7,
+      "sig": "yPZ4UkLzt2QLM5q275MfqqRfjtZgQck74XcgdW9rvs54qm14dATdXEcc1qm9L3qHcMNRWjvRkZ53sx6KHUeFPVw",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338785,
+      "n_dir": 1,
+      "n_ain": 2985446925,
+      "our_dir": 0,
+      "our_ain": 911111111,
+      "predicted_gross_sol": 61.279179702,
+      "predicted_gross_usd": 7415.39353573902,
+      "predicted_net_usd": 7415.380829689021,
+      "ts_ns": 1274210580629631,
+      "why": "OK",
+      "n_landed": true,
+      "slot": 450339591,
+      "confirm": "finalized",
+      "block_time": 1790335787,
+      "tx_index": null,
+      "first_shred_ns": 1274210580629631,
+      "s_prime_vs_post": {
+        "pred_rx": 717371903377,
+        "pred_ry": 353467127791,
+        "post_rx": 678905999202,
+        "post_ry": 355648805195,
+        "d_rx": 38465904175,
+        "d_ry": 2181677404,
+        "pred_active": -21171,
+        "chain_active": -21121
+      },
+      "s_prime_eq": false,
+      "actual_post": {
+        "vault_x_pre": 675920552277,
+        "vault_x_post": 678905999202,
+        "vault_y_pre": 356009723634,
+        "vault_y_post": 355648805195,
+        "chain_active_id": -21121
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": {
+          "sig": "3pDM22hohhu4shbjGBsJTTZ5AJw8yKW3iRrfH3TkqZ5CS9kX9jRnXzYqjcKHCcxVV6hYNGnWMfkfogfD5ZAQeCf1",
+          "slot": 450344662,
+          "searcher": "3i51cKbLbaKAqvRJdCUaq9hsnvf9kqCfMujNgFj7nRKt",
+          "tx_index": null,
+          "same_slot": false
+        }
+      }
+    },
+    {
+      "i": 8,
+      "sig": "2r17KjwhoTpeEv34EKvQkWii1LvCBNQkU2WsTaBMbURSUxkqzCdXowexDLRkSQq8BDg9mxNZSWVbtS31HUcbkEAj",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338786,
+      "n_dir": 0,
+      "n_ain": 273849891,
+      "our_dir": 0,
+      "our_ain": 644444444,
+      "predicted_gross_sol": 43.375902262,
+      "predicted_gross_usd": 5248.91793272462,
+      "predicted_net_usd": 5248.90522667462,
+      "ts_ns": 1274212971892024,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 9,
+      "sig": "2iDSLUAnNxjSYeQscmsJKxbw5Wc72TbyKcRSL42znkksvLyur84HrwemKCj6NwfGVJ8vKCeX1emaKkzyft4ih8t9",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338787,
+      "n_dir": 1,
+      "n_ain": 1706667724,
+      "our_dir": 0,
+      "our_ain": 822222222,
+      "predicted_gross_sol": 55.316952889,
+      "predicted_gross_usd": 6693.90446909789,
+      "predicted_net_usd": 6693.891763047891,
+      "ts_ns": 1274237437573912,
+      "why": "OK",
+      "n_landed": true,
+      "slot": 450339691,
+      "confirm": "finalized",
+      "block_time": 1790335814,
+      "tx_index": null,
+      "first_shred_ns": 1274237437573912,
+      "s_prime_vs_post": {
+        "pred_rx": 716804808215,
+        "pred_ry": 353535408946,
+        "post_rx": 656698832215,
+        "post_ry": 358334643807,
+        "d_rx": 60105976000,
+        "d_ry": 4799234861,
+        "pred_active": -21169,
+        "chain_active": -21121
+      },
+      "s_prime_eq": false,
+      "actual_post": {
+        "vault_x_pre": 654992164491,
+        "vault_x_post": 656698832215,
+        "vault_y_pre": 358541242681,
+        "vault_y_post": 358334643807,
+        "chain_active_id": -21121
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": {
+          "sig": "3pDM22hohhu4shbjGBsJTTZ5AJw8yKW3iRrfH3TkqZ5CS9kX9jRnXzYqjcKHCcxVV6hYNGnWMfkfogfD5ZAQeCf1",
+          "slot": 450344662,
+          "searcher": "3i51cKbLbaKAqvRJdCUaq9hsnvf9kqCfMujNgFj7nRKt",
+          "tx_index": null,
+          "same_slot": false
+        }
+      }
+    },
+    {
+      "i": 10,
+      "sig": "43GgX7LGe7qVkGJmcnS9cPFczVMxbazVohfaXvXEPtquM7Rym8Adb35rzJ7ne1v4Fq7JFZD4dni8wZ9CFpL1TdwA",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338788,
+      "n_dir": 1,
+      "n_ain": 5989772987,
+      "our_dir": 0,
+      "our_ain": 1500000000,
+      "predicted_gross_sol": 100.740292903,
+      "predicted_gross_usd": 12190.58284419203,
+      "predicted_net_usd": 12190.57013814203,
+      "ts_ns": 1274248830647642,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450339734,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    },
+    {
+      "i": 11,
+      "sig": "39wWkwUFJQNymMzJ4F8xaqNPrEaUTNUpPJisPwKTWSycHa6bNuFDtKdHKaJjJbQKXMDERkSdCroFUUGnttUTXsJo",
+      "pool": "ENiVH49XwRM3Cu9n4Tp6CGynCFXf3Mz6CE3GRmVk1LH4",
+      "pool_idx": 0,
+      "pool_kind": "pump",
+      "state_version": 450338789,
+      "n_dir": 1,
+      "n_ain": 11045366262,
+      "our_dir": 1,
+      "our_ain": 233333333,
+      "predicted_gross_sol": 0.00014236,
+      "predicted_gross_usd": 0.017226983600000002,
+      "predicted_net_usd": 0.0045209336000000015,
+      "ts_ns": 1274252229249814,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 12,
+      "sig": "2yyw59XyrarGNVk34PAzWzE7CgFLi2qKcLETk6wLmg7QpTmstRM4uqnxTGpy76eG46B7rZyokBL5rSFBLeB7kyaF",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338791,
+      "n_dir": 0,
+      "n_ain": 675458170,
+      "our_dir": 0,
+      "our_ain": 822222222,
+      "predicted_gross_sol": 55.32010145,
+      "predicted_gross_usd": 6694.285476464501,
+      "predicted_net_usd": 6694.272770414501,
+      "ts_ns": 1274361077663218,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 13,
+      "sig": "2gdyxE3rDeKXxvih6SFXHyXd7bvAabCLh2e6CPQXJK5G8xEE9rpTvwSpjQK5bt7WVx8csnyCh71TH8Tpkbp4iTDh",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338792,
+      "n_dir": 0,
+      "n_ain": 846642281,
+      "our_dir": 0,
+      "our_ain": 50000000,
+      "predicted_gross_sol": 3.371635836,
+      "predicted_gross_usd": 408.00165251436,
+      "predicted_net_usd": 407.98894646435997,
+      "ts_ns": 1274361115833100,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 14,
+      "sig": "4X1W1EmwHytYmn9zFhUQY3gFZR4rQ3YmhqiCzyTNR1DTjpAgED2wKUo5bzAUnJhyV9WbCKF7nBJ7bD8AywLyyrC2",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338794,
+      "n_dir": 1,
+      "n_ain": 1525984010,
+      "our_dir": 0,
+      "our_ain": 233333333,
+      "predicted_gross_sol": 15.725660274,
+      "predicted_gross_usd": 1902.9621497567402,
+      "predicted_net_usd": 1902.9494437067403,
+      "ts_ns": 1274419929995631,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450340374,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    },
+    {
+      "i": 15,
+      "sig": "4WutskSEzsfck9BSs2vGAguYaBeugdpN2inorjAeUXbo8FZUfbsMYTbAFHnEVWFx7XSTFdcuanRRrZS5AFZ1pqBd",
+      "pool": "ENiVH49XwRM3Cu9n4Tp6CGynCFXf3Mz6CE3GRmVk1LH4",
+      "pool_idx": 0,
+      "pool_kind": "pump",
+      "state_version": 450338795,
+      "n_dir": 1,
+      "n_ain": 213693353947,
+      "our_dir": 1,
+      "our_ain": 555555555,
+      "predicted_gross_sol": 0.003906599,
+      "predicted_gross_usd": 0.47273754499000004,
+      "predicted_net_usd": 0.46003149499,
+      "ts_ns": 1274459950397509,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 16,
+      "sig": "3FHKswXccdUJGWtjxqGRiTSYGr2hvnCW5Dj1TePJ3ueGuBdaFqaB64VirLikh4CLibSpvuFUS3XAYKAroyetr9Dq",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338798,
+      "n_dir": 1,
+      "n_ain": 2450474458,
+      "our_dir": 0,
+      "our_ain": 500000000,
+      "predicted_gross_sol": 33.669859345,
+      "predicted_gross_usd": 4074.38967933845,
+      "predicted_net_usd": 4074.3769732884502,
+      "ts_ns": 1274578202954450,
+      "why": "OK",
+      "n_landed": true,
+      "slot": 450340958,
+      "confirm": "finalized",
+      "block_time": 1790336155,
+      "tx_index": null,
+      "first_shred_ns": 1274578202954450,
+      "s_prime_vs_post": {
+        "pred_rx": 714131533229,
+        "pred_ry": 353857401918,
+        "post_rx": 586296432582,
+        "post_ry": 367573895550,
+        "d_rx": 127835100647,
+        "d_ry": 13716493632,
+        "pred_active": -21164,
+        "chain_active": -21121
+      },
+      "s_prime_eq": false,
+      "actual_post": {
+        "vault_x_pre": 583845958124,
+        "vault_x_post": 586296432582,
+        "vault_y_pre": 367871534693,
+        "vault_y_post": 367573895550,
+        "chain_active_id": -21121
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      }
+    },
+    {
+      "i": 17,
+      "sig": "46gDNubY6vFhQC2iz2DHiRb2w33W2cvhpxkUrBNasWX2x7RR9DiwjW6tx3fpxEuc19ngtFJM6i5cNUTWBJ6LfjEf",
+      "pool": "ENiVH49XwRM3Cu9n4Tp6CGynCFXf3Mz6CE3GRmVk1LH4",
+      "pool_idx": 0,
+      "pool_kind": "pump",
+      "state_version": 450338799,
+      "n_dir": 1,
+      "n_ain": 10979321800,
+      "our_dir": 1,
+      "our_ain": 555555555,
+      "predicted_gross_sol": 0.0041177,
+      "predicted_gross_usd": 0.49828287700000007,
+      "predicted_net_usd": 0.48557682700000004,
+      "ts_ns": 1274670642424071,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 18,
+      "sig": "2Kayka1JMD6jcNPawhkme97NqGhTjxwucbgSwaTpMLGdfjcXPUgYZGZZbQG1sN2ZhDZPxUcfWn1DH2NB1hXRLsWr",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338800,
+      "n_dir": 1,
+      "n_ain": 615835098,
+      "our_dir": 0,
+      "our_ain": 555555555,
+      "predicted_gross_sol": 37.407186734,
+      "predicted_gross_usd": 4526.64366668134,
+      "predicted_net_usd": 4526.630960631341,
+      "ts_ns": 1274678987692038,
+      "why": "OK",
+      "n_landed": true,
+      "slot": 450341334,
+      "confirm": "finalized",
+      "block_time": 1790336256,
+      "tx_index": null,
+      "first_shred_ns": 1274678987692038,
+      "s_prime_vs_post": {
+        "pred_rx": 714747281588,
+        "pred_ry": 353783220081,
+        "post_rx": 633670626976,
+        "post_ry": 361827307040,
+        "d_rx": 81076654612,
+        "d_ry": 8044086959,
+        "pred_active": -21165,
+        "chain_active": -21121
+      },
+      "s_prime_eq": false,
+      "actual_post": {
+        "vault_x_pre": 633054791878,
+        "vault_x_post": 633670626976,
+        "vault_y_pre": 361901954656,
+        "vault_y_post": 361827307040,
+        "chain_active_id": -21121
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": {
+          "sig": "66u7H3BWkPqXVQiKt1qYWdZATtFtdf2c58kVei4SrG236H2bZ8YnEBvuAMzgA1h1Gsc6xFuLvxgDTU67H7fvG5Gn",
+          "slot": 450344693,
+          "searcher": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "tx_index": null,
+          "same_slot": false
+        }
+      }
+    },
+    {
+      "i": 19,
+      "sig": "Ar7zx9RM9riNFZ4P5Y1iz6PMn3MZ8zBTjNDYTsxi7ftdrzbEDitUgwdzupRvWuXigHNwxG8pbk15UodHqDZXTp3",
+      "pool": "Gf7sXMoP8iRw4iiXmJ1nq4vxcRycbGXy5RL8a8LnTd3v",
+      "pool_idx": 92,
+      "pool_kind": "pump",
+      "state_version": 450338801,
+      "n_dir": 1,
+      "n_ain": 206007065,
+      "our_dir": 0,
+      "our_ain": 555555555,
+      "predicted_gross_sol": 37.400550342,
+      "predicted_gross_usd": 4525.84059688542,
+      "predicted_net_usd": 4525.8278908354205,
+      "ts_ns": 1274679990427547,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 20,
+      "sig": "2Ci3Vex1KcnUy56tqNkX8KcVECnF6Po88FWvyv1JVgZpXSeFgHu45wSSraFtR5ZKnc8BzSQVVpbPytAGHB39Qgd5",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338802,
+      "n_dir": 0,
+      "n_ain": 508102568,
+      "our_dir": 0,
+      "our_ain": 91111111,
+      "predicted_gross_sol": 6.14189315,
+      "predicted_gross_usd": 743.2304900815,
+      "predicted_net_usd": 743.2177840315001,
+      "ts_ns": 1274823428736662,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 21,
+      "sig": "4iHyAbfRSbgVkeWk4PPYjtBbiay3K5BocncA9cRFFmykwBdgqq7AwZh2WyewgAK4hVCVdAKmA97tBPe96wGSz8n5",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338803,
+      "n_dir": 1,
+      "n_ain": 2043554896,
+      "our_dir": 0,
+      "our_ain": 322222222,
+      "predicted_gross_sol": 21.706613861,
+      "predicted_gross_usd": 2626.7173433196103,
+      "predicted_net_usd": 2626.70463726961,
+      "ts_ns": 1274879820999582,
+      "why": "OK",
+      "n_landed": true,
+      "slot": 450342088,
+      "confirm": "finalized",
+      "block_time": 1790336456,
+      "tx_index": null,
+      "first_shred_ns": 1274879820999582,
+      "s_prime_vs_post": {
+        "pred_rx": 712575116700,
+        "pred_ry": 354044948573,
+        "post_rx": 646503737613,
+        "post_ry": 364758113335,
+        "d_rx": 66071379087,
+        "d_ry": 10713164762,
+        "pred_active": -21161,
+        "chain_active": -21121
+      },
+      "s_prime_eq": false,
+      "actual_post": {
+        "vault_x_pre": 644460182717,
+        "vault_x_post": 646503737613,
+        "vault_y_pre": 365005994889,
+        "vault_y_post": 364758113335,
+        "chain_active_id": -21121
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": {
+          "sig": "66u7H3BWkPqXVQiKt1qYWdZATtFtdf2c58kVei4SrG236H2bZ8YnEBvuAMzgA1h1Gsc6xFuLvxgDTU67H7fvG5Gn",
+          "slot": 450344693,
+          "searcher": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "tx_index": null,
+          "same_slot": false
+        }
+      }
+    },
+    {
+      "i": 22,
+      "sig": "vQMe7XcGut4xCAXqxaB8RiKsmwUVw4MSwCu32vu1UzyVRv6YbmjHKgbtmCh7ofoLEnxKu513zAZKrSXukpqvj8Z",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338805,
+      "n_dir": 1,
+      "n_ain": 8226659719,
+      "our_dir": 0,
+      "our_ain": 1333333333,
+      "predicted_gross_sol": 89.558484872,
+      "predicted_gross_usd": 10837.47225436072,
+      "predicted_net_usd": 10837.459548310719,
+      "ts_ns": 1274885681798549,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450342110,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          4,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    },
+    {
+      "i": 23,
+      "sig": "2UMweS2V7BXP4SbsDoWkNQ6BXG3PUF4nKRvggvixFXnrNuG8RAd2kLxK82DwStDAHzmb1W9aBCYbDDRGkryAWkf1",
+      "pool": "Gf7sXMoP8iRw4iiXmJ1nq4vxcRycbGXy5RL8a8LnTd3v",
+      "pool_idx": 92,
+      "pool_kind": "pump",
+      "state_version": 450338806,
+      "n_dir": 0,
+      "n_ain": 5349629085990,
+      "our_dir": 0,
+      "our_ain": 1333333333,
+      "predicted_gross_sol": 146.060930292,
+      "predicted_gross_usd": 17674.83317463492,
+      "predicted_net_usd": 17674.82046858492,
+      "ts_ns": 1274946180545775,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 24,
+      "sig": "4SDbB8du1opKnDGjpfofoMXAxWGGaa6ZwSXeKq8N47mUhKC9s6MUpXzm4hM4w8aqHtK5oEpCTPPvaUYMpwJzqSKy",
+      "pool": "ENiVH49XwRM3Cu9n4Tp6CGynCFXf3Mz6CE3GRmVk1LH4",
+      "pool_idx": 0,
+      "pool_kind": "pump",
+      "state_version": 450338807,
+      "n_dir": 1,
+      "n_ain": 10844322498,
+      "our_dir": 1,
+      "our_ain": 555555555,
+      "predicted_gross_sol": 0.004326245,
+      "predicted_gross_usd": 0.5235189074500001,
+      "predicted_net_usd": 0.51081285745,
+      "ts_ns": 1274953629117660,
+      "why": "OK",
+      "n_landed": false
+    },
+    {
+      "i": 25,
+      "sig": "iZEWwfHcfUkjdLvSRyDYWBSPymKAAnb1wJeHmqykkNxZY2bxMQXpAppTT7VFCDt18qJR2VeLFUawyRhXFxgQmT6",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338808,
+      "n_dir": 1,
+      "n_ain": 814840367,
+      "our_dir": 0,
+      "our_ain": 1333333333,
+      "predicted_gross_sol": 146.087129258,
+      "predicted_gross_usd": 17678.003511510582,
+      "predicted_net_usd": 17677.990805460584,
+      "ts_ns": 1275011557396866,
+      "why": "OK",
+      "n_landed": true,
+      "slot": 450342583,
+      "confirm": "finalized",
+      "block_time": 1790336588,
+      "tx_index": null,
+      "first_shred_ns": 1275011557396866,
+      "s_prime_vs_post": {
+        "pred_rx": 721614339202,
+        "pred_ry": 352956620607,
+        "post_rx": 700741964041,
+        "post_ry": 358335140240,
+        "d_rx": 20872375161,
+        "d_ry": 5378519633,
+        "pred_active": -21181,
+        "chain_active": -21121
+      },
+      "s_prime_eq": false,
+      "actual_post": {
+        "vault_x_pre": 699927123674,
+        "vault_x_post": 700741964041,
+        "vault_y_pre": 358433710758,
+        "vault_y_post": 358335140240,
+        "chain_active_id": -21121
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": {
+          "sig": "66u7H3BWkPqXVQiKt1qYWdZATtFtdf2c58kVei4SrG236H2bZ8YnEBvuAMzgA1h1Gsc6xFuLvxgDTU67H7fvG5Gn",
+          "slot": 450344693,
+          "searcher": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "tx_index": null,
+          "same_slot": false
+        }
+      }
+    },
+    {
+      "i": 26,
+      "sig": "2ijd5oQTPqrEumTBHhTXksotPWPSBXe7ZavyFNa8o3BNVVZKCFRZji7mFMhHhp3MXiy26nBkWBonTPYZ36AgEwTu",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338809,
+      "n_dir": 1,
+      "n_ain": 1706707134,
+      "our_dir": 0,
+      "our_ain": 1500000000,
+      "predicted_gross_sol": 164.262101322,
+      "predicted_gross_usd": 19877.35688097522,
+      "predicted_net_usd": 19877.344174925223,
+      "ts_ns": 1275022515680106,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450342625,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    },
+    {
+      "i": 27,
+      "sig": "4H3STt4mmRrj38WR8mYA1RHUzsP47ok3qv5E4k4sgpAYNbvbzwBeUtS44dJknBXKRpiVWD2vqjRUUjoW4Spvxpe3",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338810,
+      "n_dir": 1,
+      "n_ain": 1663835232,
+      "our_dir": 0,
+      "our_ain": 1833333333,
+      "predicted_gross_sol": 200.481468263,
+      "predicted_gross_usd": 24260.26247450563,
+      "predicted_net_usd": 24260.249768455633,
+      "ts_ns": 1275026883707596,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450342644,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    },
+    {
+      "i": 28,
+      "sig": "5ydTXi8auQT4eXdUyrEGrJbzaycPaF2KEkArbtHhoBsKTeMiEu1wsKn5zWzrnjsUzcG2wnXA7exYrKJ66a76snPX",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338811,
+      "n_dir": 1,
+      "n_ain": 3359256729,
+      "our_dir": 0,
+      "our_ain": 2000000000,
+      "predicted_gross_sol": 218.651688294,
+      "predicted_gross_usd": 26459.04080045694,
+      "predicted_net_usd": 26459.02809440694,
+      "ts_ns": 1275080375264569,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450342843,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    },
+    {
+      "i": 29,
+      "sig": "3WsbVMtNR2fp6JDELwmec48bF2ckaqzizXYwomA65GH9zwCE9f1R1ombBYvw9rTmFAuXzEaUMYxjXKvdZG5MNo4N",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338812,
+      "n_dir": 1,
+      "n_ain": 1621967944,
+      "our_dir": 0,
+      "our_ain": 2333333333,
+      "predicted_gross_sol": 254.708031346,
+      "predicted_gross_usd": 30822.218873179463,
+      "predicted_net_usd": 30822.206167129465,
+      "ts_ns": 1275125782986874,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450343006,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    },
+    {
+      "i": 30,
+      "sig": "2MYZ7LMeWpTcMPiE8HGEbwrScic6vWo2TYFc6uxAqrfH8Q8v4Pxj5zruPDxTRBenfNiJXnCLp5AxMLT6NPVfrVM4",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338813,
+      "n_dir": 1,
+      "n_ain": 976376364,
+      "our_dir": 0,
+      "our_ain": 2333333333,
+      "predicted_gross_sol": 254.747931631,
+      "predicted_gross_usd": 30827.04720666731,
+      "predicted_net_usd": 30827.034500617312,
+      "ts_ns": 1275125784704922,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450343006,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    },
+    {
+      "i": 31,
+      "sig": "RQPtMSPLDJ8fCkywk4AaNZbo2sNeRtGvQXBJL5ciPkYBo6RgLTxhMMKrLghNvZxF2pYspqRZNMKbFvM2MbPtFqS",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338814,
+      "n_dir": 1,
+      "n_ain": 1621837934,
+      "our_dir": 0,
+      "our_ain": 2333333333,
+      "predicted_gross_sol": 254.808795954,
+      "predicted_gross_usd": 30834.412398393542,
+      "predicted_net_usd": 30834.399692343544,
+      "ts_ns": 1275164457662418,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450343147,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    },
+    {
+      "i": 32,
+      "sig": "2uVXrC8JomW7WWD2cS8AKJ2fWbq7Fm6p6McsqSKQNArnWQ9CUQJmzp27nH7yoLHDEvaP7KgyMMpFa1NPQGJVQ9WQ",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338815,
+      "n_dir": 1,
+      "n_ain": 1519367823,
+      "our_dir": 0,
+      "our_ain": 2777777777,
+      "predicted_gross_sol": 302.697766971,
+      "predicted_gross_usd": 36629.45678116071,
+      "predicted_net_usd": 36629.44407511071,
+      "ts_ns": 1275181802256284,
+      "why": "OK",
+      "n_landed": true,
+      "slot": 450343211,
+      "confirm": "finalized",
+      "block_time": 1790336759,
+      "tx_index": null,
+      "first_shred_ns": 1275181802256284,
+      "s_prime_vs_post": {
+        "pred_rx": 734082195999,
+        "pred_ry": 351457832813,
+        "post_rx": 701486590027,
+        "post_ry": 355702701348,
+        "d_rx": 32595605972,
+        "d_ry": 4244868535,
+        "pred_active": -21187,
+        "chain_active": -21117
+      },
+      "s_prime_eq": false,
+      "actual_post": {
+        "vault_x_pre": 699967222204,
+        "vault_x_post": 701486590027,
+        "vault_y_pre": 355886249257,
+        "vault_y_post": 355702701348,
+        "chain_active_id": -21117
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      }
+    },
+    {
+      "i": 33,
+      "sig": "64tqieEuHcPpmdNKH7utmzMfSUZ5NTuERHe7vDB4cfesao9rtoc1KoZgNXewSf72tB56jAkEKi1X6mw9nh4YGbCS",
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_idx": 15,
+      "pool_kind": "dlmm",
+      "state_version": 450338816,
+      "n_dir": 1,
+      "n_ain": 5843724444,
+      "our_dir": 0,
+      "our_ain": 3222222222,
+      "predicted_gross_sol": 350.561673232,
+      "predicted_gross_usd": 42421.46807780432,
+      "predicted_net_usd": 42421.45537175432,
+      "ts_ns": 1275200244174098,
+      "why": "OK",
+      "n_landed": false,
+      "slot": 450343280,
+      "confirm": "finalized",
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      }
+    }
+  ],
+  "send": false,
+  "note": "predicted S' from replaying N on journaled S(version). actual post-N from landed tx vault pre/post. gross is cycle_size output; treated as SOL when ain is on the SOL ladder or sol-side mint. est fee 105000 lamports. No Flowra."
+}

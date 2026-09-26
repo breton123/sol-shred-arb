@@ -1,0 +1,87 @@
+{
+  "bad": 1,
+  "dup_records": 29802,
+  "first": 96942,
+  "flw": "/home/louis/captures/flowra/flowra-1790294871.flw",
+  "known_pool_and_trigger": 103,
+  "known_universe_pool": 103,
+  "n_jsonl": "/home/louis/captures/flowra/replay/n.jsonl",
+  "non_vote": 90807,
+  "note": "known_pool_and_trigger is decode+universe membership only. Not an opportunity. Do not quote S_today.",
+  "records": 126744,
+  "supported_trigger": 5417,
+  "top_known_pools": [
+    {
+      "n": 38,
+      "pool": "8VHKSU5pij3V5DVKFQv1WceEzwKeZQpSZiCh9rja2G6N"
+    },
+    {
+      "n": 19,
+      "pool": "6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA"
+    },
+    {
+      "n": 17,
+      "pool": "B1zosT5SqjsEGRSU1cGbSVJrkVYL9zzFXDa9cmZWRhZt"
+    },
+    {
+      "n": 7,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR"
+    },
+    {
+      "n": 5,
+      "pool": "8qwgwpdfbBMNhdG76bDmtvLeSqtG9cEwuGGy6wGKhTB9"
+    },
+    {
+      "n": 3,
+      "pool": "ENiVH49XwRM3Cu9n4Tp6CGynCFXf3Mz6CE3GRmVk1LH4"
+    },
+    {
+      "n": 3,
+      "pool": "4kJEwCpiGtvFRxm1RKYExsFCm1CsB8RwnUQv3LCQs5YG"
+    },
+    {
+      "n": 2,
+      "pool": "Cgk5DWJc59TcWTQ1iaJ8Hn4bsVjKXJF2fCjPAZtMUSkV"
+    },
+    {
+      "n": 2,
+      "pool": "HMzvsEEmtzHhvZNw9uwbaG85HCTmFnkbhzUx16cy7ca3"
+    },
+    {
+      "n": 2,
+      "pool": "4R8CiMnJWDNoes3fQi1ccPFJygPXazaHaWpHrN3rZeNj"
+    },
+    {
+      "n": 1,
+      "pool": "HH4D2z7SkBtoS2DAwzs1XCwSRWYbk14KNueU1KhmZcEV"
+    },
+    {
+      "n": 1,
+      "pool": "AG1EhPjsBrkxQWkViuLXF6pQnHwfr9f9sdNneeoykcEJ"
+    },
+    {
+      "n": 1,
+      "pool": "72tZoSAHAutvD7dP2fNC56aASLxbPXro9jBPohZ8aAvY"
+    },
+    {
+      "n": 1,
+      "pool": "DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt"
+    },
+    {
+      "n": 1,
+      "pool": "5PGhKctym6odbHGo2tKMST2AjmJsb2uZBQrKkn4ZuFT5"
+    }
+  ],
+  "univ": "/home/louis/captures/flowra/liveuniv.json",
+  "valid": 96941,
+  "venues": {
+    "clmm": 1609,
+    "cpmm": 667,
+    "damm": 1148,
+    "dlmm": 1113,
+    "orca": 2489,
+    "pump": 9681,
+    "same_tx_dlmm_and_pump": 206
+  },
+  "vote": 6134
+}

@@ -1,0 +1,14 @@
+{
+  "pump_mismatches": 4118,
+  "explained_virtual": 2537,
+  "explained_virtual_fee_residual": 1003,
+  "explained_virtual_total": 3540,
+  "wrong_association": 103,
+  "wrong_n": 168,
+  "still_exact_v0": 0,
+  "unexplained": 307,
+  "no_s_before": 0,
+  "no_published": 0,
+  "no_n": 0,
+  "new_regression": 0
+}

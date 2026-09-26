@@ -1,0 +1,89 @@
+{
+  "adapter_latency": {
+    "callback_to_classified_cycles_p50": 0,
+    "callback_to_classified_ns": {
+      "p50": 0,
+      "p90": 0,
+      "p99": 0
+    },
+    "hot_decode_included_ns": {
+      "p50": 0,
+      "p90": 0,
+      "p99": 0
+    },
+    "note": "Not optimized. Classify+hot_decode_trigger diagnostic ran on the work thread after T_FLOWRA_RX.",
+    "samples_capped": 200000,
+    "sig_extract_ns": {
+      "p50": 0,
+      "p90": 0,
+      "p99": 0
+    },
+    "six_id_plus_decode_ns": {
+      "p50": 0,
+      "p90": 0,
+      "p99": 0
+    },
+    "timestamp_ingest_ns": {
+      "p50": 0,
+      "p90": 0,
+      "p99": 0
+    },
+    "tsc_hz": 4193690244
+  },
+  "api_reference": "https://docs.flowra.wtf/searchers/api-reference.md",
+  "auth": "AuthService challenge-response; sign \"{pubkey}-{challenge}\" Ed25519; Bearer access JWT. Secrets not recorded.",
+  "bad": 0,
+  "capture": {
+    "bytes": 0,
+    "flw": "/home/louis/captures/flowra/flowra-1790287707.flw",
+    "idx": "/home/louis/captures/flowra/flowra-1790287707.idx",
+    "recs": 0
+  },
+  "capture_drop": 0,
+  "connected_leaders": "1 connected validators this region",
+  "docs": "https://docs.flowra.wtf/searchers/",
+  "duplicate_rate": 0.0,
+  "duplicates": 0,
+  "endpoint": "https://frankfurt.mainnet.blockengine.flowra.wtf",
+  "endpoints_doc": "https://docs.flowra.wtf/endpoints.md",
+  "filter": "accounts=[] full firehose (docs: empty or \"*\" = full stream)",
+  "landing": {
+    "expired": 0,
+    "landed": 0,
+    "sampled": 0
+  },
+  "last_err": "",
+  "legacy": 0,
+  "mbps": 0.0,
+  "messages": 0,
+  "non_vote": 0,
+  "orbitflare_join": "not run; no simultaneous premium shred feed tonight. Join later by sig via .idx: lead_us = T_ORBITFLARE_FIRST_ACTIONABLE - T_FLOWRA_RX",
+  "orderflow": "https://docs.flowra.wtf/searchers/orderflow-stream.md",
+  "packets": 0,
+  "product": "Flowra Open Orderflow Auction — SearcherService.SubscribePendingTransactions",
+  "proto": "flowrawtf/mev-protos@main",
+  "proto_rpc": "searcher.SearcherService/SubscribePendingTransactions",
+  "ready_early_feed": false,
+  "reconnects": 0,
+  "region": "frankfurt",
+  "runtime_s": 600,
+  "sources_top": [],
+  "supported_trigger_decoded": 0,
+  "transport": "gRPC/TLS :443",
+  "tsc_hz": 4193690244,
+  "tx_per_s": 0.0,
+  "unique_tx": 0,
+  "v0": 0,
+  "v1": 0,
+  "valid": 0,
+  "venues": {
+    "clmm": 0,
+    "cpmm": 0,
+    "damm": 0,
+    "dlmm": 0,
+    "orca": 0,
+    "pump": 0
+  },
+  "vote": 0,
+  "work_drop": 0
+}

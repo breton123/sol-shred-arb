@@ -1,0 +1,207 @@
+{
+  "window": [
+    1790367738,
+    1790367787
+  ],
+  "sig_counts": {
+    "dlmm": {
+      "n": 20000,
+      "err": 7392
+    },
+    "pump": {
+      "n": 20000,
+      "err": 5522
+    }
+  },
+  "sample_n": 1400,
+  "mev_n": 543,
+  "mev_usd": 40.07569097777638,
+  "table": [
+    {
+      "program": "dlmm",
+      "class": "no_program_ix",
+      "n": 588,
+      "taker_n": 347,
+      "taker_pct": 59.0,
+      "elite_n": 54,
+      "elite_pct": 9.2,
+      "top_ix": []
+    },
+    {
+      "program": "pump",
+      "class": "no_program_ix",
+      "n": 327,
+      "taker_n": 152,
+      "taker_pct": 46.5,
+      "elite_n": 8,
+      "elite_pct": 2.4,
+      "top_ix": []
+    },
+    {
+      "program": "pump",
+      "class": "swap",
+      "n": 267,
+      "taker_n": 138,
+      "taker_pct": 51.7,
+      "elite_n": 1,
+      "elite_pct": 0.4,
+      "top_ix": [
+        [
+          "Sell",
+          217
+        ],
+        [
+          "Buy",
+          56
+        ],
+        [
+          "CloseUserVolumeAccumulator",
+          2
+        ],
+        [
+          "ExtendAccount",
+          1
+        ],
+        [
+          "BuyExactQuoteIn",
+          1
+        ]
+      ]
+    },
+    {
+      "program": "pump",
+      "class": "other",
+      "n": 103,
+      "taker_n": 42,
+      "taker_pct": 40.8,
+      "elite_n": 0,
+      "elite_pct": 0.0,
+      "top_ix": [
+        [
+          "BuyExactQuoteIn",
+          102
+        ],
+        [
+          "CloseUserVolumeAccumulator",
+          4
+        ],
+        [
+          "ExtendAccount",
+          2
+        ]
+      ]
+    },
+    {
+      "program": "dlmm",
+      "class": "swap",
+      "n": 70,
+      "taker_n": 48,
+      "taker_pct": 68.6,
+      "elite_n": 1,
+      "elite_pct": 1.4,
+      "top_ix": [
+        [
+          "Swap2",
+          60
+        ],
+        [
+          "Swap",
+          18
+        ],
+        [
+          "RemoveLiquidityByRange2",
+          2
+        ],
+        [
+          "AddLiquidity2",
+          2
+        ]
+      ]
+    },
+    {
+      "program": "dlmm",
+      "class": "fee_config",
+      "n": 22,
+      "taker_n": 9,
+      "taker_pct": 40.9,
+      "elite_n": 0,
+      "elite_pct": 0.0,
+      "top_ix": [
+        [
+          "ClaimFee2",
+          23
+        ],
+        [
+          "RemoveLiquidityByRange2",
+          11
+        ],
+        [
+          "ClosePositionIfEmpty",
+          11
+        ],
+        [
+          "AddLiquidityByStrategy2",
+          1
+        ],
+        [
+          "RebalanceLiquidity",
+          1
+        ],
+        [
+          "ClosePosition2",
+          1
+        ]
+      ]
+    },
+    {
+      "program": "dlmm",
+      "class": "other",
+      "n": 20,
+      "taker_n": 12,
+      "taker_pct": 60.0,
+      "elite_n": 3,
+      "elite_pct": 15.0,
+      "top_ix": [
+        [
+          "InitializePosition",
+          9
+        ],
+        [
+          "RebalanceLiquidity",
+          7
+        ],
+        [
+          "InitializeBinArray",
+          5
+        ],
+        [
+          "AddLiquidityByStrategy2",
+          3
+        ],
+        [
+          "SwapExactOut2",
+          2
+        ],
+        [
+          "AddLiquidity2",
+          2
+        ]
+      ]
+    },
+    {
+      "program": "pump",
+      "class": "fee_config",
+      "n": 3,
+      "taker_n": 0,
+      "taker_pct": 0.0,
+      "elite_n": 0,
+      "elite_pct": 0.0,
+      "top_ix": [
+        [
+          "CollectCoinCreatorFee",
+          3
+        ]
+      ]
+    }
+  ]
+}

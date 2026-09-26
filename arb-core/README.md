@@ -152,6 +152,54 @@ cd ~/arb-core
 
 CORE-008 is frozen. Do not change `cycle_size` or `opportunity_t`.
 
+## CORE-009 — universe expansion beside v1
+
+Locked `classify.c` (2-ID AVX2) and `route0` stay frozen. New venues share one adapter contract:
+
+```text
+apply_swap(S, N, S')
+quote_exact_in(S, amount, direction)
+```
+
+`classify_n` / `find_prog_id_n` know DLMM, Pump, CLMM, CPMM, DAMM v2, Orca. Offline compiler emits SOL-aligned 2-hop and 3-hop only into `routes_by_pool[]`. Hot path walks that list. Exec adds route families 1–4 without mutating route0.
+
+```bash
+cd ~/arb-core && cmake --build build --target core009 && ./build/core009
+cd ~/arb-feed && cmake --build build --target cap009
+./build/cap009 --dir /home/louis/captures --ids 6
+```
+
+Stop expansion if `actionable → signed` p50 leaves the ~20 µs class or if `hot_eval_pool` scales with global route count.
+
+## LIVE-001 — real universe / state
+
+Control plane (`arb-cap/live001.py`) fetches current mainnet DLMM + Pump accounts and writes `liveuniv.bin`. The live binary only loads that file. Frozen `dlmm_quote` / `pump_quote` run on real S. No `universe_seed`.
+
+```bash
+python3 arb-cap/live001.py --out arb-cap/live001/liveuniv.bin
+cd ~/arb-core && cmake --build build --target live001
+./build/live001 ~/TheMoneyMaker/arb-cap/live001/liveuniv.bin
+```
+
+## HOT-001 — real route0 economics
+
+Incoming N → cached S → predict S' (no commit) → frozen `cycle_size()` → `opportunity_t`.
+`amm2` cannot quote or size a route0 hop.
+
+```bash
+./build/hot001 ~/TheMoneyMaker/arb-cap/live001/liveuniv.bin
+```
+
+## STATE-002 — canonical S vs speculative S'
+
+`hot_decide` evaluates on a temporary S' and stamps `hot_decision_t.state_version`.
+`hot_commit` is the only writer of canonical S; it increments `state_version`.
+`hot_stale(u, used)` is the audit check. `opportunity_t` is not widened.
+
+```bash
+./build/state002 ~/TheMoneyMaker/arb-cap/live001/liveuniv.bin
+```
+
 ## Layout
 
 ```text

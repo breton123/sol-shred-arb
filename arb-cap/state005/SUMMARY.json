@@ -1,0 +1,227 @@
+{
+  "n": 40,
+  "exact": 3,
+  "stale_before": 2,
+  "rows": [
+    {
+      "sig": "AeWR4X9CfxfVuY4HGiVLRaH51GMeEc6Sym98C4GXmGCy83nS46obUXyZoJcbhqU4ujrxEjWv1EZHktFiXXSNKyy",
+      "status": "compare",
+      "file": "triple_0000_AeWR4X9C",
+      "exact": true,
+      "cmp_rc": 0,
+      "cmp_out": "STATE-005  ain=164879644 s4y=1 now=1790339171 bins=97\n  before active=37 vol=0/0 idx=37 last=1790112549\n  chain  active=37 vol=0/0 idx=37 last=1790112549\n  event  37->37 out=238239867 fee=16488 proto=1648\n  pred   active=37 vol=0/0 idx=37 last=1790112549\n  pred   out=238239867 fee=16488 proto=1648\n  bin 37  x=2241780378 y=68118014  exact\ntouched=1 bin_mis=0  EXACT\n"
+    },
+    {
+      "sig": "3MaWEjmcMayWzsvQAihtX159XgDDXRmgyhccTz3SG7n5c229yvHvPWqEzrRHG6v52oKYsL99Ey7L8vMUxpH6Bxoy",
+      "status": "gone"
+    },
+    {
+      "sig": "4JQH7bL5pQ9eQFx4Z9Ufn4uvbTyX6hyjA1fjiUHcPMUzzhWwpuAiGAUhJL77oiBkd7NEDgpwjx2FDtByPpxe5NVd",
+      "status": "gone"
+    },
+    {
+      "sig": "4nPCEWYXX82FmbyXzY6iRatFKTJpFawKEYA8KxqFsphnLbzFsS9KvWvSE9iFMfNuTCtr1HRcz9zgvJuaAoaigP1Z",
+      "status": "gone"
+    },
+    {
+      "sig": "2ZuFgBYMkPZGoCyiEn1JwHuhEH72qwCYDybhSyBwymU8Mvmbz4M8dn8fhssd36WJ1C5CVfxpuRWjjYQRNiqtRzs8",
+      "status": "stale_before",
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "JCLQiP7t1uxHiZHPotpUoVvPFFE48UxpkXHsVJJJvUrJ",
+        "from": "TnkTSrQiHmrGuAjiPyHwujSkAzK9QNUsZArmVHiiN7d",
+        "start_bin_id": -785,
+        "end_bin_id": -785,
+        "amount_in": 44910054595,
+        "amount_left": 0,
+        "amount_out": 86238069,
+        "swap_for_y": true,
+        "fee": 13115488,
+        "mm_fee": 11803940,
+        "protocol_fee": 1311548,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 292039,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "file": "triple_0001_2ZuFgBYM"
+    },
+    {
+      "sig": "2BCQPqTd2yp5VBVDqNQZSuKL3MziZYWc4SR6AzJaqMuq38jbd3amShKBfAB1PLFrhwR7cZh891nkG9GkYGborjTz",
+      "status": "compare",
+      "file": "triple_0002_2BCQPqTd",
+      "exact": false,
+      "cmp_rc": 3,
+      "cmp_out": "STATE-005  ain=218291468 s4y=0 now=1790339185 bins=97\n  before active=37 vol=0/0 idx=37 last=1790112549\n  chain  active=37 vol=0/0 idx=37 last=1790112549\n  event  37->37 out=151043659 fee=21830 proto=2183\n  pred   active=37 vol=0/0 idx=37 last=1790112549\n  pred   out=151043659 fee=21830 proto=2183\nMIS bin 37  pred x=1939693060 y=504657290  chain x=1943241931 y=499528900\ntouched=1 bin_mis=1  MISMATCH\n"
+    },
+    {
+      "sig": "3fEXTq2VMSiaaoz1DfHWK2Bcm27BRfAwjSdfGsfiQvdUvPFBMTN4SjW9WmWADPPvPTWgVFhrwwgp9AA3hsGVPo3E",
+      "status": "compare",
+      "file": "triple_0003_3fEXTq2V",
+      "exact": true,
+      "cmp_rc": 0,
+      "cmp_out": "STATE-005  ain=76223000 s4y=0 now=1790339187 bins=129\n  before active=-339 vol=132031/52031 idx=-331 last=1790339184\n  chain  active=-339 vol=132031/52031 idx=-331 last=1790339184\n  event  -339->-339 out=58204080168 fee=5510661 proto=551066\n  pred   active=-339 vol=132031/52031 idx=-331 last=1790339184\n  pred   out=58204080168 fee=5510661 proto=551066\n  bin -339  x=67761851039 y=215038040  exact\ntouched=1 bin_mis=0  EXACT\n"
+    },
+    {
+      "sig": "2vwEkgV7Ed3KejB2tCFDeMeU7PYxFtjYA2YvC4xc5YNeQKSewmiTp7tgD8CnqeQz56YgRxxwC6Y9xG8sxY6r3Lh5",
+      "status": "gone"
+    },
+    {
+      "sig": "rYidPBC89vqwzB91ZJvGo6AhHufXyTjb97YyJNwt6sdB1f5BBrtswYPJaU5uBHkj6hP3T4QTFACscuK7WaNPKdq",
+      "status": "gone"
+    },
+    {
+      "sig": "33bS1rj9KJdFKLthD8J8FDFwd4pZzNjQQkZBKXY7o1DQ1YAUjZCpX41iTXvgsrk16AwAwmPMrNpCFiyXtmy2WyRR",
+      "status": "gone"
+    },
+    {
+      "sig": "2VbMYQY3CqS6AN2FV59hfpaCg1c2SpGsUa2ouBF3dttVvWGnKmanQh4NRkTAnU4Dyx6ucZWNExBH6MZ3x8QRuyFu",
+      "status": "gone"
+    },
+    {
+      "sig": "4Ni2CqZkC3o61mv2UUaAJt79UkUBtBJijrHGx5BYaoKgEFXvUkxJb67CqJKSw2q7vCJwDUe2dia2ZaFhn6LXqRYT",
+      "status": "gone"
+    },
+    {
+      "sig": "5cNYXdsz6uhwjXC9rWPnxYZgSkemuVtaR4VWUqPVsStKd2Fnd7R3YTHRrw1sSdfFXTxYAR8aRA3aq2E6icUyx4Dd",
+      "status": "gone"
+    },
+    {
+      "sig": "4ugtEa3YyghJwz9BSunaiRXyHetydLmYXLvJMZf84CSCUb7YqJQx82tBWKid26JxRTjrfsaEXznGjDXp6GKGsRq1",
+      "status": "gone"
+    },
+    {
+      "sig": "kCQEqQ8Dp8DdoamQP5hggBoCJ1Seuky1t22GRymWUaaBiVE5tUZancxyrTUiiFYcpzcy4aMsXpswvMzoJE9QWNs",
+      "status": "gone"
+    },
+    {
+      "sig": "2qX32eSUyb6RDsK9taAoBLAEkDwNdfoWXTUwz5c2DmPp1H159btj5oBrapXpv3bDfTKrUPj5udSgwT3asmwWDuD9",
+      "status": "gone"
+    },
+    {
+      "sig": "3wScNBVGUxHq7WusbpTLzeH5KE9MiMw1KPpmW2UuZ72bJ6bQ4rWnJAuBQ1L9yaRuY45NF5yG7UfGKbztio84kMe7",
+      "status": "gone"
+    },
+    {
+      "sig": "432sFS2mAzgNuLR65h9nGer9kkxQEeB8Tgsq4XAmHRrjKer7usBU5VmCvKH3PTS5ZGouc7PrxAxqa34qH7wdqFoV",
+      "status": "gone"
+    },
+    {
+      "sig": "3CyfPKRaxNXxdKHi6qcaNK2VSqMrdnTzRiWdk1Ainx87S17fjzK4x4p7HhoGd3gb5dUage8y2t37v9FcKwJPyxLw",
+      "status": "gone"
+    },
+    {
+      "sig": "4MGct3U7x3Qem2URXrS1N2UyGm4yXMzqRts69CJENnhchk4kRsha7geJjgm1E36wbmoUosFLb2n8kinfBvXNJ5JX",
+      "status": "gone"
+    },
+    {
+      "sig": "2boVTSAyJj6pkV4ngw9ddX7QRMmA2dAWfATEuNm4RZFu77wmH4kWjiFkPf3QTeSEbQYrDSvduFXyZmyBuHSw79wu",
+      "status": "gone"
+    },
+    {
+      "sig": "3JvZJ5ceW6kerR9TgKsZ5gaGcQVGb3icymf6LY1CRJjzrtLt8YUcRcy12uEaK4MzocMZ8fin2mbyubEx2khfVY63",
+      "status": "gone"
+    },
+    {
+      "sig": "3FyJtoNSQxGKMeYM6aZgKWRpgYgXUVF1SSejmjka1zfZLEf7mAL68K2GRPFj5pfaCwWEL8JztPeUs3HZsBibPAoZ",
+      "status": "gone"
+    },
+    {
+      "sig": "3EbBPG3uAT3aH7sgqqVcfA9mZ5u123sqxJL5b4PQUy3QZ7dtDzmxPsyTf7Du16Z682ZmaN9xDhzvhz2KE38SeMm1",
+      "status": "gone"
+    },
+    {
+      "sig": "34ZLNZPoPhLC9EB5GyD7SBkVsg7e3YnNT6vQJKPcxLdKN29Jm5mATww3hPbjDM8qhcWZmZSoJcVVi6onDbdCYU1m",
+      "status": "gone"
+    },
+    {
+      "sig": "XKKVUWTzMbk9iZtgfnR1SgZmzu64HZwAwusuw87bPbkQeNwau5rMjbuEvtANRfLNHqgdtTQiqCkTGDTZNAv9wEE",
+      "status": "compare",
+      "file": "triple_0004_XKKVUWTz",
+      "exact": true,
+      "cmp_rc": 0,
+      "cmp_out": "STATE-005  ain=152528157 s4y=1 now=1790339240 bins=97\n  before active=37 vol=0/0 idx=37 last=1790112549\n  chain  active=37 vol=0/0 idx=37 last=1790112549\n  event  37->37 out=220392809 fee=15253 proto=1525\n  pred   active=37 vol=0/0 idx=37 last=1790112549\n  pred   out=220392809 fee=15253 proto=1525\n  bin 37  x=1912365437 y=544147796  exact\ntouched=1 bin_mis=0  EXACT\n"
+    },
+    {
+      "sig": "5ZoikPpui6N9oAofsGZsgN2qNw8BEZcRm6PHsAtLfzPJUoDBEtQU4h94pD7ZRh29T3uMvCwGcdxbsmFkGxbhuNXf",
+      "status": "stale_before",
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "GAGBFpcXqdvKw6ajVUn85v96paJbYbcijc4CNkB3YwGY",
+        "from": "4kDVaa5Y2sk75TF9q9dMJ4JSEh6n3TcuXrQ1Kpm79fMy",
+        "start_bin_id": -536,
+        "end_bin_id": -537,
+        "amount_in": 149031932284,
+        "amount_left": 0,
+        "amount_out": 175924203,
+        "swap_for_y": true,
+        "fee": 11381149592,
+        "mm_fee": 10243034634,
+        "protocol_fee": 1138114958,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 76367188,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "file": "triple_0005_5ZoikPpu"
+    },
+    {
+      "sig": "4S4CBZNemYf3uPLBzSuwqMxN4zZRt6AcDLaKrgjYbQWQNp82kB6PL7bjJGpdHuN3UYjTKpdAJ1RcH5w6hgdVjQQ9",
+      "status": "fail"
+    },
+    {
+      "sig": "3bNEQXaR1SRrJVDsUmxoDRC2fe2b8ANYFyBywj44aKGs3dRaj8u3UmqM1sRjUqMD5cTMEkAV7BaSV9arTKn5ZeQw",
+      "status": "gone"
+    },
+    {
+      "sig": "56xaJTUecQasdKjMe7qQ8RE5bbDPoVJnj7LzR4t7DPzC8dSox2CGv9RdPZUwuwkZ6SxZMNgrA5sfXGySFGspVgSB",
+      "status": "gone"
+    },
+    {
+      "sig": "2VWajR8wjGz8MYb9HisHJtFVxjHSaxL6x2XR4JrnGAPygmLFfrkX3e8gY7rragdAw9bHSVBPRQ5TsiToMjiXJiev",
+      "status": "compare",
+      "file": "triple_0006_2VWajR8w",
+      "exact": false,
+      "cmp_rc": 3,
+      "cmp_out": "STATE-005  ain=122970282916 s4y=1 now=1790339259 bins=129\n  before active=-1324 vol=0/0 idx=-1324 last=1790339252\n  chain  active=-1324 vol=0/0 idx=-1324 last=1790339252\n  event  -1324->-1324 out=166282793 fee=307425708 proto=30742570\n  pred   active=-1324 vol=0/0 idx=-1324 last=1790339252\n  pred   out=166282793 fee=307425708 proto=30742570\nMIS bin -1324  pred x=669453846579 y=40089509298  chain x=3916941916700 y=35683036165\nMIS untouched bin -1354 changed\nMIS untouched bin -1353 changed\nMIS untouched bin -1352 changed\nMIS untouched bin -1351 changed\nMIS untouched bin -1350 changed\nMIS untouched bin -1349 changed\nMIS untouched bin -1348 changed\nMIS untouched bin -1347 changed\nMIS untouched bin -1346 changed\nMIS untouched bin -1345 changed\nMIS untouched bin -1344 changed\nMIS untouched bin -1343 changed\nMIS untouched bin -1342 changed\nMIS untouched bin -1341 changed\nMIS untouched bin -1340 changed\nMIS untouched bin -1339 changed\nMIS untouched bin -1338 changed\nMIS untouched bin -1337 changed\nMIS untouched bin -1336 changed\nMIS untouched bin -1335 changed\nMIS untouched bin -1334 changed\nMIS untouched bin -1333 changed\nMIS untouched bin -1332 changed\nMIS untouched bin -1331 changed\nMIS untouched bin -1330 changed\nMIS untouched bin -1329 changed\nMIS untouched bin -1328 changed\nMIS untouched bin -1327 changed\nMIS untouched bin -1326 changed\nMIS untouched bin -1325 changed\ntouched=1 bin_mis=31  MISMATCH\n"
+    },
+    {
+      "sig": "3prQdXhkesvytgdb2Q9cGRm7isMv5WGyXWYQCCd7gp7sqDbK3duRo4tGvi1sBmvemFucps7wfJmsB71YMhkGMkeb",
+      "status": "gone"
+    },
+    {
+      "sig": "5XVdsfa3qTasZjtB5ndUKQP3KyLgCf3YS5LF1DB7WdkhN1m6d5ru2PJeZDsw2upG62AFxr5G1mQyiab9n2KwPAo1",
+      "status": "gone"
+    },
+    {
+      "sig": "4PbYv8YkUguFHt1zFL6LvhwFdvWCcAbmqzNNxgvVgYd1hFHJRYYPbULit4XJJ6kqW1RmuJDwHX2EMd6iequXmbgb",
+      "status": "gone"
+    },
+    {
+      "sig": "2ytjho83XhFxKSTLddxdmNW4VBpACu32PnaCLWVRTj3D1a5ujNQBbAVejQX5EedxQvS1Yon8wgta45PaBPJRZ2SK",
+      "status": "gone"
+    },
+    {
+      "sig": "2Yur6UwJpaTEKPWZPomYRT2rSvthdQyBh6wE72JTUScZhQ2q22AKy4vRd8xE1ypadZfqLojmSjn4ZCFJfyDCcVgK",
+      "status": "gone"
+    },
+    {
+      "sig": "4BxYVAnC2pJAwyU69wRfQDv7GcSRaDwKTumwt5dRfFLiuZCqm6FGQRkvAwKXRHCutZRRqnjcJ9C4VGx8gAqp1FXD",
+      "status": "gone"
+    },
+    {
+      "sig": "2oV7n7g34mUWrtkbnWmBVhot1eCzdNpPrqjqtQKnQ8xUJ1fcoFRUkHyANfVrjzkjqpNgoiMdsrHmBhGvnL47xif9",
+      "status": "gone"
+    },
+    {
+      "sig": "xgReNHADo4NNcUTdTxKbRa2EMXniSJDJsdq4BkePkS8t9FuDyYzyTEj6c7HShnrhoivxLkV2LgSAtiYVbavGY2b",
+      "status": "gone"
+    },
+    {
+      "sig": "JJBumZDLt38iEVkVN1zzSeNRwg6GMrhzSBwxeDvmHhvvJuuK8tjyL37Xky8JZySxzDLSK8qrJW2Mko68o44CUgP",
+      "status": "gone"
+    }
+  ]
+}

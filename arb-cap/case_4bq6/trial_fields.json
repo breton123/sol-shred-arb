@@ -1,0 +1,139 @@
+{
+  "n": 182,
+  "profit": 1059.8979799504837,
+  "profit_usd": 1122.5007172230196,
+  "providers": [
+    [
+      null,
+      182
+    ]
+  ],
+  "aggregators": [
+    [
+      "MEViEnscUm6tsQRoGd9h6nLQaQspKj7DB2M5FwM3Xvz",
+      96
+    ],
+    [
+      "CGGqPC3oERK5a7X38ttJGVTdR1YCSm53nxTMrhAvBRJX",
+      86
+    ]
+  ],
+  "leaders": [
+    [
+      "binance staking",
+      10
+    ],
+    [
+      "Figment",
+      8
+    ],
+    [
+      "Helius",
+      7
+    ],
+    [
+      "Bitwise Onchain Solutions",
+      7
+    ],
+    [
+      "AP Node",
+      6
+    ],
+    [
+      "3ZYJx...je1cj",
+      5
+    ],
+    [
+      "AZoCY...kvEoX",
+      4
+    ],
+    [
+      "Twinstake",
+      4
+    ],
+    [
+      "Forward Industries",
+      4
+    ],
+    [
+      "Luganodes",
+      4
+    ],
+    [
+      "Kraken",
+      4
+    ],
+    [
+      "Haus \u2013 Best APY & No Fees",
+      3
+    ]
+  ],
+  "cities": [
+    [
+      "Frankfurt",
+      50
+    ],
+    [
+      "Amsterdam",
+      28
+    ],
+    [
+      "London",
+      15
+    ],
+    [
+      "Washington",
+      13
+    ],
+    [
+      "Tokyo",
+      12
+    ],
+    [
+      "New York",
+      11
+    ],
+    [
+      "Chicago",
+      9
+    ],
+    [
+      "R\u00f6delheim",
+      8
+    ]
+  ],
+  "tip_type": [
+    [
+      13,
+      182
+    ]
+  ],
+  "prio_fee_p50": 0.0,
+  "prio_fee_max": 0.0,
+  "tip_p50": 0.11517150285451956,
+  "tick_p50": 29,
+  "hops": [
+    [
+      2,
+      182
+    ]
+  ],
+  "routes": [
+    [
+      "Meteora DLMM -> Pump Swap",
+      169
+    ],
+    [
+      "Raydium CPMM -> Meteora DLMM",
+      8
+    ],
+    [
+      "Meteora DLMM -> Meteora DAMM V2",
+      4
+    ],
+    [
+      "Meteora DLMM",
+      1
+    ]
+  ]
+}

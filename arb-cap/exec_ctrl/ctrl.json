@@ -1,0 +1,265 @@
+{
+  "n": 64,
+  "cu_price": 1000,
+  "min_profit": 1,
+  "path": "C:\\Users\\louis\\Desktop\\TheMoneyMaker\\arb-cap\\exec_ctrl\\ctrl.bin",
+  "rpc": false,
+  "slots": [
+    {
+      "i": 0,
+      "synthetic": true
+    },
+    {
+      "i": 1,
+      "synthetic": true
+    },
+    {
+      "i": 2,
+      "synthetic": true
+    },
+    {
+      "i": 3,
+      "synthetic": true
+    },
+    {
+      "i": 4,
+      "synthetic": true
+    },
+    {
+      "i": 5,
+      "synthetic": true
+    },
+    {
+      "i": 6,
+      "synthetic": true
+    },
+    {
+      "i": 7,
+      "synthetic": true
+    },
+    {
+      "i": 8,
+      "synthetic": true
+    },
+    {
+      "i": 9,
+      "synthetic": true
+    },
+    {
+      "i": 10,
+      "synthetic": true
+    },
+    {
+      "i": 11,
+      "synthetic": true
+    },
+    {
+      "i": 12,
+      "synthetic": true
+    },
+    {
+      "i": 13,
+      "synthetic": true
+    },
+    {
+      "i": 14,
+      "synthetic": true
+    },
+    {
+      "i": 15,
+      "synthetic": true
+    },
+    {
+      "i": 16,
+      "synthetic": true
+    },
+    {
+      "i": 17,
+      "synthetic": true
+    },
+    {
+      "i": 18,
+      "synthetic": true
+    },
+    {
+      "i": 19,
+      "synthetic": true
+    },
+    {
+      "i": 20,
+      "synthetic": true
+    },
+    {
+      "i": 21,
+      "synthetic": true
+    },
+    {
+      "i": 22,
+      "synthetic": true
+    },
+    {
+      "i": 23,
+      "synthetic": true
+    },
+    {
+      "i": 24,
+      "synthetic": true
+    },
+    {
+      "i": 25,
+      "synthetic": true
+    },
+    {
+      "i": 26,
+      "synthetic": true
+    },
+    {
+      "i": 27,
+      "synthetic": true
+    },
+    {
+      "i": 28,
+      "synthetic": true
+    },
+    {
+      "i": 29,
+      "synthetic": true
+    },
+    {
+      "i": 30,
+      "synthetic": true
+    },
+    {
+      "i": 31,
+      "synthetic": true
+    },
+    {
+      "i": 32,
+      "synthetic": true
+    },
+    {
+      "i": 33,
+      "synthetic": true
+    },
+    {
+      "i": 34,
+      "synthetic": true
+    },
+    {
+      "i": 35,
+      "synthetic": true
+    },
+    {
+      "i": 36,
+      "synthetic": true
+    },
+    {
+      "i": 37,
+      "synthetic": true
+    },
+    {
+      "i": 38,
+      "synthetic": true
+    },
+    {
+      "i": 39,
+      "synthetic": true
+    },
+    {
+      "i": 40,
+      "synthetic": true
+    },
+    {
+      "i": 41,
+      "synthetic": true
+    },
+    {
+      "i": 42,
+      "synthetic": true
+    },
+    {
+      "i": 43,
+      "synthetic": true
+    },
+    {
+      "i": 44,
+      "synthetic": true
+    },
+    {
+      "i": 45,
+      "synthetic": true
+    },
+    {
+      "i": 46,
+      "synthetic": true
+    },
+    {
+      "i": 47,
+      "synthetic": true
+    },
+    {
+      "i": 48,
+      "synthetic": true
+    },
+    {
+      "i": 49,
+      "synthetic": true
+    },
+    {
+      "i": 50,
+      "synthetic": true
+    },
+    {
+      "i": 51,
+      "synthetic": true
+    },
+    {
+      "i": 52,
+      "synthetic": true
+    },
+    {
+      "i": 53,
+      "synthetic": true
+    },
+    {
+      "i": 54,
+      "synthetic": true
+    },
+    {
+      "i": 55,
+      "synthetic": true
+    },
+    {
+      "i": 56,
+      "synthetic": true
+    },
+    {
+      "i": 57,
+      "synthetic": true
+    },
+    {
+      "i": 58,
+      "synthetic": true
+    },
+    {
+      "i": 59,
+      "synthetic": true
+    },
+    {
+      "i": 60,
+      "synthetic": true
+    },
+    {
+      "i": 61,
+      "synthetic": true
+    },
+    {
+      "i": 62,
+      "synthetic": true
+    },
+    {
+      "i": 63,
+      "synthetic": true
+    }
+  ]
+}

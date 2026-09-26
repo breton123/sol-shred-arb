@@ -1,5 +1,6 @@
 #include "tx.h"
 #include "classify.h"
+#include "frame.h"
 
 #include <string.h>
 
@@ -96,6 +97,36 @@ msg_keys_from_prog(const uint8_t *p, uint16_t len, uint16_t prog_off,
 
     if (p == NULL || out == NULL || (uint32_t)prog_off + 32u > len) {
         return -1;
+    }
+    {
+        uint16_t vk;
+        for (vk = 0; vk < TX_KEY_MAX; vk++) {
+            uint32_t start;
+            frame_v1_t L;
+            if ((uint32_t)prog_off < TX_V1_HDR_SIZE + (uint32_t)vk * TX_KEY_SZ) {
+                break;
+            }
+            start = (uint32_t)prog_off - TX_V1_HDR_SIZE - (uint32_t)vk * TX_KEY_SZ;
+            if (p[start] != TX_V1_PREFIX) {
+                continue;
+            }
+            if (frame_v1_layout(p, len, start, &L) != 0) {
+                continue;
+            }
+            if (L.keys_off + (uint32_t)vk * TX_KEY_SZ != (uint32_t)prog_off) {
+                continue;
+            }
+            if (vk >= L.naddr || L.tx_end > 65535u) {
+                continue;
+            }
+            out->keys = p + L.keys_off;
+            out->nkeys = L.naddr;
+            out->keys_off = (uint16_t)L.keys_off;
+            out->msg_off = (uint16_t)L.tx_end;
+            out->nsig = L.nsig;
+            out->versioned = FRAME_VER_V1;
+            return 0;
+        }
     }
     for (k = 1; k < TX_KEY_MAX; k++) {
         uint32_t start32;

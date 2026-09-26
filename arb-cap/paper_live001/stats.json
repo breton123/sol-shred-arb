@@ -1,0 +1,21 @@
+{
+  "shreds": 74688597,
+  "relevant": 6908007,
+  "complete_triggers": 6908007,
+  "known_pool": 1124965,
+  "state_have": 1124965,
+  "state_sufficient": 599595,
+  "routes_eval": 1124965,
+  "opp": 599595,
+  "signed_ready": 432552,
+  "exec_missing": 167043,
+  "search_gp_lamports": 6352531467307142262,
+  "land_gp_lamports": 2544591731715,
+  "stale": 0,
+  "signer_busy": 0,
+  "burst_max_1ms": 44,
+  "act_n": 1048576, "act_p50_ns": 28170, "act_p99_ns": 141613, "act_p999_ns": 148272,
+  "sgn_n": 432552, "sgn_p50_ns": 63911, "sgn_p99_ns": 70901, "sgn_p999_ns": 74306,
+  "winner_n": 171277, "winner_seen": 23694,
+  "pools": 102, "routes": 148, "paced": 0
+}

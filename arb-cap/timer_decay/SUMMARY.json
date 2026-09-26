@@ -1,0 +1,24 @@
+{
+  "duration_s": 720.0,
+  "scheduled": 1460,
+  "fired": 807,
+  "survived_untouched": 154,
+  "partner_untouched": 127,
+  "fee_moved": 145,
+  "routes_crossing": 2,
+  "theoretical_net_opened_lamports": 1663251,
+  "theoretical_net_opened_sol": 0.001663251,
+  "lifetime_median_s": 51,
+  "lifetime_p90_s": 51,
+  "follow": {
+    "captured_known": 0,
+    "captured_unknown": 0,
+    "naturally_closed": 1,
+    "still_open": 1
+  },
+  "kinds": {
+    "filter": 519,
+    "decay": 288
+  },
+  "no_account_event_crosses": 2
+}

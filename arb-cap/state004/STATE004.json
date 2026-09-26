@@ -1,0 +1,998 @@
+{
+  "summary": {
+    "landed": 10,
+    "events_decoded": 10,
+    "vault_in_leg_exact": 10,
+    "vault_x_equation_exact": 10,
+    "vault_y_equation_exact": 10,
+    "host_fee_account_moved": 0
+  },
+  "rows": [
+    {
+      "i": 1,
+      "named": "mwSC5UAu",
+      "sig": "mwSC5UAuyycibRivNRf5PJ3REEcoN4mqA9EUync56DpGNdczuHgCrUGfCt54EmA9iMzwBwqG1cNNfxLuDJwWHdT",
+      "slot": 450339045,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "n_ain": 4363488457,
+      "n_dir": 1,
+      "vault_x": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+      "vault_y": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+      "vault_x_pre": 675606523651,
+      "vault_x_post": 679970012108,
+      "vault_y_pre": 356109362952,
+      "vault_y_post": 355581853044,
+      "vault_x_delta": 4363488457,
+      "vault_y_delta": -527509908,
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "from": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+        "start_bin_id": -21127,
+        "end_bin_id": -21129,
+        "amount_in": 4363488457,
+        "amount_left": 0,
+        "amount_out": 527509908,
+        "swap_for_y": true,
+        "fee": 717996,
+        "mm_fee": 646198,
+        "protocol_fee": 71798,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 172000,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "n_events": 2,
+      "vault_x_equation": {
+        "vault_before": 675606523651,
+        "plus_user_in": 4363488457,
+        "minus_host": 0,
+        "equals_vault_after": 679970012108,
+        "predicted": 679970012108,
+        "exact": true,
+        "vault_delta_eq_user_in": true
+      },
+      "vault_y_equation": {
+        "vault_before": 356109362952,
+        "minus_user_out": 527509908,
+        "equals_vault_after": 355581853044,
+        "predicted": 355581853044,
+        "exact": true,
+        "vault_delta_eq_neg_out": true
+      },
+      "priced_vs_vault": {
+        "seeded_rx_before": 675606523651,
+        "kernel_rule_rx_after": 679969294112,
+        "vault_rx_after": 679970012108,
+        "vault_minus_priced": 717996,
+        "note": "vault_after - (vault_before + in - fee) == fee; fee stays in vault, outside bins",
+        "seeded_ry_before": 356109362952,
+        "kernel_rule_ry_after": 355581853044,
+        "vault_ry_after": 355581853044,
+        "y_priced_eq_vault": true
+      },
+      "host_fee_moves": [],
+      "vault_touching_transfers": [
+        {
+          "source": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "dest": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+          "authority": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+          "mint": "So11111111111111111111111111111111111111112",
+          "amount": 4363488457,
+          "src_role": "other",
+          "dst_role": "vault_x"
+        },
+        {
+          "source": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+          "dest": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "authority": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": 527509908,
+          "src_role": "vault_y",
+          "dst_role": "other"
+        }
+      ],
+      "other_token_moves": [
+        {
+          "acct": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "mint": "So11111111111111111111111111111111111111112",
+          "delta": -4363488457
+        },
+        {
+          "acct": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "delta": 527509908
+        }
+      ],
+      "n_other": 2,
+      "err": null
+    },
+    {
+      "i": 2,
+      "named": null,
+      "sig": "5DDLLcMWmEuFMnxqvY5qBuZbLegF62vaxJNqjigvyPJafd6ZqjHgYVyLdwDCqxzAoHgG9dEJ7L8ik1AwNHyS1Pbi",
+      "slot": 450339068,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "n_ain": 1315832588,
+      "n_dir": 1,
+      "vault_x": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+      "vault_y": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+      "vault_x_pre": 688293084447,
+      "vault_x_post": 689608917035,
+      "vault_y_pre": 354576210499,
+      "vault_y_post": 354417285797,
+      "vault_x_delta": 1315832588,
+      "vault_y_delta": -158924702,
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "from": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+        "start_bin_id": -21135,
+        "end_bin_id": -21136,
+        "amount_in": 1315832588,
+        "amount_left": 0,
+        "amount_out": 158924702,
+        "swap_for_y": true,
+        "fee": 394750,
+        "mm_fee": 355275,
+        "protocol_fee": 39475,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 300000,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "n_events": 2,
+      "vault_x_equation": {
+        "vault_before": 688293084447,
+        "plus_user_in": 1315832588,
+        "minus_host": 0,
+        "equals_vault_after": 689608917035,
+        "predicted": 689608917035,
+        "exact": true,
+        "vault_delta_eq_user_in": true
+      },
+      "vault_y_equation": {
+        "vault_before": 354576210499,
+        "minus_user_out": 158924702,
+        "equals_vault_after": 354417285797,
+        "predicted": 354417285797,
+        "exact": true,
+        "vault_delta_eq_neg_out": true
+      },
+      "priced_vs_vault": {
+        "seeded_rx_before": 688293084447,
+        "kernel_rule_rx_after": 689608522285,
+        "vault_rx_after": 689608917035,
+        "vault_minus_priced": 394750,
+        "note": "vault_after - (vault_before + in - fee) == fee; fee stays in vault, outside bins",
+        "seeded_ry_before": 354576210499,
+        "kernel_rule_ry_after": 354417285797,
+        "vault_ry_after": 354417285797,
+        "y_priced_eq_vault": true
+      },
+      "host_fee_moves": [],
+      "vault_touching_transfers": [
+        {
+          "source": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "dest": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+          "authority": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+          "mint": "So11111111111111111111111111111111111111112",
+          "amount": 1315832588,
+          "src_role": "other",
+          "dst_role": "vault_x"
+        },
+        {
+          "source": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+          "dest": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "authority": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": 158924702,
+          "src_role": "vault_y",
+          "dst_role": "other"
+        }
+      ],
+      "other_token_moves": [
+        {
+          "acct": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "mint": "So11111111111111111111111111111111111111112",
+          "delta": -1315832588
+        },
+        {
+          "acct": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "delta": 158924702
+        }
+      ],
+      "n_other": 2,
+      "err": null
+    },
+    {
+      "i": 6,
+      "named": null,
+      "sig": "oGBwhTwKXyLAu4NzxK18DJ9LbBTeRUVPLdQTNfmysqgxPPwmFw6Cq6tjDHnHkBXQDmpmz7Gk32xnBW4i4GH6tsZ",
+      "slot": 450339290,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "n_ain": 306266,
+      "n_dir": 0,
+      "vault_x": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+      "vault_y": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+      "vault_x_pre": 688772154627,
+      "vault_x_post": 688769620068,
+      "vault_y_pre": 353204756327,
+      "vault_y_post": 353205062593,
+      "vault_x_delta": -2534559,
+      "vault_y_delta": 306266,
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "from": "757aW44zDYEzo7srjZzFs2uzQXTJZCGu8BoKsPGkcvYs",
+        "start_bin_id": -21137,
+        "end_bin_id": -21136,
+        "amount_in": 306266,
+        "amount_left": 0,
+        "amount_out": 2534559,
+        "swap_for_y": false,
+        "fee": 53,
+        "mm_fee": 48,
+        "protocol_fee": 5,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 172000,
+        "fees_on_input": true,
+        "fees_on_token_x": false
+      },
+      "n_events": 2,
+      "vault_x_equation": {
+        "vault_before": 688772154627,
+        "minus_user_out": 2534559,
+        "equals_vault_after": 688769620068,
+        "predicted": 688769620068,
+        "exact": true,
+        "vault_delta_eq_neg_out": true
+      },
+      "vault_y_equation": {
+        "vault_before": 353204756327,
+        "plus_user_in": 306266,
+        "minus_host": 0,
+        "equals_vault_after": 353205062593,
+        "predicted": 353205062593,
+        "exact": true,
+        "vault_delta_eq_user_in": true
+      },
+      "priced_vs_vault": null,
+      "host_fee_moves": [],
+      "vault_touching_transfers": [
+        {
+          "source": "EK8cjLRkKxSzKMVui1a5q2tYe2Pk31Pj9K8vcdomSL8q",
+          "dest": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+          "authority": "757aW44zDYEzo7srjZzFs2uzQXTJZCGu8BoKsPGkcvYs",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": 306266,
+          "src_role": "other",
+          "dst_role": "vault_y"
+        },
+        {
+          "source": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+          "dest": "2tYHbZrYSZbTXjGHBsk6VfWaY5S1f9tE4C5NkySS58JS",
+          "authority": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+          "mint": "So11111111111111111111111111111111111111112",
+          "amount": 2534559,
+          "src_role": "vault_x",
+          "dst_role": "other"
+        }
+      ],
+      "other_token_moves": [
+        {
+          "acct": "EK8cjLRkKxSzKMVui1a5q2tYe2Pk31Pj9K8vcdomSL8q",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "delta": -306266
+        }
+      ],
+      "n_other": 1,
+      "err": null
+    },
+    {
+      "i": 7,
+      "named": null,
+      "sig": "yPZ4UkLzt2QLM5q275MfqqRfjtZgQck74XcgdW9rvs54qm14dATdXEcc1qm9L3qHcMNRWjvRkZ53sx6KHUeFPVw",
+      "slot": 450339591,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "n_ain": 2985446925,
+      "n_dir": 1,
+      "vault_x": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+      "vault_y": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+      "vault_x_pre": 675920552277,
+      "vault_x_post": 678905999202,
+      "vault_y_pre": 356009723634,
+      "vault_y_post": 355648805195,
+      "vault_x_delta": 2985446925,
+      "vault_y_delta": -360918439,
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "from": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+        "start_bin_id": -21127,
+        "end_bin_id": -21129,
+        "amount_in": 2985446925,
+        "amount_left": 0,
+        "amount_out": 360918439,
+        "swap_for_y": true,
+        "fee": 408174,
+        "mm_fee": 367357,
+        "protocol_fee": 40817,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 150313,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "n_events": 2,
+      "vault_x_equation": {
+        "vault_before": 675920552277,
+        "plus_user_in": 2985446925,
+        "minus_host": 0,
+        "equals_vault_after": 678905999202,
+        "predicted": 678905999202,
+        "exact": true,
+        "vault_delta_eq_user_in": true
+      },
+      "vault_y_equation": {
+        "vault_before": 356009723634,
+        "minus_user_out": 360918439,
+        "equals_vault_after": 355648805195,
+        "predicted": 355648805195,
+        "exact": true,
+        "vault_delta_eq_neg_out": true
+      },
+      "priced_vs_vault": {
+        "seeded_rx_before": 675920552277,
+        "kernel_rule_rx_after": 678905591028,
+        "vault_rx_after": 678905999202,
+        "vault_minus_priced": 408174,
+        "note": "vault_after - (vault_before + in - fee) == fee; fee stays in vault, outside bins",
+        "seeded_ry_before": 356009723634,
+        "kernel_rule_ry_after": 355648805195,
+        "vault_ry_after": 355648805195,
+        "y_priced_eq_vault": true
+      },
+      "host_fee_moves": [],
+      "vault_touching_transfers": [
+        {
+          "source": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "dest": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+          "authority": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+          "mint": "So11111111111111111111111111111111111111112",
+          "amount": 2985446925,
+          "src_role": "other",
+          "dst_role": "vault_x"
+        },
+        {
+          "source": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+          "dest": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "authority": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": 360918439,
+          "src_role": "vault_y",
+          "dst_role": "other"
+        }
+      ],
+      "other_token_moves": [
+        {
+          "acct": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "mint": "So11111111111111111111111111111111111111112",
+          "delta": -2985446925
+        },
+        {
+          "acct": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "delta": 360918439
+        }
+      ],
+      "n_other": 2,
+      "err": null
+    },
+    {
+      "i": 9,
+      "named": null,
+      "sig": "2iDSLUAnNxjSYeQscmsJKxbw5Wc72TbyKcRSL42znkksvLyur84HrwemKCj6NwfGVJ8vKCeX1emaKkzyft4ih8t9",
+      "slot": 450339691,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "n_ain": 1706667724,
+      "n_dir": 1,
+      "vault_x": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+      "vault_y": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+      "vault_x_pre": 654992164491,
+      "vault_x_post": 656698832215,
+      "vault_y_pre": 358541242681,
+      "vault_y_post": 358334643807,
+      "vault_x_delta": 1706667724,
+      "vault_y_delta": -206598874,
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "from": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+        "start_bin_id": -21115,
+        "end_bin_id": -21115,
+        "amount_in": 1706667724,
+        "amount_left": 0,
+        "amount_out": 206598874,
+        "swap_for_y": true,
+        "fee": 212481,
+        "mm_fee": 191233,
+        "protocol_fee": 21248,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 124500,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "n_events": 2,
+      "vault_x_equation": {
+        "vault_before": 654992164491,
+        "plus_user_in": 1706667724,
+        "minus_host": 0,
+        "equals_vault_after": 656698832215,
+        "predicted": 656698832215,
+        "exact": true,
+        "vault_delta_eq_user_in": true
+      },
+      "vault_y_equation": {
+        "vault_before": 358541242681,
+        "minus_user_out": 206598874,
+        "equals_vault_after": 358334643807,
+        "predicted": 358334643807,
+        "exact": true,
+        "vault_delta_eq_neg_out": true
+      },
+      "priced_vs_vault": {
+        "seeded_rx_before": 654992164491,
+        "kernel_rule_rx_after": 656698619734,
+        "vault_rx_after": 656698832215,
+        "vault_minus_priced": 212481,
+        "note": "vault_after - (vault_before + in - fee) == fee; fee stays in vault, outside bins",
+        "seeded_ry_before": 358541242681,
+        "kernel_rule_ry_after": 358334643807,
+        "vault_ry_after": 358334643807,
+        "y_priced_eq_vault": true
+      },
+      "host_fee_moves": [],
+      "vault_touching_transfers": [
+        {
+          "source": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "dest": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+          "authority": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+          "mint": "So11111111111111111111111111111111111111112",
+          "amount": 1706667724,
+          "src_role": "other",
+          "dst_role": "vault_x"
+        },
+        {
+          "source": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+          "dest": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "authority": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": 206598874,
+          "src_role": "vault_y",
+          "dst_role": "other"
+        }
+      ],
+      "other_token_moves": [
+        {
+          "acct": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "mint": "So11111111111111111111111111111111111111112",
+          "delta": -1706667724
+        },
+        {
+          "acct": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "delta": 206598874
+        }
+      ],
+      "n_other": 2,
+      "err": null
+    },
+    {
+      "i": 16,
+      "named": null,
+      "sig": "3FHKswXccdUJGWtjxqGRiTSYGr2hvnCW5Dj1TePJ3ueGuBdaFqaB64VirLikh4CLibSpvuFUS3XAYKAroyetr9Dq",
+      "slot": 450340958,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "n_ain": 2450474458,
+      "n_dir": 1,
+      "vault_x": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+      "vault_y": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+      "vault_x_pre": 583845958124,
+      "vault_x_post": 586296432582,
+      "vault_y_pre": 367871534693,
+      "vault_y_post": 367573895550,
+      "vault_x_delta": 2450474458,
+      "vault_y_delta": -297639143,
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "from": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+        "start_bin_id": -21080,
+        "end_bin_id": -21081,
+        "amount_in": 2450474458,
+        "amount_left": 0,
+        "amount_out": 297639143,
+        "swap_for_y": true,
+        "fee": 393302,
+        "mm_fee": 353972,
+        "protocol_fee": 39330,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 160500,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "n_events": 2,
+      "vault_x_equation": {
+        "vault_before": 583845958124,
+        "plus_user_in": 2450474458,
+        "minus_host": 0,
+        "equals_vault_after": 586296432582,
+        "predicted": 586296432582,
+        "exact": true,
+        "vault_delta_eq_user_in": true
+      },
+      "vault_y_equation": {
+        "vault_before": 367871534693,
+        "minus_user_out": 297639143,
+        "equals_vault_after": 367573895550,
+        "predicted": 367573895550,
+        "exact": true,
+        "vault_delta_eq_neg_out": true
+      },
+      "priced_vs_vault": {
+        "seeded_rx_before": 583845958124,
+        "kernel_rule_rx_after": 586296039280,
+        "vault_rx_after": 586296432582,
+        "vault_minus_priced": 393302,
+        "note": "vault_after - (vault_before + in - fee) == fee; fee stays in vault, outside bins",
+        "seeded_ry_before": 367871534693,
+        "kernel_rule_ry_after": 367573895550,
+        "vault_ry_after": 367573895550,
+        "y_priced_eq_vault": true
+      },
+      "host_fee_moves": [],
+      "vault_touching_transfers": [
+        {
+          "source": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "dest": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+          "authority": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+          "mint": "So11111111111111111111111111111111111111112",
+          "amount": 2450474458,
+          "src_role": "other",
+          "dst_role": "vault_x"
+        },
+        {
+          "source": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+          "dest": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "authority": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": 297639143,
+          "src_role": "vault_y",
+          "dst_role": "other"
+        }
+      ],
+      "other_token_moves": [
+        {
+          "acct": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "mint": "So11111111111111111111111111111111111111112",
+          "delta": -2450474458
+        },
+        {
+          "acct": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "delta": 297639143
+        }
+      ],
+      "n_other": 2,
+      "err": null
+    },
+    {
+      "i": 18,
+      "named": null,
+      "sig": "2Kayka1JMD6jcNPawhkme97NqGhTjxwucbgSwaTpMLGdfjcXPUgYZGZZbQG1sN2ZhDZPxUcfWn1DH2NB1hXRLsWr",
+      "slot": 450341334,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "n_ain": 615835098,
+      "n_dir": 1,
+      "vault_x": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+      "vault_y": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+      "vault_x_pre": 633054791878,
+      "vault_x_post": 633670626976,
+      "vault_y_pre": 361901954656,
+      "vault_y_post": 361827307040,
+      "vault_x_delta": 615835098,
+      "vault_y_delta": -74647616,
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "from": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+        "start_bin_id": -21102,
+        "end_bin_id": -21102,
+        "amount_in": 615835098,
+        "amount_left": 0,
+        "amount_out": 74647616,
+        "swap_for_y": true,
+        "fee": 65356,
+        "mm_fee": 58821,
+        "protocol_fee": 6535,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 106125,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "n_events": 2,
+      "vault_x_equation": {
+        "vault_before": 633054791878,
+        "plus_user_in": 615835098,
+        "minus_host": 0,
+        "equals_vault_after": 633670626976,
+        "predicted": 633670626976,
+        "exact": true,
+        "vault_delta_eq_user_in": true
+      },
+      "vault_y_equation": {
+        "vault_before": 361901954656,
+        "minus_user_out": 74647616,
+        "equals_vault_after": 361827307040,
+        "predicted": 361827307040,
+        "exact": true,
+        "vault_delta_eq_neg_out": true
+      },
+      "priced_vs_vault": {
+        "seeded_rx_before": 633054791878,
+        "kernel_rule_rx_after": 633670561620,
+        "vault_rx_after": 633670626976,
+        "vault_minus_priced": 65356,
+        "note": "vault_after - (vault_before + in - fee) == fee; fee stays in vault, outside bins",
+        "seeded_ry_before": 361901954656,
+        "kernel_rule_ry_after": 361827307040,
+        "vault_ry_after": 361827307040,
+        "y_priced_eq_vault": true
+      },
+      "host_fee_moves": [],
+      "vault_touching_transfers": [
+        {
+          "source": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "dest": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+          "authority": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+          "mint": "So11111111111111111111111111111111111111112",
+          "amount": 615835098,
+          "src_role": "other",
+          "dst_role": "vault_x"
+        },
+        {
+          "source": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+          "dest": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "authority": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": 74647616,
+          "src_role": "vault_y",
+          "dst_role": "other"
+        }
+      ],
+      "other_token_moves": [
+        {
+          "acct": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "mint": "So11111111111111111111111111111111111111112",
+          "delta": -615835098
+        },
+        {
+          "acct": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "delta": 74647616
+        }
+      ],
+      "n_other": 2,
+      "err": null
+    },
+    {
+      "i": 21,
+      "named": null,
+      "sig": "4iHyAbfRSbgVkeWk4PPYjtBbiay3K5BocncA9cRFFmykwBdgqq7AwZh2WyewgAK4hVCVdAKmA97tBPe96wGSz8n5",
+      "slot": 450342088,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "n_ain": 2043554896,
+      "n_dir": 1,
+      "vault_x": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+      "vault_y": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+      "vault_x_pre": 644460182717,
+      "vault_x_post": 646503737613,
+      "vault_y_pre": 365005994889,
+      "vault_y_post": 364758113335,
+      "vault_x_delta": 2043554896,
+      "vault_y_delta": -247881554,
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "from": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+        "start_bin_id": -21095,
+        "end_bin_id": -21095,
+        "amount_in": 2043554896,
+        "amount_left": 0,
+        "amount_out": 247881554,
+        "swap_for_y": true,
+        "fee": 205582,
+        "mm_fee": 185024,
+        "protocol_fee": 20558,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 100600,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "n_events": 2,
+      "vault_x_equation": {
+        "vault_before": 644460182717,
+        "plus_user_in": 2043554896,
+        "minus_host": 0,
+        "equals_vault_after": 646503737613,
+        "predicted": 646503737613,
+        "exact": true,
+        "vault_delta_eq_user_in": true
+      },
+      "vault_y_equation": {
+        "vault_before": 365005994889,
+        "minus_user_out": 247881554,
+        "equals_vault_after": 364758113335,
+        "predicted": 364758113335,
+        "exact": true,
+        "vault_delta_eq_neg_out": true
+      },
+      "priced_vs_vault": {
+        "seeded_rx_before": 644460182717,
+        "kernel_rule_rx_after": 646503532031,
+        "vault_rx_after": 646503737613,
+        "vault_minus_priced": 205582,
+        "note": "vault_after - (vault_before + in - fee) == fee; fee stays in vault, outside bins",
+        "seeded_ry_before": 365005994889,
+        "kernel_rule_ry_after": 364758113335,
+        "vault_ry_after": 364758113335,
+        "y_priced_eq_vault": true
+      },
+      "host_fee_moves": [],
+      "vault_touching_transfers": [
+        {
+          "source": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "dest": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+          "authority": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+          "mint": "So11111111111111111111111111111111111111112",
+          "amount": 2043554896,
+          "src_role": "other",
+          "dst_role": "vault_x"
+        },
+        {
+          "source": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+          "dest": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "authority": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": 247881554,
+          "src_role": "vault_y",
+          "dst_role": "other"
+        }
+      ],
+      "other_token_moves": [
+        {
+          "acct": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "mint": "So11111111111111111111111111111111111111112",
+          "delta": -2043554896
+        },
+        {
+          "acct": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "delta": 247881554
+        }
+      ],
+      "n_other": 2,
+      "err": null
+    },
+    {
+      "i": 25,
+      "named": null,
+      "sig": "iZEWwfHcfUkjdLvSRyDYWBSPymKAAnb1wJeHmqykkNxZY2bxMQXpAppTT7VFCDt18qJR2VeLFUawyRhXFxgQmT6",
+      "slot": 450342583,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "n_ain": 814840367,
+      "n_dir": 1,
+      "vault_x": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+      "vault_y": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+      "vault_x_pre": 699927123674,
+      "vault_x_post": 700741964041,
+      "vault_y_pre": 358433710758,
+      "vault_y_post": 358335140240,
+      "vault_x_delta": 814840367,
+      "vault_y_delta": -98570518,
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "from": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+        "start_bin_id": -21122,
+        "end_bin_id": -21122,
+        "amount_in": 814840367,
+        "amount_left": 0,
+        "amount_out": 98570518,
+        "swap_for_y": true,
+        "fee": 102349,
+        "mm_fee": 92115,
+        "protocol_fee": 10234,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 125606,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "n_events": 2,
+      "vault_x_equation": {
+        "vault_before": 699927123674,
+        "plus_user_in": 814840367,
+        "minus_host": 0,
+        "equals_vault_after": 700741964041,
+        "predicted": 700741964041,
+        "exact": true,
+        "vault_delta_eq_user_in": true
+      },
+      "vault_y_equation": {
+        "vault_before": 358433710758,
+        "minus_user_out": 98570518,
+        "equals_vault_after": 358335140240,
+        "predicted": 358335140240,
+        "exact": true,
+        "vault_delta_eq_neg_out": true
+      },
+      "priced_vs_vault": {
+        "seeded_rx_before": 699927123674,
+        "kernel_rule_rx_after": 700741861692,
+        "vault_rx_after": 700741964041,
+        "vault_minus_priced": 102349,
+        "note": "vault_after - (vault_before + in - fee) == fee; fee stays in vault, outside bins",
+        "seeded_ry_before": 358433710758,
+        "kernel_rule_ry_after": 358335140240,
+        "vault_ry_after": 358335140240,
+        "y_priced_eq_vault": true
+      },
+      "host_fee_moves": [],
+      "vault_touching_transfers": [
+        {
+          "source": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "dest": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+          "authority": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+          "mint": "So11111111111111111111111111111111111111112",
+          "amount": 814840367,
+          "src_role": "other",
+          "dst_role": "vault_x"
+        },
+        {
+          "source": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+          "dest": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "authority": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": 98570518,
+          "src_role": "vault_y",
+          "dst_role": "other"
+        }
+      ],
+      "other_token_moves": [
+        {
+          "acct": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "mint": "So11111111111111111111111111111111111111112",
+          "delta": -814840367
+        },
+        {
+          "acct": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "delta": 98570518
+        }
+      ],
+      "n_other": 2,
+      "err": null
+    },
+    {
+      "i": 32,
+      "named": null,
+      "sig": "2uVXrC8JomW7WWD2cS8AKJ2fWbq7Fm6p6McsqSKQNArnWQ9CUQJmzp27nH7yoLHDEvaP7KgyMMpFa1NPQGJVQ9WQ",
+      "slot": 450343211,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "n_ain": 1519367823,
+      "n_dir": 1,
+      "vault_x": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+      "vault_y": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+      "vault_x_pre": 699967222204,
+      "vault_x_post": 701486590027,
+      "vault_y_pre": 355886249257,
+      "vault_y_post": 355702701348,
+      "vault_x_delta": 1519367823,
+      "vault_y_delta": -183547909,
+      "event": {
+        "kind": "Swap2Evt",
+        "lb_pair": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+        "from": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+        "start_bin_id": -21135,
+        "end_bin_id": -21135,
+        "amount_in": 1519367823,
+        "amount_left": 0,
+        "amount_out": 183547909,
+        "swap_for_y": true,
+        "fee": 272809,
+        "mm_fee": 245529,
+        "protocol_fee": 27280,
+        "limit_order_fee": 0,
+        "host_fee": 0,
+        "fee_bps": 179554,
+        "fees_on_input": true,
+        "fees_on_token_x": true
+      },
+      "n_events": 2,
+      "vault_x_equation": {
+        "vault_before": 699967222204,
+        "plus_user_in": 1519367823,
+        "minus_host": 0,
+        "equals_vault_after": 701486590027,
+        "predicted": 701486590027,
+        "exact": true,
+        "vault_delta_eq_user_in": true
+      },
+      "vault_y_equation": {
+        "vault_before": 355886249257,
+        "minus_user_out": 183547909,
+        "equals_vault_after": 355702701348,
+        "predicted": 355702701348,
+        "exact": true,
+        "vault_delta_eq_neg_out": true
+      },
+      "priced_vs_vault": {
+        "seeded_rx_before": 699967222204,
+        "kernel_rule_rx_after": 701486317218,
+        "vault_rx_after": 701486590027,
+        "vault_minus_priced": 272809,
+        "note": "vault_after - (vault_before + in - fee) == fee; fee stays in vault, outside bins",
+        "seeded_ry_before": 355886249257,
+        "kernel_rule_ry_after": 355702701348,
+        "vault_ry_after": 355702701348,
+        "y_priced_eq_vault": true
+      },
+      "host_fee_moves": [],
+      "vault_touching_transfers": [
+        {
+          "source": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "dest": "H7j5NPopj3tQvDg4N8CxwtYciTn3e8AEV6wSVrxpyDUc",
+          "authority": "CxPowg2whtNKU55THf2yxve5kTSWAyRpWDcoxzjFSjDs",
+          "mint": "So11111111111111111111111111111111111111112",
+          "amount": 1519367823,
+          "src_role": "other",
+          "dst_role": "vault_x"
+        },
+        {
+          "source": "HbYjRzx7teCxqW3unpXBEcNHhfVZvW2vW9MQ99TkizWt",
+          "dest": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "authority": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": 183547909,
+          "src_role": "vault_y",
+          "dst_role": "other"
+        }
+      ],
+      "other_token_moves": [
+        {
+          "acct": "5UoTsqJcnhWN3LuvzTDeftnGzQTWzUJKPDSBvroDurup",
+          "mint": "So11111111111111111111111111111111111111112",
+          "delta": -1519367823
+        },
+        {
+          "acct": "JDDCy3sHYEZRGSCFsmYUBVN2PeG9e7evzPrYp4BgGpEu",
+          "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "delta": 183547909
+        }
+      ],
+      "n_other": 2,
+      "err": null
+    }
+  ],
+  "note": "dlmm_state_t.reserve_* follows into_bin = included - fee (priced bin liquidity). SPL vaults receive the full user input; fee/protocol/LP remain in the vault until claimed. Do not force reserve_* == vault."
+}

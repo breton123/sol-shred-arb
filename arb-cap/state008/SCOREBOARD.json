@@ -1,0 +1,2607 @@
+{
+  "root": "/data/bsc/captures/soak_fastsoak_20260925/state008",
+  "shadow": {
+    "rows": 89938,
+    "exact": {
+      "pump": 245,
+      "dlmm": 8714
+    },
+    "mismatch": {
+      "pump": 4117,
+      "dlmm": 4272,
+      "unknown": 72590
+    }
+  },
+  "mismatch_files": 81086,
+  "scored_associated": 8413,
+  "pump": {
+    "n": 4118,
+    "board": {
+      "reserve_mismatch": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "vault_mismatch": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "virtual_reserve_config": {
+        "n": 4015,
+        "pct": 97.49878581835843
+      },
+      "wrong_tx_association": {
+        "n": 103,
+        "pct": 2.5012141816415734
+      },
+      "publication_ordering": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "decode_apply_bug": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "other": {
+        "n": 0,
+        "pct": 0.0
+      }
+    },
+    "dominant": {
+      "class": "virtual_reserve_config",
+      "n": 4015,
+      "pct": 97.49878581835843
+    }
+  },
+  "dlmm": {
+    "n": 4295,
+    "board": {
+      "active_id": {
+        "n": 69,
+        "pct": 1.6065192083818394
+      },
+      "volatility": {
+        "n": 2239,
+        "pct": 52.130384167636784
+      },
+      "mm_bin_xy": {
+        "n": 0,
+        "pct": 0.0
+      },
+      "missing_bin": {
+        "n": 11,
+        "pct": 0.2561117578579744
+      },
+      "publication_ordering": {
+        "n": 879,
+        "pct": 20.465657741559955
+      },
+      "order_inventory_related": {
+        "n": 321,
+        "pct": 7.473806752037253
+      },
+      "wrong_tx_association": {
+        "n": 776,
+        "pct": 18.067520372526193
+      },
+      "other": {
+        "n": 0,
+        "pct": 0.0
+      }
+    }
+  },
+  "clusters": [
+    {
+      "key": "pump|virtual_reserve_config|kernel_bug|reserves",
+      "n": 4014
+    },
+    {
+      "key": "dlmm|volatility|fee_volatility_timing|fee_state",
+      "n": 2204
+    },
+    {
+      "key": "dlmm|wrong_tx_association|wrong_transaction_association|ordering",
+      "n": 776
+    },
+    {
+      "key": "dlmm|publication_ordering|missing_transaction_local_write|bin_liquidity",
+      "n": 589
+    },
+    {
+      "key": "dlmm|publication_ordering|missing_transaction_local_write|bin_liquidity,fee_state,volatility",
+      "n": 246
+    },
+    {
+      "key": "dlmm|order_inventory_related|kernel_bug|bin_liquidity,fee_state,volatility",
+      "n": 167
+    },
+    {
+      "key": "dlmm|order_inventory_related|kernel_bug|bin_liquidity,fee_state",
+      "n": 146
+    },
+    {
+      "key": "pump|wrong_tx_association|wrong_transaction_association|ordering",
+      "n": 103
+    },
+    {
+      "key": "dlmm|active_id|kernel_bug|active_id,bin_liquidity,fee_state,volatility",
+      "n": 64
+    },
+    {
+      "key": "dlmm|volatility|fee_volatility_timing|fee_state,volatility",
+      "n": 30
+    },
+    {
+      "key": "dlmm|publication_ordering|missing_transaction_local_write|bin_liquidity,volatility",
+      "n": 25
+    },
+    {
+      "key": "dlmm|publication_ordering|missing_transaction_local_write|active_id,bin_liquidity,volatility",
+      "n": 11
+    },
+    {
+      "key": "dlmm|order_inventory_related|kernel_bug|bin_liquidity",
+      "n": 7
+    },
+    {
+      "key": "dlmm|missing_bin|stale_preceding_state|ordering",
+      "n": 7
+    },
+    {
+      "key": "dlmm|active_id|kernel_bug|active_id,bin_liquidity,fee_state",
+      "n": 5
+    },
+    {
+      "key": "dlmm|volatility|fee_volatility_timing|volatility",
+      "n": 5
+    },
+    {
+      "key": "dlmm|publication_ordering|missing_transaction_local_write|active_id,bin_liquidity,fee_state,volatility",
+      "n": 5
+    },
+    {
+      "key": "dlmm|missing_bin|bin_traversal_account_coverage|active_id,bin_liquidity,fee_state,volatility",
+      "n": 4
+    },
+    {
+      "key": "dlmm|publication_ordering|missing_transaction_local_write|bin_liquidity,fee_state",
+      "n": 3
+    },
+    {
+      "key": "dlmm|order_inventory_related|stale_preceding_state|ordering",
+      "n": 1
+    }
+  ],
+  "examples": {
+    "pump|virtual_reserve_config|kernel_bug|reserves": {
+      "file": "/data/bsc/captures/soak_fastsoak_20260925/state008/mismatch/a28fc91ff45ce999fdd4896b6f22285716fc3981ef73edc97f63949a8b5605736d9d49e4ed944cefaea7382d4961cd2eabeba3cb8758fd719d06088c2191ef06.json",
+      "sig": "a28fc91ff45ce999fdd4896b6f22285716fc3981ef73edc97f63949a8b5605736d9d49e4ed944cefaea7382d4961cd2eabeba3cb8758fd719d06088c2191ef06",
+      "idx": 107,
+      "pool": "3yXXas5wQqC6LzV9x22GEqVr9Dgg1VC6yynkVGhRWJWM",
+      "slot": 450505766,
+      "direction": 1,
+      "amount_in": 3821401148,
+      "bucket": "kernel_bug",
+      "fields": [
+        "reserves"
+      ],
+      "s_before": {
+        "kind": "pump",
+        "reserve_base": 76677658655105,
+        "reserve_quote": 299444518561,
+        "lp_fee_bps": 20,
+        "protocol_fee_bps": 5,
+        "creator_fee_bps": 5,
+        "disabled": 0,
+        "slot": 450505735
+      },
+      "n": {
+        "direction": 1,
+        "amount_in": 3821401148
+      },
+      "s_prime": {
+        "kind": "pump",
+        "reserve_base": 76681480056253,
+        "reserve_quote": 299429625670,
+        "amount_in": 3821401148,
+        "direction": 1
+      },
+      "published_s": {
+        "kind": "pump",
+        "reserve_base": 76681480056253,
+        "reserve_quote": 299428751103,
+        "lp_fee_bps": 20,
+        "protocol_fee_bps": 5,
+        "creator_fee_bps": 5,
+        "disabled": 0,
+        "slot": 450505766
+      },
+      "staged_writes": [
+        {
+          "pubkey": "3yXXas5wQqC6LzV9x22GEqVr9Dgg1VC6yynkVGhRWJWM",
+          "role": "pump_pool",
+          "slot": 450505766,
+          "write_version": 17771544299,
+          "txn_sig": "a28fc91ff45ce999fdd4896b6f22285716fc3981ef73edc97f63949a8b5605736d9d49e4ed944cefaea7382d4961cd2eabeba3cb8758fd719d06088c2191ef06",
+          "dlen": 301
+        },
+        {
+          "pubkey": "CMWxvodadDcLG8gd7ZpNjDfNhazFU1UDED9D8PaZWic1",
+          "role": "pump_vault_base",
+          "slot": 450505766,
+          "write_version": 17771544301,
+          "txn_sig": "a28fc91ff45ce999fdd4896b6f22285716fc3981ef73edc97f63949a8b5605736d9d49e4ed944cefaea7382d4961cd2eabeba3cb8758fd719d06088c2191ef06",
+          "dlen": 170
+        },
+        {
+          "pubkey": "7V62E8PsSxWz2gEkPQs5tM374njvwy2CcbjKYif6igEF",
+          "role": "pump_vault_quote",
+          "slot": 450505766,
+          "write_version": 17771544302,
+          "txn_sig": "a28fc91ff45ce999fdd4896b6f22285716fc3981ef73edc97f63949a8b5605736d9d49e4ed944cefaea7382d4961cd2eabeba3cb8758fd719d06088c2191ef06",
+          "dlen": 165
+        }
+      ],
+      "n_ix": null
+    },
+    "dlmm|volatility|fee_volatility_timing|fee_state": {
+      "file": "/data/bsc/captures/soak_fastsoak_20260925/state008/mismatch/bd6dce7e98860f33a5a0602b23ad6fe86103f36595c572df5cb8c7a89faf127520df71e88a3cd4ac4c9a0239b784ece547e4d3b0d2e5f18b9cdfa1ae75c33d03.json",
+      "sig": "bd6dce7e98860f33a5a0602b23ad6fe86103f36595c572df5cb8c7a89faf127520df71e88a3cd4ac4c9a0239b784ece547e4d3b0d2e5f18b9cdfa1ae75c33d03",
+      "idx": 121,
+      "pool": "7qt1qBnQ5CNNpMH1no6jYAzuyazP5QWXsUZB7dot5kga",
+      "slot": 450497431,
+      "direction": 0,
+      "amount_in": 12417338,
+      "bucket": "fee_volatility_timing",
+      "fields": [
+        "fee_state"
+      ],
+      "s_before": {
+        "kind": "dlmm",
+        "active_id": 2066,
+        "vol_acc": 45226,
+        "vol_ref": 5226,
+        "idx_ref": 2070,
+        "last_upd": 1790378075,
+        "bin_step": 5,
+        "base_factor": 8000,
+        "variable_fee_control": 120000,
+        "reserve_x": 23535940,
+        "reserve_y": 340624555,
+        "bins": {
+          "2050": [
+            0,
+            29896612
+          ],
+          "2051": [
+            0,
+            28694184
+          ],
+          "2052": [
+            0,
+            27491391
+          ],
+          "2053": [
+            0,
+            26288936
+          ],
+          "2054": [
+            0,
+            25086440
+          ],
+          "2055": [
+            0,
+            23883997
+          ],
+          "2056": [
+            0,
+            22681542
+          ],
+          "2057": [
+            0,
+            21479083
+          ],
+          "2058": [
+            0,
+            20276845
+          ],
+          "2059": [
+            0,
+            19074159
+          ],
+          "2060": [
+            0,
+            17872253
+          ],
+          "2061": [
+            0,
+            16669549
+          ],
+          "2062": [
+            0,
+            15466701
+          ],
+          "2063": [
+            0,
+            14264222
+          ],
+          "2064": [
+            0,
+            13121474
+          ],
+          "2065": [
+            0,
+            11919001
+          ],
+          "2066": [
+            1516106,
+            6458166
+          ],
+          "2067": [
+            3385584,
+            0
+          ],
+          "2068": [
+            2956221,
+            0
+          ],
+          "2069": [
+            2527269,
+            0
+          ],
+          "2070": [
+            2098695,
+            0
+          ],
+          "2071": [
+            1670598,
+            0
+          ],
+          "2072": [
+            1242918,
+            0
+          ],
+          "2073": [
+            815688,
+            0
+          ],
+          "2074": [
+            815278,
+            0
+          ],
+          "2075": [
+            814869,
+            0
+          ],
+          "2076": [
+            814465,
+            0
+          ],
+          "2077": [
+            814060,
+            0
+          ],
+          "2078": [
+            813654,
+            0
+          ],
+          "2079": [
+            813242,
+            0
+          ],
+          "2080": [
+            812839,
+            0
+          ],
+          "2081": [
+            812430,
+            0
+          ],
+          "2082": [
+            812024,
+            0
+          ]
+        },
+        "slot": 450497430
+      },
+      "n": {
+        "direction": 0,
+        "amount_in": 12417338
+      },
+      "s_prime": {
+        "kind": "dlmm",
+        "active_id": 2067,
+        "active_after": 2067,
+        "reserve_x": 19118423,
+        "reserve_y": 353036360,
+        "vol_acc": 35226,
+        "vol_ref": 5226,
+        "idx_ref": 2070,
+        "last_upd": 1790378075,
+        "fee": 5533,
+        "protocol_fee": 552,
+        "amount_in": 12417338,
+        "direction": 0,
+        "touched": [
+          {
+            "id": 2066,
+            "x": 0,
+            "y": 10716539
+          },
+          {
+            "id": 2067,
+            "x": 484173,
+            "y": 8153432
+          }
+        ]
+      },
+      "published_s": {
+        "kind": "dlmm",
+        "active_id": 2067,
+        "vol_acc": 35226,
+        "vol_ref": 5226,
+        "idx_ref": 2070,
+        "last_upd": 1790378081,
+        "bin_step": 5,
+        "base_factor": 8000,
+        "variable_fee_control": 120000,
+        "reserve_x": 19930044,
+        "reserve_y": 323139748,
+        "bins": {
+          "2051": [
+            0,
+            28694184
+          ],
+          "2052": [
+            0,
+            27491391
+          ],
+          "2053": [
+            0,
+            26288936
+          ],
+          "2054": [
+            0,
+            25086440
+          ],
+          "2055": [
+            0,
+            23883997
+          ],
+          "2056": [
+            0,
+            22681542
+          ],
+          "2057": [
+            0,
+            21479083
+          ],
+          "2058": [
+            0,
+            20276845
+          ],
+          "2059": [
+            0,
+            19074159
+          ],
+          "2060": [
+            0,
+            17872253
+          ],
+          "2061": [
+            0,
+            16669549
+          ],
+          "2062": [
+            0,
+            15466701
+          ],
+          "2063": [
+            0,
+            14264222
+          ],
+          "2064": [
+            0,
+            13121474
+          ],
+          "2065": [
+            0,
+            11919001
+          ],
+          "2066": [
+            0,
+            10716539
+          ],
+          "2067": [
+            484173,
+            8153432
+          ],
+          "2068": [
+            2956221,
+            0
+          ],
+          "2069": [
+            2527269,
+            0
+          ],
+          "2070": [
+            2098695,
+            0
+          ],
+          "2071": [
+            1670598,
+            0
+          ],
+          "2072": [
+            1242918,
+            0
+          ],
+          "2073": [
+            815688,
+            0
+          ],
+          "2074": [
+            815278,
+            0
+          ],
+          "2075": [
+            814869,
+            0
+          ],
+          "2076": [
+            814465,
+            0
+          ],
+          "2077": [
+            814060,
+            0
+          ],
+          "2078": [
+            813654,
+            0
+          ],
+          "2079": [
+            813242,
+            0
+          ],
+          "2080": [
+            812839,
+            0
+          ],
+          "2081": [
+            812430,
+            0
+          ],
+          "2082": [
+            812024,
+            0
+          ],
+          "2083": [
+            811621,
+            0
+          ]
+        },
+        "slot": 450497431
+      },
+      "staged_writes": [
+        {
+          "pubkey": "EeL18xXyDfPMNdUqjZm4K72h7gToPEQBEJSKbSBhi5pv",
+          "role": "dlmm_binarray",
+          "slot": 450497431,
+          "write_version": 17744934855,
+          "txn_sig": "bd6dce7e98860f33a5a0602b23ad6fe86103f36595c572df5cb8c7a89faf127520df71e88a3cd4ac4c9a0239b784ece547e4d3b0d2e5f18b9cdfa1ae75c33d03",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "2FmT9qpQpNFiWnxEvb5wVUd2FgLKVq1reayqzM7bsBrY",
+          "role": "dlmm_oracle",
+          "slot": 450497431,
+          "write_version": 17744934868,
+          "txn_sig": "bd6dce7e98860f33a5a0602b23ad6fe86103f36595c572df5cb8c7a89faf127520df71e88a3cd4ac4c9a0239b784ece547e4d3b0d2e5f18b9cdfa1ae75c33d03",
+          "dlen": 3232
+        },
+        {
+          "pubkey": "7qt1qBnQ5CNNpMH1no6jYAzuyazP5QWXsUZB7dot5kga",
+          "role": "dlmm_lbpair",
+          "slot": 450497431,
+          "write_version": 17744934869,
+          "txn_sig": "bd6dce7e98860f33a5a0602b23ad6fe86103f36595c572df5cb8c7a89faf127520df71e88a3cd4ac4c9a0239b784ece547e4d3b0d2e5f18b9cdfa1ae75c33d03",
+          "dlen": 904
+        }
+      ],
+      "n_ix": null
+    },
+    "dlmm|wrong_tx_association|wrong_transaction_association|ordering": {
+      "file": "/data/bsc/captures/soak_fastsoak_20260925/state008/mismatch/1a2739e47425051cc3d24b579da00c706ff87a6b7cff29213266d4a26ae83ece7616c47237a82e5211e0f27e81c5bfc39231c2b12f11c1dd1f36b9c33528e700.json",
+      "sig": "1a2739e47425051cc3d24b579da00c706ff87a6b7cff29213266d4a26ae83ece7616c47237a82e5211e0f27e81c5bfc39231c2b12f11c1dd1f36b9c33528e700",
+      "idx": 487,
+      "pool": "99orHi3NfTY5MH68KDZfHsD3bsV88w4EXvdB9mMZUDEv",
+      "slot": 450503207,
+      "direction": 1,
+      "amount_in": 8563799000,
+      "bucket": "wrong_transaction_association",
+      "fields": [
+        "ordering"
+      ],
+      "s_before": {
+        "kind": "dlmm",
+        "active_id": -743,
+        "vol_acc": 250000,
+        "vol_ref": 18164,
+        "idx_ref": -879,
+        "last_upd": 1790379627,
+        "bin_step": 50,
+        "base_factor": 10000,
+        "variable_fee_control": 10000,
+        "reserve_x": 863693697606,
+        "reserve_y": 29486882084,
+        "bins": {
+          "-759": [
+            0,
+            2033238719
+          ],
+          "-758": [
+            0,
+            2001867287
+          ],
+          "-757": [
+            0,
+            1970023095
+          ],
+          "-756": [
+            0,
+            1940463440
+          ],
+          "-755": [
+            0,
+            1908941940
+          ],
+          "-754": [
+            0,
+            1877501696
+          ],
+          "-753": [
+            0,
+            1882365122
+          ],
+          "-752": [
+            0,
+            1859118044
+          ],
+          "-751": [
+            0,
+            1854625365
+          ],
+          "-750": [
+            0,
+            1825791664
+          ],
+          "-749": [
+            0,
+            1795973721
+          ],
+          "-748": [
+            0,
+            1766739291
+          ],
+          "-747": [
+            0,
+            1729241218
+          ],
+          "-746": [
+            0,
+            1698499619
+          ],
+          "-745": [
+            0,
+            1668474628
+          ],
+          "-744": [
+            0,
+            1638912217
+          ],
+          "-743": [
+            65862067959,
+            35105018
+          ],
+          "-742": [
+            65695987487,
+            0
+          ],
+          "-741": [
+            64344870107,
+            0
+          ],
+          "-740": [
+            63088940600,
+            0
+          ],
+          "-739": [
+            62063145399,
+            0
+          ],
+          "-738": [
+            60834935102,
+            0
+          ],
+          "-737": [
+            59785108857,
+            0
+          ],
+          "-736": [
+            59760417480,
+            0
+          ],
+          "-735": [
+            57773928552,
+            0
+          ],
+          "-734": [
+            48603380168,
+            0
+          ],
+          "-733": [
+            43888184369,
+            0
+          ],
+          "-732": [
+            43011636237,
+            0
+          ],
+          "-731": [
+            40184350036,
+            0
+          ],
+          "-730": [
+            37162992187,
+            0
+          ],
+          "-729": [
+            34985024924,
+            0
+          ],
+          "-728": [
+            28536134402,
+            0
+          ],
+          "-727": [
+            28112593740,
+            0
+          ]
+        },
+        "slot": 450503180
+      },
+      "n": {
+        "direction": 1,
+        "amount_in": 8563799000
+      },
+      "s_prime": {
+        "kind": "dlmm",
+        "active_id": -371,
+        "active_after": -371,
+        "reserve_x": 2122065646362,
+        "reserve_y": 72938771111,
+        "vol_acc": 150000,
+        "vol_ref": 15556,
+        "idx_ref": -441,
+        "last_upd": 1790379315,
+        "fee": 315790089,
+        "protocol_fee": 31579008,
+        "amount_in": 8563799000,
+        "direction": 1,
+        "touched": [
+          {
+            "id": -371,
+            "x": 18424870983,
+            "y": 3701810680
+          }
+        ]
+      },
+      "published_s": {
+        "kind": "dlmm",
+        "active_id": -744,
+        "vol_acc": 250000,
+        "vol_ref": 18164,
+        "idx_ref": -879,
+        "last_upd": 1790379634,
+        "bin_step": 50,
+        "base_factor": 10000,
+        "variable_fee_control": 10000,
+        "reserve_x": 837009229469,
+        "reserve_y": 31363699502,
+        "bins": {
+          "-760": [
+            0,
+            1911923507
+          ],
+          "-759": [
+            0,
+            2033238719
+          ],
+          "-758": [
+            0,
+            2001867287
+          ],
+          "-757": [
+            0,
+            1970023095
+          ],
+          "-756": [
+            0,
+            1940463440
+          ],
+          "-755": [
+            0,
+            1908941940
+          ],
+          "-754": [
+            0,
+            1877501696
+          ],
+          "-753": [
+            0,
+            1882365122
+          ],
+          "-752": [
+            0,
+            1859118044
+          ],
+          "-751": [
+            0,
+            1854625365
+          ],
+          "-750": [
+            0,
+            1825791664
+          ],
+          "-749": [
+            0,
+            1795973721
+          ],
+          "-748": [
+            0,
+            1766739291
+          ],
+          "-747": [
+            0,
+            1729241218
+          ],
+          "-746": [
+            0,
+            1698499619
+          ],
+          "-745": [
+            0,
+            1668474628
+          ],
+          "-744": [
+            43800,
+            1638911146
+          ],
+          "-743": [
+            67290149762,
+            0
+          ],
+          "-742": [
+            65695987487,
+            0
+          ],
+          "-741": [
+            64344870107,
+            0
+          ],
+          "-740": [
+            63088940600,
+            0
+          ],
+          "-739": [
+            62063145399,
+            0
+          ],
+          "-738": [
+            60834935102,
+            0
+          ],
+          "-737": [
+            59785108857,
+            0
+          ],
+          "-736": [
+            59760417480,
+            0
+          ],
+          "-735": [
+            57773928552,
+            0
+          ],
+          "-734": [
+            48603380168,
+            0
+          ],
+          "-733": [
+            43888184369,
+            0
+          ],
+          "-732": [
+            43011636237,
+            0
+          ],
+          "-731": [
+            40184350036,
+            0
+          ],
+          "-730": [
+            37162992187,
+            0
+          ],
+          "-729": [
+            34985024924,
+            0
+          ],
+          "-728": [
+            28536134402,
+            0
+          ]
+        },
+        "slot": 450503207
+      },
+      "staged_writes": [
+        {
+          "pubkey": "7SAWdC4ztvrXGDwuSxz71Ru1Swr57ARu4TGHcHimyFsd",
+          "role": "dlmm_binarray",
+          "slot": 450503207,
+          "write_version": 17763874195,
+          "txn_sig": "1a2739e47425051cc3d24b579da00c706ff87a6b7cff29213266d4a26ae83ece7616c47237a82e5211e0f27e81c5bfc39231c2b12f11c1dd1f36b9c33528e700",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "CGXgfJqXgmBQhgRWGc9uP7q66xE3ZXirautzfGGtB8d5",
+          "role": "dlmm_binarray",
+          "slot": 450503207,
+          "write_version": 17763874197,
+          "txn_sig": "1a2739e47425051cc3d24b579da00c706ff87a6b7cff29213266d4a26ae83ece7616c47237a82e5211e0f27e81c5bfc39231c2b12f11c1dd1f36b9c33528e700",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "99orHi3NfTY5MH68KDZfHsD3bsV88w4EXvdB9mMZUDEv",
+          "role": "dlmm_lbpair",
+          "slot": 450503207,
+          "write_version": 17763874209,
+          "txn_sig": "1a2739e47425051cc3d24b579da00c706ff87a6b7cff29213266d4a26ae83ece7616c47237a82e5211e0f27e81c5bfc39231c2b12f11c1dd1f36b9c33528e700",
+          "dlen": 904
+        },
+        {
+          "pubkey": "AwN2SzQ4zLGkLNk6ieXB2xNSPDGxYc37bwkRraHuqUb3",
+          "role": "dlmm_binarray",
+          "slot": 450503207,
+          "write_version": 17763874210,
+          "txn_sig": "1a2739e47425051cc3d24b579da00c706ff87a6b7cff29213266d4a26ae83ece7616c47237a82e5211e0f27e81c5bfc39231c2b12f11c1dd1f36b9c33528e700",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "GeCcdjNUi1ULLpgFjPN4dfSJDuEUDdpXs46T5Dkq3MKV",
+          "role": "dlmm_oracle",
+          "slot": 450503207,
+          "write_version": 17763874211,
+          "txn_sig": "1a2739e47425051cc3d24b579da00c706ff87a6b7cff29213266d4a26ae83ece7616c47237a82e5211e0f27e81c5bfc39231c2b12f11c1dd1f36b9c33528e700",
+          "dlen": 3232
+        }
+      ],
+      "n_ix": null
+    },
+    "dlmm|publication_ordering|missing_transaction_local_write|bin_liquidity": {
+      "file": "/data/bsc/captures/soak_fastsoak_20260925/state008/mismatch/d991354e384ae67e046c1773cf9e07e2c0918f1a5905c95dad92e7d6b8da8cd7b63b84b8dcfc81cedfb4bec9ab5055ac0be324100096fad900ccc870f759ca09.json",
+      "sig": "d991354e384ae67e046c1773cf9e07e2c0918f1a5905c95dad92e7d6b8da8cd7b63b84b8dcfc81cedfb4bec9ab5055ac0be324100096fad900ccc870f759ca09",
+      "idx": 393,
+      "pool": "21xqMnWJdr3X8yoQHLtLyUfdRSN3GaX4Rrg7nWCeRfb1",
+      "slot": 450500746,
+      "direction": 1,
+      "amount_in": 11079500,
+      "bucket": "missing_transaction_local_write",
+      "fields": [
+        "bin_liquidity"
+      ],
+      "s_before": {
+        "kind": "dlmm",
+        "active_id": -573,
+        "vol_acc": 150000,
+        "vol_ref": 44687,
+        "idx_ref": -559,
+        "last_upd": 1790378962,
+        "bin_step": 100,
+        "base_factor": 10000,
+        "variable_fee_control": 7500,
+        "reserve_x": 1499623526913,
+        "reserve_y": 6127401149,
+        "bins": {
+          "-589": [
+            0,
+            408514451
+          ],
+          "-588": [
+            0,
+            398149667
+          ],
+          "-587": [
+            0,
+            387784880
+          ],
+          "-586": [
+            0,
+            377420094
+          ],
+          "-585": [
+            0,
+            367055309
+          ],
+          "-584": [
+            0,
+            356690524
+          ],
+          "-583": [
+            0,
+            346325737
+          ],
+          "-582": [
+            0,
+            335960314
+          ],
+          "-581": [
+            0,
+            325596163
+          ],
+          "-580": [
+            0,
+            324507256
+          ],
+          "-579": [
+            0,
+            323418677
+          ],
+          "-578": [
+            0,
+            366018525
+          ],
+          "-577": [
+            0,
+            364097675
+          ],
+          "-576": [
+            0,
+            363008768
+          ],
+          "-575": [
+            0,
+            361919860
+          ],
+          "-574": [
+            0,
+            361192645
+          ],
+          "-573": [
+            432055,
+            359740604
+          ],
+          "-572": [
+            106291966560,
+            0
+          ],
+          "-571": [
+            104907334819,
+            0
+          ],
+          "-570": [
+            98555625751,
+            0
+          ],
+          "-569": [
+            97313117943,
+            0
+          ],
+          "-568": [
+            96258008716,
+            0
+          ],
+          "-567": [
+            95214350250,
+            0
+          ],
+          "-566": [
+            94181730335,
+            0
+          ],
+          "-565": [
+            93160320048,
+            0
+          ],
+          "-564": [
+            92149903133,
+            0
+          ],
+          "-563": [
+            91150361990,
+            0
+          ],
+          "-562": [
+            90161579100,
+            0
+          ],
+          "-561": [
+            89183440376,
+            0
+          ],
+          "-560": [
+            88215832717,
+            0
+          ],
+          "-559": [
+            87258644178,
+            0
+          ],
+          "-558": [
+            88317074174,
+            0
+          ],
+          "-557": [
+            87303804768,
+            0
+          ]
+        },
+        "slot": 450500731
+      },
+      "n": {
+        "direction": 1,
+        "amount_in": 11079500
+      },
+      "s_prime": {
+        "kind": "dlmm",
+        "active_id": -573,
+        "active_after": -573,
+        "reserve_x": 1499634605418,
+        "reserve_y": 6127365130,
+        "vol_acc": 150000,
+        "vol_ref": 44687,
+        "idx_ref": -559,
+        "last_upd": 1790378962,
+        "fee": 995,
+        "protocol_fee": 99,
+        "amount_in": 11079500,
+        "direction": 1,
+        "touched": [
+          {
+            "id": -573,
+            "x": 11510560,
+            "y": 359704585
+          }
+        ]
+      },
+      "published_s": {
+        "kind": "dlmm",
+        "active_id": -573,
+        "vol_acc": 150000,
+        "vol_ref": 44687,
+        "idx_ref": -559,
+        "last_upd": 1790378962,
+        "bin_step": 100,
+        "base_factor": 10000,
+        "variable_fee_control": 7500,
+        "reserve_x": 1499634495618,
+        "reserve_y": 6127364505,
+        "bins": {
+          "-589": [
+            0,
+            408514451
+          ],
+          "-588": [
+            0,
+            398149667
+          ],
+          "-587": [
+            0,
+            387784880
+          ],
+          "-586": [
+            0,
+            377420094
+          ],
+          "-585": [
+            0,
+            367055309
+          ],
+          "-584": [
+            0,
+            356690524
+          ],
+          "-583": [
+            0,
+            346325737
+          ],
+          "-582": [
+            0,
+            335960314
+          ],
+          "-581": [
+            0,
+            325596163
+          ],
+          "-580": [
+            0,
+            324507256
+          ],
+          "-579": [
+            0,
+            323418677
+          ],
+          "-578": [
+            0,
+            366018525
+          ],
+          "-577": [
+            0,
+            364097675
+          ],
+          "-576": [
+            0,
+            363008768
+          ],
+          "-575": [
+            0,
+            361919860
+          ],
+          "-574": [
+            0,
+            361192645
+          ],
+          "-573": [
+            11400760,
+            359703960
+          ],
+          "-572": [
+            106291966560,
+            0
+          ],
+          "-571": [
+            104907334819,
+            0
+          ],
+          "-570": [
+            98555625751,
+            0
+          ],
+          "-569": [
+            97313117943,
+            0
+          ],
+          "-568": [
+            96258008716,
+            0
+          ],
+          "-567": [
+            95214350250,
+            0
+          ],
+          "-566": [
+            94181730335,
+            0
+          ],
+          "-565": [
+            93160320048,
+            0
+          ],
+          "-564": [
+            92149903133,
+            0
+          ],
+          "-563": [
+            91150361990,
+            0
+          ],
+          "-562": [
+            90161579100,
+            0
+          ],
+          "-561": [
+            89183440376,
+            0
+          ],
+          "-560": [
+            88215832717,
+            0
+          ],
+          "-559": [
+            87258644178,
+            0
+          ],
+          "-558": [
+            88317074174,
+            0
+          ],
+          "-557": [
+            87303804768,
+            0
+          ]
+        },
+        "slot": 450500746
+      },
+      "staged_writes": [
+        {
+          "pubkey": "Dvb3JB18a68KeVtm3z36LaHTNXEhq9fFiQZzaQ2Jg4E",
+          "role": "dlmm_binarray",
+          "slot": 450500746,
+          "write_version": 17755800262,
+          "txn_sig": "d991354e384ae67e046c1773cf9e07e2c0918f1a5905c95dad92e7d6b8da8cd7b63b84b8dcfc81cedfb4bec9ab5055ac0be324100096fad900ccc870f759ca09",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "21xqMnWJdr3X8yoQHLtLyUfdRSN3GaX4Rrg7nWCeRfb1",
+          "role": "dlmm_lbpair",
+          "slot": 450500746,
+          "write_version": 17755800263,
+          "txn_sig": "d991354e384ae67e046c1773cf9e07e2c0918f1a5905c95dad92e7d6b8da8cd7b63b84b8dcfc81cedfb4bec9ab5055ac0be324100096fad900ccc870f759ca09",
+          "dlen": 904
+        },
+        {
+          "pubkey": "BPoT4yRsYLKuKt5fGyB3R4nqNhku2Dyr7k3jhDznu1f7",
+          "role": "dlmm_binarray",
+          "slot": 450500746,
+          "write_version": 17755800266,
+          "txn_sig": "d991354e384ae67e046c1773cf9e07e2c0918f1a5905c95dad92e7d6b8da8cd7b63b84b8dcfc81cedfb4bec9ab5055ac0be324100096fad900ccc870f759ca09",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "EvPyiogzzGDs4mMgMVeojPebj6HHrMcSfpsACFCCTHW4",
+          "role": "dlmm_oracle",
+          "slot": 450500746,
+          "write_version": 17755800269,
+          "txn_sig": "d991354e384ae67e046c1773cf9e07e2c0918f1a5905c95dad92e7d6b8da8cd7b63b84b8dcfc81cedfb4bec9ab5055ac0be324100096fad900ccc870f759ca09",
+          "dlen": 3232
+        }
+      ],
+      "n_ix": null
+    },
+    "dlmm|publication_ordering|missing_transaction_local_write|bin_liquidity,fee_state,volatility": {
+      "file": "/data/bsc/captures/soak_fastsoak_20260925/state008/mismatch/1d27590670bb8285b0810dd559b900262d68cd80f505036eb9eb560cab074551005ffbe9a480adf41154fed9eda95f7dab0100380a7d5a467c927e04e3dd7705.json",
+      "sig": "1d27590670bb8285b0810dd559b900262d68cd80f505036eb9eb560cab074551005ffbe9a480adf41154fed9eda95f7dab0100380a7d5a467c927e04e3dd7705",
+      "idx": 373,
+      "pool": "2N1KNuLSt167P6p9P8HYcisTvTTv4vYTM8QJBbtv1xYU",
+      "slot": 450504466,
+      "direction": 1,
+      "amount_in": 661797856,
+      "bucket": "missing_transaction_local_write",
+      "fields": [
+        "volatility",
+        "fee_state",
+        "bin_liquidity"
+      ],
+      "s_before": {
+        "kind": "dlmm",
+        "active_id": -833,
+        "vol_acc": 22890,
+        "vol_ref": 12890,
+        "idx_ref": -832,
+        "last_upd": 1790379932,
+        "bin_step": 20,
+        "base_factor": 10000,
+        "variable_fee_control": 20000,
+        "reserve_x": 37202508710,
+        "reserve_y": 8027704589,
+        "bins": {
+          "-849": [
+            0,
+            467206048
+          ],
+          "-848": [
+            0,
+            467497138
+          ],
+          "-847": [
+            0,
+            465442665
+          ],
+          "-846": [
+            0,
+            455071400
+          ],
+          "-845": [
+            0,
+            484694104
+          ],
+          "-844": [
+            0,
+            484537820
+          ],
+          "-843": [
+            0,
+            484728199
+          ],
+          "-842": [
+            0,
+            485649982
+          ],
+          "-841": [
+            0,
+            484110452
+          ],
+          "-840": [
+            0,
+            496899049
+          ],
+          "-839": [
+            0,
+            499705542
+          ],
+          "-838": [
+            0,
+            505396746
+          ],
+          "-837": [
+            0,
+            507315965
+          ],
+          "-836": [
+            0,
+            490378500
+          ],
+          "-835": [
+            0,
+            490472243
+          ],
+          "-834": [
+            0,
+            464862712
+          ],
+          "-833": [
+            923540534,
+            293736024
+          ],
+          "-832": [
+            2516694440,
+            0
+          ],
+          "-831": [
+            2421041704,
+            0
+          ],
+          "-830": [
+            2400875340,
+            0
+          ],
+          "-829": [
+            2248494771,
+            0
+          ],
+          "-828": [
+            2245974085,
+            0
+          ],
+          "-827": [
+            2241092067,
+            0
+          ],
+          "-826": [
+            2238686123,
+            0
+          ],
+          "-825": [
+            2235961014,
+            0
+          ],
+          "-824": [
+            2219249526,
+            0
+          ],
+          "-823": [
+            2229064314,
+            0
+          ],
+          "-822": [
+            2222410198,
+            0
+          ],
+          "-821": [
+            2217355193,
+            0
+          ],
+          "-820": [
+            2217639711,
+            0
+          ],
+          "-819": [
+            2212344837,
+            0
+          ],
+          "-818": [
+            2208495110,
+            0
+          ],
+          "-817": [
+            2203589743,
+            0
+          ]
+        },
+        "slot": 450504336
+      },
+      "n": {
+        "direction": 1,
+        "amount_in": 661797856
+      },
+      "s_prime": {
+        "kind": "dlmm",
+        "active_id": -833,
+        "active_after": -833,
+        "reserve_x": 37862955229,
+        "reserve_y": 7902671311,
+        "vol_acc": 22890,
+        "vol_ref": 12890,
+        "idx_ref": -832,
+        "last_upd": 1790379932,
+        "fee": 1351337,
+        "protocol_fee": 135133,
+        "amount_in": 661797856,
+        "direction": 1,
+        "touched": [
+          {
+            "id": -833,
+            "x": 1583987053,
+            "y": 168702746
+          }
+        ]
+      },
+      "published_s": {
+        "kind": "dlmm",
+        "active_id": -833,
+        "vol_acc": 11445,
+        "vol_ref": 11445,
+        "idx_ref": -833,
+        "last_upd": 1790379932,
+        "bin_step": 20,
+        "base_factor": 10000,
+        "variable_fee_control": 20000,
+        "reserve_x": 37862976034,
+        "reserve_y": 7902667372,
+        "bins": {
+          "-849": [
+            0,
+            467206048
+          ],
+          "-848": [
+            0,
+            467497138
+          ],
+          "-847": [
+            0,
+            465442665
+          ],
+          "-846": [
+            0,
+            455071400
+          ],
+          "-845": [
+            0,
+            484694104
+          ],
+          "-844": [
+            0,
+            484537820
+          ],
+          "-843": [
+            0,
+            484728199
+          ],
+          "-842": [
+            0,
+            485649982
+          ],
+          "-841": [
+            0,
+            484110452
+          ],
+          "-840": [
+            0,
+            496899049
+          ],
+          "-839": [
+            0,
+            499705542
+          ],
+          "-838": [
+            0,
+            505396746
+          ],
+          "-837": [
+            0,
+            507315965
+          ],
+          "-836": [
+            0,
+            490378500
+          ],
+          "-835": [
+            0,
+            490472243
+          ],
+          "-834": [
+            0,
+            464862712
+          ],
+          "-833": [
+            1584007858,
+            168698807
+          ],
+          "-832": [
+            2516694440,
+            0
+          ],
+          "-831": [
+            2421041704,
+            0
+          ],
+          "-830": [
+            2400875340,
+            0
+          ],
+          "-829": [
+            2248494771,
+            0
+          ],
+          "-828": [
+            2245974085,
+            0
+          ],
+          "-827": [
+            2241092067,
+            0
+          ],
+          "-826": [
+            2238686123,
+            0
+          ],
+          "-825": [
+            2235961014,
+            0
+          ],
+          "-824": [
+            2219249526,
+            0
+          ],
+          "-823": [
+            2229064314,
+            0
+          ],
+          "-822": [
+            2222410198,
+            0
+          ],
+          "-821": [
+            2217355193,
+            0
+          ],
+          "-820": [
+            2217639711,
+            0
+          ],
+          "-819": [
+            2212344837,
+            0
+          ],
+          "-818": [
+            2208495110,
+            0
+          ],
+          "-817": [
+            2203589743,
+            0
+          ]
+        },
+        "slot": 450504466
+      },
+      "staged_writes": [
+        {
+          "pubkey": "BTm3sDcow4iWatWP6ASVtsPg371pv5cRoJLvHChMNQ1G",
+          "role": "dlmm_binarray",
+          "slot": 450504466,
+          "write_version": 17767633271,
+          "txn_sig": "1d27590670bb8285b0810dd559b900262d68cd80f505036eb9eb560cab074551005ffbe9a480adf41154fed9eda95f7dab0100380a7d5a467c927e04e3dd7705",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "2N1KNuLSt167P6p9P8HYcisTvTTv4vYTM8QJBbtv1xYU",
+          "role": "dlmm_lbpair",
+          "slot": 450504466,
+          "write_version": 17767633288,
+          "txn_sig": "1d27590670bb8285b0810dd559b900262d68cd80f505036eb9eb560cab074551005ffbe9a480adf41154fed9eda95f7dab0100380a7d5a467c927e04e3dd7705",
+          "dlen": 904
+        },
+        {
+          "pubkey": "4UJLJBbUukxo93Yg6CqF233nWrKMFfzkQqX58CQvf7H7",
+          "role": "dlmm_oracle",
+          "slot": 450504466,
+          "write_version": 17767633289,
+          "txn_sig": "1d27590670bb8285b0810dd559b900262d68cd80f505036eb9eb560cab074551005ffbe9a480adf41154fed9eda95f7dab0100380a7d5a467c927e04e3dd7705",
+          "dlen": 3232
+        },
+        {
+          "pubkey": "8wdkMV1B6czKpx3iJ9BGsLCkLhkVDum1ohJN1eah1yFf",
+          "role": "dlmm_binarray",
+          "slot": 450504466,
+          "write_version": 17767633291,
+          "txn_sig": "1d27590670bb8285b0810dd559b900262d68cd80f505036eb9eb560cab074551005ffbe9a480adf41154fed9eda95f7dab0100380a7d5a467c927e04e3dd7705",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "AEeUzD28zz44hJ4KoCKkXm8zc6Zhdx3PTsVphFvnm49o",
+          "role": "dlmm_binarray",
+          "slot": 450504466,
+          "write_version": 17767633292,
+          "txn_sig": "1d27590670bb8285b0810dd559b900262d68cd80f505036eb9eb560cab074551005ffbe9a480adf41154fed9eda95f7dab0100380a7d5a467c927e04e3dd7705",
+          "dlen": 10136
+        }
+      ],
+      "n_ix": null
+    },
+    "dlmm|order_inventory_related|kernel_bug|bin_liquidity,fee_state,volatility": {
+      "file": "/data/bsc/captures/soak_fastsoak_20260925/state008/mismatch/3a53aa88efb09b4f760740efa263792d3a02ad1b1e1f9018d098386dc685e1c6e9f4ca44c378d16595a6adde74bc968e70f468a4791d9c1e6541b525c80a2a0a.json",
+      "sig": "3a53aa88efb09b4f760740efa263792d3a02ad1b1e1f9018d098386dc685e1c6e9f4ca44c378d16595a6adde74bc968e70f468a4791d9c1e6541b525c80a2a0a",
+      "idx": 24,
+      "pool": "Hz1EtXTGaFEtAWRgRNpDMFV6vnSZtQUY9UqmdM6vfKSS",
+      "slot": 450500778,
+      "direction": 0,
+      "amount_in": 203646589,
+      "bucket": "kernel_bug",
+      "fields": [
+        "volatility",
+        "fee_state",
+        "bin_liquidity"
+      ],
+      "s_before": {
+        "kind": "dlmm",
+        "active_id": 88382,
+        "vol_acc": 38156,
+        "vol_ref": 8156,
+        "idx_ref": 88385,
+        "last_upd": 1790378968,
+        "bin_step": 1,
+        "base_factor": 10000,
+        "variable_fee_control": 2000000,
+        "reserve_x": 213923,
+        "reserve_y": 1455212425,
+        "bins": {
+          "88366": [
+            0,
+            91160972
+          ],
+          "88367": [
+            0,
+            90805490
+          ],
+          "88368": [
+            0,
+            90415537
+          ],
+          "88369": [
+            0,
+            90087430
+          ],
+          "88370": [
+            0,
+            89745495
+          ],
+          "88371": [
+            0,
+            89410371
+          ],
+          "88372": [
+            0,
+            89068297
+          ],
+          "88373": [
+            0,
+            88739921
+          ],
+          "88374": [
+            0,
+            88411478
+          ],
+          "88375": [
+            0,
+            88055429
+          ],
+          "88376": [
+            0,
+            87733736
+          ],
+          "88377": [
+            0,
+            87370661
+          ],
+          "88378": [
+            0,
+            87023583
+          ],
+          "88379": [
+            0,
+            86658298
+          ],
+          "88380": [
+            0,
+            86349875
+          ],
+          "88381": [
+            0,
+            86041559
+          ],
+          "88382": [
+            6953,
+            38134293
+          ],
+          "88383": [
+            12540,
+            0
+          ],
+          "88384": [
+            12593,
+            0
+          ],
+          "88385": [
+            12647,
+            0
+          ],
+          "88386": [
+            12699,
+            0
+          ],
+          "88387": [
+            12752,
+            0
+          ],
+          "88388": [
+            12805,
+            0
+          ],
+          "88389": [
+            12857,
+            0
+          ],
+          "88390": [
+            12908,
+            0
+          ],
+          "88391": [
+            12958,
+            0
+          ],
+          "88392": [
+            13012,
+            0
+          ],
+          "88393": [
+            13069,
+            0
+          ],
+          "88394": [
+            13121,
+            0
+          ],
+          "88395": [
+            13173,
+            0
+          ],
+          "88396": [
+            13223,
+            0
+          ],
+          "88397": [
+            13279,
+            0
+          ],
+          "88398": [
+            13334,
+            0
+          ]
+        },
+        "slot": 450500742
+      },
+      "n": {
+        "direction": 0,
+        "amount_in": 203646589
+      },
+      "s_prime": {
+        "kind": "dlmm",
+        "active_id": 88384,
+        "active_after": 88384,
+        "reserve_x": 184371,
+        "reserve_y": 1658835426,
+        "vol_acc": 18156,
+        "vol_ref": 8156,
+        "idx_ref": 88385,
+        "last_upd": 1790378968,
+        "fee": 23588,
+        "protocol_fee": 2358,
+        "amount_in": 203646589,
+        "direction": 0,
+        "touched": [
+          {
+            "id": 88382,
+            "x": 0,
+            "y": 86037194
+          },
+          {
+            "id": 88383,
+            "x": 0,
+            "y": 86403344
+          },
+          {
+            "id": 88384,
+            "x": 2534,
+            "y": 69316756
+          }
+        ]
+      },
+      "published_s": {
+        "kind": "dlmm",
+        "active_id": 88384,
+        "vol_acc": 39078,
+        "vol_ref": 19078,
+        "idx_ref": 88382,
+        "last_upd": 1790378978,
+        "bin_step": 1,
+        "base_factor": 10000,
+        "variable_fee_control": 2000000,
+        "reserve_x": 211197,
+        "reserve_y": 1476868259,
+        "bins": {
+          "88368": [
+            0,
+            90415537
+          ],
+          "88369": [
+            0,
+            90087430
+          ],
+          "88370": [
+            0,
+            89745495
+          ],
+          "88371": [
+            0,
+            89410371
+          ],
+          "88372": [
+            0,
+            89068297
+          ],
+          "88373": [
+            0,
+            88739921
+          ],
+          "88374": [
+            0,
+            88411478
+          ],
+          "88375": [
+            0,
+            88055429
+          ],
+          "88376": [
+            0,
+            87733736
+          ],
+          "88377": [
+            0,
+            87370661
+          ],
+          "88378": [
+            0,
+            87023583
+          ],
+          "88379": [
+            0,
+            86658298
+          ],
+          "88380": [
+            0,
+            86349875
+          ],
+          "88381": [
+            0,
+            86041559
+          ],
+          "88382": [
+            0,
+            86037194
+          ],
+          "88383": [
+            0,
+            86403344
+          ],
+          "88384": [
+            2534,
+            69316051
+          ],
+          "88385": [
+            12647,
+            0
+          ],
+          "88386": [
+            12699,
+            0
+          ],
+          "88387": [
+            12752,
+            0
+          ],
+          "88388": [
+            12805,
+            0
+          ],
+          "88389": [
+            12857,
+            0
+          ],
+          "88390": [
+            12908,
+            0
+          ],
+          "88391": [
+            12958,
+            0
+          ],
+          "88392": [
+            13012,
+            0
+          ],
+          "88393": [
+            13069,
+            0
+          ],
+          "88394": [
+            13121,
+            0
+          ],
+          "88395": [
+            13173,
+            0
+          ],
+          "88396": [
+            13223,
+            0
+          ],
+          "88397": [
+            13279,
+            0
+          ],
+          "88398": [
+            13334,
+            0
+          ],
+          "88399": [
+            13386,
+            0
+          ],
+          "88400": [
+            13440,
+            0
+          ]
+        },
+        "slot": 450500778
+      },
+      "staged_writes": [
+        {
+          "pubkey": "3PitjUdVqf9UHSM7h4pQbsx11C6ChwX7KbUWcxSgE4Ar",
+          "role": "dlmm_binarray",
+          "slot": 450500778,
+          "write_version": 17755905049,
+          "txn_sig": "3a53aa88efb09b4f760740efa263792d3a02ad1b1e1f9018d098386dc685e1c6e9f4ca44c378d16595a6adde74bc968e70f468a4791d9c1e6541b525c80a2a0a",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "7RhQpHGhJPXYVcMQkCv37ht5PN1zRuxdB1cshZFnxvFJ",
+          "role": "dlmm_binarray",
+          "slot": 450500778,
+          "write_version": 17755905051,
+          "txn_sig": "3a53aa88efb09b4f760740efa263792d3a02ad1b1e1f9018d098386dc685e1c6e9f4ca44c378d16595a6adde74bc968e70f468a4791d9c1e6541b525c80a2a0a",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "A7SJKheo1h87pSeRz7ms43frPvuafyZELbKP6fHtRKZc",
+          "role": "dlmm_binarray",
+          "slot": 450500778,
+          "write_version": 17755905052,
+          "txn_sig": "3a53aa88efb09b4f760740efa263792d3a02ad1b1e1f9018d098386dc685e1c6e9f4ca44c378d16595a6adde74bc968e70f468a4791d9c1e6541b525c80a2a0a",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "BW6oeFZogVBeZq4cej73nU36qGSXdFN7hWQdNVgjUDNU",
+          "role": "dlmm_oracle",
+          "slot": 450500778,
+          "write_version": 17755905053,
+          "txn_sig": "3a53aa88efb09b4f760740efa263792d3a02ad1b1e1f9018d098386dc685e1c6e9f4ca44c378d16595a6adde74bc968e70f468a4791d9c1e6541b525c80a2a0a",
+          "dlen": 3232
+        },
+        {
+          "pubkey": "Hz1EtXTGaFEtAWRgRNpDMFV6vnSZtQUY9UqmdM6vfKSS",
+          "role": "dlmm_lbpair",
+          "slot": 450500778,
+          "write_version": 17755905055,
+          "txn_sig": "3a53aa88efb09b4f760740efa263792d3a02ad1b1e1f9018d098386dc685e1c6e9f4ca44c378d16595a6adde74bc968e70f468a4791d9c1e6541b525c80a2a0a",
+          "dlen": 904
+        }
+      ],
+      "n_ix": null
+    },
+    "dlmm|order_inventory_related|kernel_bug|bin_liquidity,fee_state": {
+      "file": "/data/bsc/captures/soak_fastsoak_20260925/state008/mismatch/fcbf81e9312eac4c044d8ad75b61fc80bf81e71314da17519ad9fa357e90636fb72a4de814ea2137fb1222590f8679b4eb0e40f414f1e31c47bb58ea61331e00.json",
+      "sig": "fcbf81e9312eac4c044d8ad75b61fc80bf81e71314da17519ad9fa357e90636fb72a4de814ea2137fb1222590f8679b4eb0e40f414f1e31c47bb58ea61331e00",
+      "idx": 369,
+      "pool": "69US8enxpkXs8A2rZLTuigxSuJGU7iuBuccX7m8pbJ1S",
+      "slot": 450507572,
+      "direction": 1,
+      "amount_in": 2187828489,
+      "bucket": "kernel_bug",
+      "fields": [
+        "fee_state",
+        "bin_liquidity"
+      ],
+      "s_before": {
+        "kind": "dlmm",
+        "active_id": -383,
+        "vol_acc": 30000,
+        "vol_ref": 0,
+        "idx_ref": -380,
+        "last_upd": 1790380779,
+        "bin_step": 80,
+        "base_factor": 25000,
+        "variable_fee_control": 7500,
+        "reserve_x": 53924611467,
+        "reserve_y": 1306011130,
+        "bins": {
+          "-399": [
+            0,
+            71820515
+          ],
+          "-398": [
+            0,
+            71140003
+          ],
+          "-397": [
+            0,
+            70459492
+          ],
+          "-396": [
+            0,
+            69778980
+          ],
+          "-395": [
+            0,
+            69098469
+          ],
+          "-394": [
+            0,
+            68417956
+          ],
+          "-393": [
+            0,
+            67737444
+          ],
+          "-392": [
+            0,
+            75507636
+          ],
+          "-391": [
+            0,
+            74706399
+          ],
+          "-390": [
+            0,
+            73905164
+          ],
+          "-389": [
+            0,
+            73103928
+          ],
+          "-388": [
+            0,
+            105636023
+          ],
+          "-387": [
+            0,
+            104834786
+          ],
+          "-386": [
+            0,
+            104033549
+          ],
+          "-385": [
+            0,
+            103232312
+          ],
+          "-384": [
+            0,
+            102431076
+          ],
+          "-383": [
+            2146293505,
+            167398
+          ],
+          "-382": [
+            2792163468,
+            0
+          ],
+          "-381": [
+            2753322393,
+            0
+          ],
+          "-380": [
+            2714922014,
+            0
+          ],
+          "-379": [
+            2676957668,
+            0
+          ],
+          "-378": [
+            2639424974,
+            0
+          ],
+          "-377": [
+            3692375736,
+            0
+          ],
+          "-376": [
+            3647041656,
+            0
+          ],
+          "-375": [
+            3602194516,
+            0
+          ],
+          "-374": [
+            3557829592,
+            0
+          ],
+          "-373": [
+            3513941916,
+            0
+          ],
+          "-372": [
+            3470526815,
+            0
+          ],
+          "-371": [
+            3427579505,
+            0
+          ],
+          "-370": [
+            3385095307,
+            0
+          ],
+          "-369": [
+            3343069528,
+            0
+          ],
+          "-368": [
+            3301497816,
+            0
+          ],
+          "-367": [
+            3260375058,
+            0
+          ]
+        },
+        "slot": 450507514
+      },
+      "n": {
+        "direction": 1,
+        "amount_in": 2187828489
+      },
+      "s_prime": {
+        "kind": "dlmm",
+        "active_id": -385,
+        "active_after": -385,
+        "reserve_x": 56110309078,
+        "reserve_y": 1205535644,
+        "vol_acc": 50000,
+        "vol_ref": 0,
+        "idx_ref": -380,
+        "last_upd": 1790380779,
+        "fee": 2130878,
+        "protocol_fee": 213086,
+        "amount_in": 2187828489,
+        "direction": 1,
+        "touched": [
+          {
+            "id": -385,
+            "x": 169420,
+            "y": 103224590
+          },
+          {
+            "id": -384,
+            "x": 2181990545,
+            "y": 2127289
+          },
+          {
+            "id": -383,
+            "x": 2149831151,
+            "y": 3421
+          }
+        ]
+      },
+      "published_s": {
+        "kind": "dlmm",
+        "active_id": -385,
+        "vol_acc": 50000,
+        "vol_ref": 0,
+        "idx_ref": -380,
+        "last_upd": 1790380802,
+        "bin_step": 80,
+        "base_factor": 25000,
+        "variable_fee_control": 7500,
+        "reserve_x": 49550567082,
+        "reserve_y": 1349087332,
+        "bins": {
+          "-401": [
+            0,
+            73181539
+          ],
+          "-400": [
+            0,
+            72501027
+          ],
+          "-399": [
+            0,
+            71820515
+          ],
+          "-398": [
+            0,
+            71140003
+          ],
+          "-397": [
+            0,
+            70459492
+          ],
+          "-396": [
+            0,
+            69778980
+          ],
+          "-395": [
+            0,
+            69098469
+          ],
+          "-394": [
+            0,
+            68417956
+          ],
+          "-393": [
+            0,
+            67737444
+          ],
+          "-392": [
+            0,
+            75507636
+          ],
+          "-391": [
+            0,
+            74706399
+          ],
+          "-390": [
+            0,
+            73905164
+          ],
+          "-389": [
+            0,
+            73103928
+          ],
+          "-388": [
+            0,
+            105636023
+          ],
+          "-387": [
+            0,
+            104834786
+          ],
+          "-386": [
+            0,
+            104033549
+          ],
+          "-385": [
+            169588,
+            103224422
+          ],
+          "-384": [
+            2184117834,
+            0
+          ],
+          "-383": [
+            2149834572,
+            0
+          ],
+          "-382": [
+            2792163468,
+            0
+          ],
+          "-381": [
+            2753322393,
+            0
+          ],
+          "-380": [
+            2714922014,
+            0
+          ],
+          "-379": [
+            2676957668,
+            0
+          ],
+          "-378": [
+            2639424974,
+            0
+          ],
+          "-377": [
+            3692375736,
+            0
+          ],
+          "-376": [
+            3647041656,
+            0
+          ],
+          "-375": [
+            3602194516,
+            0
+          ],
+          "-374": [
+            3557829592,
+            0
+          ],
+          "-373": [
+            3513941916,
+            0
+          ],
+          "-372": [
+            3470526815,
+            0
+          ],
+          "-371": [
+            3427579505,
+            0
+          ],
+          "-370": [
+            3385095307,
+            0
+          ],
+          "-369": [
+            3343069528,
+            0
+          ]
+        },
+        "slot": 450507572
+      },
+      "staged_writes": [
+        {
+          "pubkey": "69US8enxpkXs8A2rZLTuigxSuJGU7iuBuccX7m8pbJ1S",
+          "role": "dlmm_lbpair",
+          "slot": 450507572,
+          "write_version": 17777310681,
+          "txn_sig": "fcbf81e9312eac4c044d8ad75b61fc80bf81e71314da17519ad9fa357e90636fb72a4de814ea2137fb1222590f8679b4eb0e40f414f1e31c47bb58ea61331e00",
+          "dlen": 904
+        },
+        {
+          "pubkey": "G5p7WQ1xfiVmptyx27HAVFbwVwwXdHgy5b8GgSbuT2Qj",
+          "role": "dlmm_binarray",
+          "slot": 450507572,
+          "write_version": 17777310682,
+          "txn_sig": "fcbf81e9312eac4c044d8ad75b61fc80bf81e71314da17519ad9fa357e90636fb72a4de814ea2137fb1222590f8679b4eb0e40f414f1e31c47bb58ea61331e00",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "8TfvAQ5nR3x4p7G97puJcMRjP4LRGF998ys3itx1eKr1",
+          "role": "dlmm_oracle",
+          "slot": 450507572,
+          "write_version": 17777310684,
+          "txn_sig": "fcbf81e9312eac4c044d8ad75b61fc80bf81e71314da17519ad9fa357e90636fb72a4de814ea2137fb1222590f8679b4eb0e40f414f1e31c47bb58ea61331e00",
+          "dlen": 3232
+        },
+        {
+          "pubkey": "mtLUgm9zH7zS47yBNetQPUzQ8ND8n1CdZrXiM7QGMCY",
+          "role": "dlmm_binarray",
+          "slot": 450507572,
+          "write_version": 17777310686,
+          "txn_sig": "fcbf81e9312eac4c044d8ad75b61fc80bf81e71314da17519ad9fa357e90636fb72a4de814ea2137fb1222590f8679b4eb0e40f414f1e31c47bb58ea61331e00",
+          "dlen": 10136
+        },
+        {
+          "pubkey": "6fiXv6vGwraAnMC2BxSX7JLhVB9jEvrQkXjQnuYVKgDT",
+          "role": "dlmm_binarray",
+          "slot": 450507572,
+          "write_version": 17777310687,
+          "txn_sig": "fcbf81e9312eac4c044d8ad75b61fc80bf81e71314da17519ad9fa357e90636fb72a4de814ea2137fb1222590f8679b4eb0e40f414f1e31c47bb58ea61331e00",
+          "dlen": 10136
+        }
+      ],
+      "n_ix": null
+    },
+    "pump|wrong_tx_association|wrong_transaction_association|ordering": {
+      "file": "/data/bsc/captures/soak_fastsoak_20260925/state008/mismatch/9a327b044567c150e24e3852f5baf73d20b60916e4e6b75a39130abf9f568f53ca36c072d7b444c519868955142bb18177d2fdb4a0d4e8683419a3f55200be0e.json",
+      "sig": "9a327b044567c150e24e3852f5baf73d20b60916e4e6b75a39130abf9f568f53ca36c072d7b444c519868955142bb18177d2fdb4a0d4e8683419a3f55200be0e",
+      "idx": 584,
+      "pool": "Bof2XL9zAbLZ15kzAXcXy39wDeZFgKwyvb3UVkv3FhsX",
+      "slot": 450503433,
+      "direction": 0,
+      "amount_in": 86779616,
+      "bucket": "wrong_transaction_association",
+      "fields": [
+        "ordering"
+      ],
+      "s_before": {
+        "kind": "pump",
+        "reserve_base": 35453427037142,
+        "reserve_quote": 24845397888382,
+        "lp_fee_bps": 20,
+        "protocol_fee_bps": 5,
+        "creator_fee_bps": 5,
+        "disabled": 0,
+        "slot": 450503416
+      },
+      "n": {
+        "direction": 0,
+        "amount_in": 86779616
+      },
+      "s_prime": {
+        "kind": "dlmm",
+        "active_id": -187,
+        "active_after": -187,
+        "reserve_x": 379803264997,
+        "reserve_y": 37735285312,
+        "vol_acc": 31254,
+        "vol_ref": 11254,
+        "idx_ref": -189,
+        "last_upd": 1790379692,
+        "fee": 2563145,
+        "protocol_fee": 512629,
+        "amount_in": 86779616,
+        "direction": 0,
+        "touched": [
+          {
+            "id": -187,
+            "x": 8855844,
+            "y": 833437278
+          }
+        ]
+      },
+      "published_s": {
+        "kind": "pump",
+        "reserve_base": 35393004332529,
+        "reserve_quote": 24888899604600,
+        "lp_fee_bps": 20,
+        "protocol_fee_bps": 5,
+        "creator_fee_bps": 5,
+        "disabled": 0,
+        "slot": 450503433
+      },
+      "staged_writes": [
+        {
+          "pubkey": "5iub3t1bf7q3gCkNYJEf9JEchovV7mB8pk2XTVLVf9sj",
+          "role": "pump_vault_base",
+          "slot": 450503433,
+          "write_version": 17764551281,
+          "txn_sig": "9a327b044567c150e24e3852f5baf73d20b60916e4e6b75a39130abf9f568f53ca36c072d7b444c519868955142bb18177d2fdb4a0d4e8683419a3f55200be0e",
+          "dlen": 170
+        },
+        {
+          "pubkey": "Bof2XL9zAbLZ15kzAXcXy39wDeZFgKwyvb3UVkv3FhsX",
+          "role": "pump_pool",
+          "slot": 450503433,
+          "write_version": 17764551284,
+          "txn_sig": "9a327b044567c150e24e3852f5baf73d20b60916e4e6b75a39130abf9f568f53ca36c072d7b444c519868955142bb18177d2fdb4a0d4e8683419a3f55200be0e",
+          "dlen": 301
+        },
+        {
+          "pubkey": "DEAoZTbtRtbRVPGQnas5Epa8EzQcJT9yHwLWkvSBRsGc",
+          "role": "pump_vault_quote",
+          "slot": 450503433,
+          "write_version": 17764551285,
+          "txn_sig": "9a327b044567c150e24e3852f5baf73d20b60916e4e6b75a39130abf9f568f53ca36c072d7b444c519868955142bb18177d2fdb4a0d4e8683419a3f55200be0e",
+          "dlen": 175
+        }
+      ],
+      "n_ix": null
+    }
+  }
+}

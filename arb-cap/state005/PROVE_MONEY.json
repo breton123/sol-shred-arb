@@ -1,0 +1,804 @@
+{
+  "n": 27,
+  "landed": 10,
+  "edge_exists": 10,
+  "later_arb": 2,
+  "same_slot_arb": 0,
+  "rows": [
+    {
+      "ts_ns": 1278304881643961,
+      "sig": "3YFnEcepuDD7m11gWjoYyW4y42vmVyDBP74N7PLb3EJYKsW4jJmaBqfGdt5ePz2cPncKhQVfEUEuTtBp8jxWtS74",
+      "sig_hex": "7efcaa37f4c4932d44c5ff02111d09709d43b41d0785d56d06e66b124518b246fb536180628aaaf49d04ced4ee346dcf7d766058b869642b17cf0f0f3947df0b",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 666000000,
+      "min_out": 80357700,
+      "state_version": 450354667,
+      "pred_a": 666000000,
+      "pred_b": 80357700,
+      "route_id": 0,
+      "our_ain": 1333333333,
+      "our_aout": 90544322999,
+      "gross_profit": 89210989666,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": true,
+      "slot": 450354890,
+      "err": {
+        "InstructionError": [
+          4,
+          {
+            "Custom": 6003
+          }
+        ]
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      },
+      "n_err": {
+        "InstructionError": [
+          4,
+          {
+            "Custom": 6003
+          }
+        ]
+      },
+      "edge_exists": true,
+      "taken": false
+    },
+    {
+      "ts_ns": 1278363924020839,
+      "sig": "5dTcRtXedCeBvJmUkPPRpkg6MiRM6HA4iRhkAgdfgDn7h9EiHhBpCC1QVhYh7C7qxXw5jC3jbyT62eboNMk5B9Wf",
+      "sig_hex": "e78239342d4dfb497e76db654ae1a6a09042b7031e21118563431fd9efe50f0e705cc2f2ecdf68885066129740158006d8fe6f800139e90ea360620f0b717308",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 705348532,
+      "min_out": 42599843,
+      "state_version": 450354667,
+      "pred_a": 705348532,
+      "pred_b": 42599843,
+      "route_id": 0,
+      "our_ain": 1333333333,
+      "our_aout": 90544927279,
+      "gross_profit": 89211593946,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": true,
+      "slot": 450355112,
+      "err": null,
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      },
+      "n_err": null,
+      "edge_exists": true,
+      "taken": false
+    },
+    {
+      "ts_ns": 1278431527928094,
+      "sig": "3Z4RcUTcK7M4L8WsL4EJiyqXENYzHQTXaLxeNCyhgN6hwnrLaV2fnNqbZdDMjwNbPsP2VucBHm2uRNA5xZ2pRmiw",
+      "sig_hex": "7fae34ffd9462187389e70569a6cf87db0010e55d63d20ae5cfedb029dbb590cb15460e97e14465beb400545162699aa959a090a51d1573db5bbb75c2e650680",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 0,
+      "n_ain": 633705948,
+      "min_out": 5241146888,
+      "state_version": 450354667,
+      "pred_a": 633705948,
+      "pred_b": 5241146888,
+      "route_id": 0,
+      "our_ain": 644444444,
+      "our_aout": 43849513851,
+      "gross_profit": 43205069407,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278452197603977,
+      "sig": "3NtehqrT4kfrkiVe4aHx8U61Xk4UYAekTViYJjAtx83gExBvZndZraySN9XJexzVLtQwB4vWJ9gRiMkXvBx6ZQ5o",
+      "sig_hex": "76e95b45eae210b0adb1395e4f6892b9b368c76acc338cb164bf88b17079f639aaabba653913c169d4fd75ee3a89eaa05c5807629985ff4b52395817289f1a02",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 613111959,
+      "min_out": 37032876,
+      "state_version": 450354667,
+      "pred_a": 613111959,
+      "pred_b": 37032876,
+      "route_id": 0,
+      "our_ain": 1333333333,
+      "our_aout": 90543510764,
+      "gross_profit": 89210177431,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": true,
+      "slot": 450355443,
+      "err": null,
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      },
+      "n_err": null,
+      "edge_exists": true,
+      "taken": false
+    },
+    {
+      "ts_ns": 1278495987117939,
+      "sig": "5itJrLqzsgYTbakLy7MB8WzU92tBw2XsKzmVEXE5MPSq3T8ctRgnzyXfr7ZKefZGbTQ9b2mc9RNZUBhXYq7bkmdH",
+      "sig_hex": "ec300ceb2305d4cf2ed352c17f4fcfb189d9aafd512d224fb413cd4114dc47d7e98a74676c4658280c83250cff80afdb05ed94ba29c27d9c0d0b84d75b550c80",
+      "pool_idx": 0,
+      "proto": 2,
+      "n_dir": 1,
+      "n_ain": 3462251182,
+      "min_out": 22289348,
+      "state_version": 450354667,
+      "pred_a": 3462251182,
+      "pred_b": 22289348,
+      "route_id": 0,
+      "our_ain": 1000000000,
+      "our_aout": 1009963603,
+      "gross_profit": 9963603,
+      "our_dir": 1,
+      "pool": "ENiVH49XwRM3Cu9n4Tp6CGynCFXf3Mz6CE3GRmVk1LH4",
+      "pool_kind": "pump",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278695400052515,
+      "sig": "27TiFY71jKtAnB3CDLB6a456CWvtZU7CJ9hyD1dqYCKjYf9fw1PuNHAUEiGRWm18NoLnyHZij3b1NjCNh5TRVDdK",
+      "sig_hex": "37969c39eb45d70f3603c0d2dcbe713bba9c5db1d2315862e053d5c285a50b800b294d233bc0e1785c474ce563858219c59ee2afca8eb4b747e8102faf2c4e0a",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 3519367148,
+      "min_out": 212468765,
+      "state_version": 450354667,
+      "pred_a": 3519367148,
+      "pred_b": 212468765,
+      "route_id": 0,
+      "our_ain": 1666666666,
+      "our_aout": 113069578083,
+      "gross_profit": 111402911417,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": true,
+      "slot": 450356356,
+      "err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      },
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "edge_exists": true,
+      "taken": false
+    },
+    {
+      "ts_ns": 1278741721906629,
+      "sig": "46dXWAcHA8KES9sjFjHpXZ4mVfsN38BsbrUVZr9if1CFrs6MAxUvT9X6Sz3vMjsN2s8LokLs9t65LNRxD1EwkknB",
+      "sig_hex": "9ae7e802fe5220621310e772bfd53d44dcca7528d712e3d91ad7535cc46298b219696a8649a575b3436e4b75ade43c7bb8f827ce18a0691cfa23e54cb4300f80",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 7795549118,
+      "min_out": 938511354,
+      "state_version": 450354667,
+      "pred_a": 7795549118,
+      "pred_b": 938511354,
+      "route_id": 0,
+      "our_ain": 2000000000,
+      "our_aout": 135582136121,
+      "gross_profit": 133582136121,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278741841976210,
+      "sig": "5c2MyWMJbfD7RASCfyRmuYW9EpmJLCFd59AYUFMQA17pQJAP6SEtLZPhqHqgNs2ExnTocjRTEUnDAanSrYaXJiFh",
+      "sig_hex": "e6455a5c2d4423c71fe1a715882c4c9cfa96244ebc7d2aaad8d7b1bb5510abacc41359518e33d2ca95280efba92658ba0d62f5deed95831ad2cd1123584f0780",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 10678671634,
+      "min_out": 1285060441,
+      "state_version": 450354667,
+      "pred_a": 10678671634,
+      "pred_b": 1285060441,
+      "route_id": 0,
+      "our_ain": 2333333333,
+      "our_aout": 158029274332,
+      "gross_profit": 155695940999,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278741846304445,
+      "sig": "5B7T6nSQUnfrhCSdkG2MZxHwNRnZZFLvRKqA5G8jEdFRFCLNZ5pF24TkXrt7xBHEmmYkjW3ow5Kv1dietdPoQ2MV",
+      "sig_hex": "d0c99a8c83476c5e454003af86d6d31583cf216edf6744ef88eaf9005f2b33a007c339884eedbc0888281076a51e1e096f43568ddc6921c64c4639f0c90b0780",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 10678842515,
+      "min_out": 1285060441,
+      "state_version": 450354667,
+      "pred_a": 10678842515,
+      "pred_b": 1285060441,
+      "route_id": 0,
+      "our_ain": 2333333333,
+      "our_aout": 158029278372,
+      "gross_profit": 155695945039,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278741871014408,
+      "sig": "5Asxoe9Qh7v1bwk17QyHs11JZJLjpCVSSTg3yZCQzqtvzZu2afk7RgpP3EAQHmR85fgHcXAXaLHdCtUL1CED1J39",
+      "sig_hex": "d09643da77f9a01d859c609c61238dae6406ddab9e54105ea188a6a7813ece1f82353184b0bb26ff69e480e50d9c0d8a90e0db138ed1acf52ee8b78d97e70f80",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 6582838132,
+      "min_out": 792376222,
+      "state_version": 450354667,
+      "pred_a": 6582838132,
+      "pred_b": 792376222,
+      "route_id": 0,
+      "our_ain": 2000000000,
+      "our_aout": 135558333796,
+      "gross_profit": 133558333796,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278742144950270,
+      "sig": "38PSCxXjDYZur58Z1bdGYkyYgNnC467c2YKZbVeo7HBHdxoKToefw4ZR7WPMf6M9QpmrrNxE7nTb8ceC52K5wRXd",
+      "sig_hex": "6a6772cd88b91b33712be9b44a215e7cfe39cfb02db222940d03a741a83c60c80c7573ccb272485c5319be24484a9ea689a5b9487098a62808f0f97920350180",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 6135141013,
+      "min_out": 738097482,
+      "state_version": 450354667,
+      "pred_a": 6135141013,
+      "pred_b": 738097482,
+      "route_id": 0,
+      "our_ain": 2000000000,
+      "our_aout": 135548960708,
+      "gross_profit": 133548960708,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278742199439864,
+      "sig": "umpvmW4eWa9R6h1X6SzqaTCDNmrx2uca5ped3LNtPaTdtcEtzDQHmBh2ZnAnhuMhjNMgnDpLJDmPNx7J19srVZ9",
+      "sig_hex": "2d8262a8d57264687c7c465fd5670742811e193530f10aa38a51aa35fabde6ece26c7ef1271970d92ae53253908d65743d8002405a392d6b5ecc9622fbe10580",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 6135005906,
+      "min_out": 738097482,
+      "state_version": 450354667,
+      "pred_a": 6135005906,
+      "pred_b": 738097482,
+      "route_id": 0,
+      "our_ain": 2000000000,
+      "our_aout": 135548957796,
+      "gross_profit": 133548957796,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278742275393389,
+      "sig": "5bbMy9Zbb9j8F7Y9G5MyWnwKY3qq8Z1t6XFxxjcM4wcMVu9zFhteAzDm6SGTgsMoA5FfWy1Qg1b1CTxFHvuaXcK1",
+      "sig_hex": "e5e63203f270abd0ce3145f6adabbc6160681757f5bd2ad1a76da01627d8cd95cbdb4ccbf2d1d2ff3f451f0e6f12adbf788a7cb0e5ead376e379117307f90b80",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 6135532590,
+      "min_out": 738097482,
+      "state_version": 450354667,
+      "pred_a": 6135532590,
+      "pred_b": 738097482,
+      "route_id": 0,
+      "our_ain": 2000000000,
+      "our_aout": 135548969148,
+      "gross_profit": 133548969148,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278742278079410,
+      "sig": "3wUkNzHTqPUL2W84SNmdjUqMuvYV4A4esptJvdLPThMYYnL5BdP3Cp6rU3zyUQhRNh9J5cWLqJ4XKzbsqmZyhxgo",
+      "sig_hex": "93039cd1c7f638217169ce7982b9a6951f1b940707d1c0202bde17af9b7a05c307be266b41ff6f7e5a88f64ec4a70cf35276cdf1e6de51fbe5a3bfa0bd5d0680",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 6135335200,
+      "min_out": 738097482,
+      "state_version": 450354667,
+      "pred_a": 6135335200,
+      "pred_b": 738097482,
+      "route_id": 0,
+      "our_ain": 2000000000,
+      "our_aout": 135548964888,
+      "gross_profit": 133548964888,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278742368447097,
+      "sig": "2koScxLcKDULxt2dzyB4KJ6zPxRoaDehL4pqxk3hHrKVAdHGNiJXUTF2DysyLHtqmJpGAJLhXEvc4q7SGpiQ8ufm",
+      "sig_hex": "57ca00e497c35f3f593b9cc4ef71c742b3a9b0ab445159204f2effd1d04b0f6fd61f4bc0ffd2a533f3340ba187e0ab13644bf3b909e542b9108e912f34f20e80",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 4052659379,
+      "min_out": 487580305,
+      "state_version": 450354667,
+      "pred_a": 4052659379,
+      "pred_b": 487580305,
+      "route_id": 0,
+      "our_ain": 1666666666,
+      "our_aout": 113078135206,
+      "gross_profit": 111411468540,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278742457091327,
+      "sig": "5qQaHsdyJXcucZaVBx5C9ZSEbcamfFBRnDVqspGfEXyUNqVE8SnCgShkfJ74SSaQK7p3g9hAAHFk2JnpCFNWqn6X",
+      "sig_hex": "f1cfd72856dbf71220a89ab0a654745fef54e6e846e924778e2521582392dabe698122f2c7751ae5f72b63cfb69decf3237e793bb852975f4575449feed1a104",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 661000000,
+      "min_out": 79566955,
+      "state_version": 450354667,
+      "pred_a": 661000000,
+      "pred_b": 79566955,
+      "route_id": 0,
+      "our_ain": 1333333333,
+      "our_aout": 90544246216,
+      "gross_profit": 89210912883,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": true,
+      "slot": 450356533,
+      "err": {
+        "InstructionError": [
+          3,
+          "InvalidInstructionData"
+        ]
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": {
+          "sig": "34J4i2uxgwuto5PD6Ge8WfpERfBUbXi4mXEm8zVkvUrontzES6Nnqrio4mT1dBjp7b6batA7dHsgxNHhkpWDAgqj",
+          "slot": 450357158,
+          "searcher": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "tx_index": null,
+          "same_slot": false
+        }
+      },
+      "n_err": {
+        "InstructionError": [
+          3,
+          "InvalidInstructionData"
+        ]
+      },
+      "edge_exists": true,
+      "taken": true
+    },
+    {
+      "ts_ns": 1278759700927603,
+      "sig": "2HhesdudddELujbkmHNQEnoTxry5P429U5FTQzPf9tYFJAYHTSFMJ5uFo5FwpnBA9LdekNEdaE8k6cXM3LE75rKm",
+      "sig_hex": "406b52cdeb7f1dddc2d09546e181504dc354327a9f3264aacd017aeda64d7ce16bb972754f4f25aae80acca4e2eb5be9914bc97ec0bdd4da6294d23412f54804",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 1245000000,
+      "min_out": 150052093,
+      "state_version": 450354667,
+      "pred_a": 1245000000,
+      "pred_b": 150052093,
+      "route_id": 0,
+      "our_ain": 1333333333,
+      "our_aout": 90551342490,
+      "gross_profit": 89218009157,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": true,
+      "slot": 450356597,
+      "err": {
+        "InstructionError": [
+          4,
+          {
+            "Custom": 6003
+          }
+        ]
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": {
+          "sig": "34J4i2uxgwuto5PD6Ge8WfpERfBUbXi4mXEm8zVkvUrontzES6Nnqrio4mT1dBjp7b6batA7dHsgxNHhkpWDAgqj",
+          "slot": 450357158,
+          "searcher": "AgmLJBMDCqWynYnQiPCuj9ewsNNsBJXyzoUhD9LJzN51",
+          "tx_index": null,
+          "same_slot": false
+        }
+      },
+      "n_err": {
+        "InstructionError": [
+          4,
+          {
+            "Custom": 6003
+          }
+        ]
+      },
+      "edge_exists": true,
+      "taken": true
+    },
+    {
+      "ts_ns": 1278759702267334,
+      "sig": "4YZ9gwonXePNSEGD3ivkDoSk78DzGQJ2i4P6qdtSckLsAE3YSPBXhXJtJ3gcoeHYrsoo71Kk8WDYid1qdw1xt3BD",
+      "sig_hex": "b143219e61561cab27d5331e28d52a0d5b76dba5278c5f2977d2b5041a009723abc533c6bd0d0ff982a021eb002e94571c0ac6a77a70db9de7dbdad85a540480",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 4981230355,
+      "min_out": 600312367,
+      "state_version": 450354667,
+      "pred_a": 4981230355,
+      "pred_b": 600312367,
+      "route_id": 0,
+      "our_ain": 1833333333,
+      "our_aout": 124317760261,
+      "gross_profit": 122484426928,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278759722575801,
+      "sig": "2sWvWqKJuLBihRcwyd4qUVmTsZ3nL1iKfNUAir3Pt3BoAEp9CTC9PfP7edc2KqFEVqgzkKoHYBW7bzT65PiySSeK",
+      "sig_hex": "5d947adf33e8eed3f7a927dde45e31104940d59e9d06976c5d7c1414b10be465d10bd2e5e426c86c22df7c968ae39b7d1be406617792e011c0a47b2cbb4d0180",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 4981395972,
+      "min_out": 600312522,
+      "state_version": 450354667,
+      "pred_a": 4981395972,
+      "pred_b": 600312522,
+      "route_id": 0,
+      "our_ain": 1833333333,
+      "our_aout": 124317763427,
+      "gross_profit": 122484430094,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278759742441354,
+      "sig": "3uyUYh2knzVMXcgRgH12vbvEEqwDkX38h7784zPLgLrSqavpCDrXG2dPpGpWuZi9Cdrrtzm5K2mw69JMgei62vWf",
+      "sig_hex": "91b76d306a90f121d4ab3b0f5dfa737b5dde65ee53320f078b0cc08be7533f11a1fa2f6ba450eefa56a45166ed0d391c8027cf5f04693639d94ff6090c43e804",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 7055908999,
+      "min_out": 425250884,
+      "state_version": 450354667,
+      "pred_a": 7055908999,
+      "pred_b": 425250884,
+      "route_id": 0,
+      "our_ain": 2000000000,
+      "our_aout": 135567485075,
+      "gross_profit": 133567485075,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": true,
+      "slot": 450356597,
+      "err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      },
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "edge_exists": true,
+      "taken": false
+    },
+    {
+      "ts_ns": 1278777958701669,
+      "sig": "uJyxb1NSsEqb9GAtRkACEUYMCpxarNRb6JV2SYmTjy8rXkint18ZqEXMXjDv5GuN6NdNnYELMQuWVGX65kQfbqR",
+      "sig_hex": "2d1c3553eb5880a1513fa469db1c7e9ecf3499bcf9a6195d9e93512b7351e4da48791bd2d22e8c4308a0bf2c07d571b85f1205859fe6667d1cd9df64ea3c0380",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 5224652389,
+      "min_out": 629538549,
+      "state_version": 450354667,
+      "pred_a": 5224652389,
+      "pred_b": 629538549,
+      "route_id": 0,
+      "our_ain": 1833333333,
+      "our_aout": 124322410049,
+      "gross_profit": 122489076716,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278777973720599,
+      "sig": "61RhBLNnjdt391y67wFZAQPnjfKCMCSgoz2hqBkLY7K3MyURR86nXSRd7uPe2yZixES22y9aH5UA3sc3Dn16JCpP",
+      "sig_hex": "fa73bedc8eb520182cad0cdbabf5f794cc7a8e2b415043933d34c561216caa5b99836e8592c1fa024a6d16ec001c7593b3da4a18773fa3e412c9289c0a330880",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 5224810706,
+      "min_out": 629538549,
+      "state_version": 450354667,
+      "pred_a": 5224810706,
+      "pred_b": 629538549,
+      "route_id": 0,
+      "our_ain": 1833333333,
+      "our_aout": 124322413043,
+      "gross_profit": 122489079710,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278808709458966,
+      "sig": "5LtDMFFd5WksMmNVeaLx4EvinoGVNKu1nGxxbRCs1164rcrEkkn24x41RZCapA9FvmEecV4zQaFLxQ2Zt9EKrypY",
+      "sig_hex": "d936ddcc3615bae8d1a7cd20e7401053519c1cbf5d988a71e3533db047761627775c11f187517daf1b76b3debc5f26cc93ec67dcb0b4b628cd77fbf22337780d",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 4406792777,
+      "min_out": 265565378,
+      "state_version": 450354667,
+      "pred_a": 4406792777,
+      "pred_b": 265565378,
+      "route_id": 0,
+      "our_ain": 1833333333,
+      "our_aout": 124307419743,
+      "gross_profit": 122474086410,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": true,
+      "slot": 450356777,
+      "err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      },
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "edge_exists": true,
+      "taken": false
+    },
+    {
+      "ts_ns": 1278821906355815,
+      "sig": "GFdpps8Giwqfdz93hY5XwsQhH5suPYEBzLXMoMNAeYJZg9f2pd9zT2JcHaRuVqS3CRE4AwfQsxrHJrx29FgCTsV",
+      "sig_hex": "0d272cc6523232bf6ef97916c46d017575d2a604d1c99deb155f46d97c58c5ae3188f2d188da7ad5896d652738e8cbd4261e07b8d1dd4eab38918cbe2d1b0e80",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 4884643346,
+      "min_out": 587786057,
+      "state_version": 450354667,
+      "pred_a": 4884643346,
+      "pred_b": 587786057,
+      "route_id": 0,
+      "our_ain": 1833333333,
+      "our_aout": 124315915355,
+      "gross_profit": 122482582022,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    },
+    {
+      "ts_ns": 1278839009802215,
+      "sig": "5iEArX3J5K5coy2hFdgew9bx617UuVQYqVPSsq36vbxNsUxBur1e35PR7eKpNw2hTsAUJtLkkw1T9ikQNKhhgJ5W",
+      "sig_hex": "eb9ee30084d25eabfc5d239c576c8a13ae893581efb11e27b18bbee900a2ca2f4e89a6fccaa44d49aef1e24764a542249f6cc7f8efd98fe06bff5657d7262e01",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 3291146095,
+      "min_out": 198273972,
+      "state_version": 450354667,
+      "pred_a": 3291146095,
+      "pred_b": 198273972,
+      "route_id": 0,
+      "our_ain": 1666666666,
+      "our_aout": 113065412973,
+      "gross_profit": 111398746307,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": true,
+      "slot": 450356887,
+      "err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      },
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "edge_exists": true,
+      "taken": false
+    },
+    {
+      "ts_ns": 1278841227700246,
+      "sig": "62KRFnMZ6YJMBQdGpeAvFTf2ZXqMtqJDaPYN7r9CZYfDykvXDkUHATztagBtVCU1U8Xm7HCWkTPZwPVSMzN9W46R",
+      "sig_hex": "fb38a0a5f007ef6271f1d605cd77c4bc8104e79c3f0f8776591fe919488d1c71d62a81b44fec7748ab1e86345b7fd3e091c3d1e3440ed00d583fdbbb626f7d0e",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 3291146111,
+      "min_out": 198273973,
+      "state_version": 450354667,
+      "pred_a": 3291146111,
+      "pred_b": 198273973,
+      "route_id": 0,
+      "our_ain": 1666666666,
+      "our_aout": 113065412965,
+      "gross_profit": 111398746299,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": true,
+      "slot": 450356895,
+      "err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "subsequent": {
+        "later_scanned": 8,
+        "arb": null
+      },
+      "n_err": {
+        "InstructionError": [
+          3,
+          {
+            "Custom": 6001
+          }
+        ]
+      },
+      "edge_exists": true,
+      "taken": false
+    },
+    {
+      "ts_ns": 1278877054230203,
+      "sig": "5AkznqubH9cn5Xwi9xJ52PVvtJ6Kr3bhro7nP77FBuu2jt9ipu55ottbHvRBKG8Dx1xDkDQtCEkg51PTZvNY2Ksm",
+      "sig_hex": "d07bc05af9d1a1a1d3d1ebad2b4a61436862f30c0fb5da139b62ffd03939eccfaecbf00a78c3e5efbe34210c300128e83a8f7ff63c5c9c6815a4fb9e5fa60e80",
+      "pool_idx": 6,
+      "proto": 1,
+      "n_dir": 1,
+      "n_ain": 5409107030,
+      "min_out": 651704497,
+      "state_version": 450354667,
+      "pred_a": 5409107030,
+      "pred_b": 651704497,
+      "route_id": 0,
+      "our_ain": 1833333333,
+      "our_aout": 124325193433,
+      "gross_profit": 122491860100,
+      "our_dir": 0,
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "pool_kind": "dlmm",
+      "n_landed": false,
+      "subsequent": null
+    }
+  ],
+  "note": "gross_profit is cycle_size protocol units. later_arb = subsequent DLMM+Pump tx on the same pool. No send."
+}

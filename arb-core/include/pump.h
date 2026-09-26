@@ -9,7 +9,14 @@
  *
  * Math from the vendored PumpSwap SDK (buyQuoteInput / sellBaseInput)
  * and the official 10k integer vectors. Constant product on
- * (base, quote + virtual_quote). Fees are ceil(n * bps / 10000).
+ * (base_vault, quote_vault + virtual_quote_reserves). Fees ceil(n * bps / 10000).
+ *
+ * PUMP-STATE-012 — field meaning (layout unchanged):
+ *   reserve_base  = base vault token amount
+ *   reserve_quote = quote vault token amount
+ *   virtual_quote = Pool.virtual_quote_reserves (i128 clipped to i64; 0 if legacy)
+ * Y_effective is derived only inside pump_apply_swap. AUTH must not pre-fold
+ * virtual into reserve_quote.
  *
  * Restricted: exact-in, classic SPL, no Token-2022, no mayhem/cashback,
  * no fee-tier lookup (rates are already resolved into state).
